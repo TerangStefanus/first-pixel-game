@@ -1,0 +1,16 @@
+# Godot 4 generated/editor files
+.godot/
+
+# Export/build output
+exports/
+builds/
+*.exe
+*.pck
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs/temp
+*.log
