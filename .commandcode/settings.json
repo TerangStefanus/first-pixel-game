@@ -1,0 +1,27 @@
+{
+  "model": "MiniMaxAI/MiniMax-M3",
+  "tasteLearning": false,
+  "permissions": {
+    "defaultMode": "plan",
+    "disableBypass": true,
+    "allow": [
+      "Shell(git status:*)",
+      "Shell(git log:*)",
+      "Shell(git diff:*)"
+    ],
+    "ask": [
+      "Shell(git push:*)",
+      "Shell(git pull:*)",
+      "Read(.env*)"
+    ],
+    "deny": [
+      "Edit",
+      "Shell(git push --force*)",
+      "Shell(git reset --hard*)",
+      "Shell(git clean -*)",
+      "Read(secrets/**)",
+      "Read(.commandcode/auth.json)",
+      "Read(~/.commandcode/auth.json)"
+    ]
+  }
+}

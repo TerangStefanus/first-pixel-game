@@ -1,5 +1,13 @@
 # WILDROOT / FIRST PIXEL GAME — CODEX BOOTSTRAP & WORKFLOW SPEC
 
+> **Workflow revision approved 2026-09-30:** This document preserves the original
+> setup proposal. Daily work now follows `AGENTS.md`, `README.md`, and
+> `docs/ROADMAP.md`; see `docs/DECISIONS.md` (D-001). Baseline understanding,
+> a small owner-authored iteration, and lightweight Godot checks come before
+> optional critic provisioning. The original mandatory phase ordering and any
+> conflicting operational guidance below are superseded by that revision.
+> Consult this document on demand; do not load it in full for ordinary tasks.
+
 > **Purpose:** This file is the bootstrap instruction for Codex.
 >
 > Repository: `https://github.com/TerangStefanus/first-pixel-game`
