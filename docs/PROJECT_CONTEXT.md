@@ -15,7 +15,8 @@ The owner learns Godot/GDScript and draws the pixel art. See `../AGENTS.md` for 
 | `scripts/player.gd` | The only gameplay script: input, movement, and idle/walk selection |
 | `assets/sprites/` | Original Aseprite sources, PNG exports, player frames, and import metadata |
 | `tools/verify-godot.ps1` | Lightweight import, script parsing, and startup checks |
-| `tools/command-code/prompts/` | Optional critic prompts; no executable review wrapper yet |
+| `tools/command-code.ps1` | Human onboarding, auth/model checks, and bounded code/design reviews |
+| `tools/command-code/prompts/` | Neutral, independent critic instructions |
 
 ## Execution map
 
@@ -38,8 +39,10 @@ Exact speed, zoom, frame timing, and viewport values live in source/Inspector ra
 - Baseline gameplay: commit `edce1b2`. The project declares Godot 4.6 / GL Compatibility; the verified Windows executable is 4.6.3 stable. Use the same patch for the first Mac handoff.
 - Windows automated baseline, 2026-09-30: Godot 4.6.3 passed resource import, `player.gd` parsing, and configured-project startup for 120 engine iterations, with no reported errors. This does not simulate input or prove visual/gameplay correctness.
 - The first sandboxed import reported Windows profile/cache access errors despite exit code 0; the helper correctly failed it. The normal-context rerun passed. Import generated `red_wyvern_128.png.import` metadata for the existing PNG; gameplay source and artwork were unchanged.
-- Human visual/input playtest and owner understanding: not yet confirmed.
+- Human input report, 2026-09-30: the owner says basic WASD movement has been tried and works. This does not establish diagonal/collision behavior, animation quality, game feel, or understanding of the code.
 - macOS install, runtime checks, and cross-device handoff: not yet verified.
 - Phase 0 verified Git, Codex, native ECC 2.2.2, Godot 4.6.3, and Aseprite 1.3.18.6 on Windows. Executable paths stay machine-local.
-- Command Code authentication, model access, and permission enforcement remain unverified. Its settings express intent, not proof of isolation.
+- Windows critic tooling: standalone Node 24.21.0 (official archive SHA256 verified), npm 11.19.0, and Command Code 1.72.4 installed outside the repository. Local paths are ignored; system PATH was not changed.
+- Command Code reports unauthenticated. Model access and permission enforcement remain unverified. Settings express intent, not proof of isolation; `tools/command-code.ps1` provides human login and bounded review entry points.
+- Wrapper checks passed for prompt/flag handling, missing authentication/model, upstream failure, and timeout using a simulated CLI; real CLI version/status were checked separately. No live model review has run.
 - No test framework, addons, CI, or export presets exist. The broader game loop is undecided.

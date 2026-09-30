@@ -69,6 +69,6 @@ Draw in Aseprite, save original source, export, then inspect in Godot at game sc
 
 Call MiniMax for consequential uncertainty, risky changes, or unresolved diagnosis. Use a fresh session with a neutral problem, goals, constraints, and exact files/diff. Compare initial findings before sharing Codex's verdict. Keep useful decisions rather than a mandatory transcript archive.
 
-Existing prompts/settings are preparation only. Installation, human authentication, model access, and permissions must be verified before use. Prefer a stable user-managed Node/npm installation if needed, not permanent dependencies on Codex runtime caches. Reuse ECC selectively.
+Windows Node/npm and Command Code are installed outside the project. The review wrapper is tested, but human login, usable MiniMax access, and live permission verification are still pending. Follow the [critic onboarding and review commands](tools/command-code/README.md). Reuse ECC selectively; no duplicate plugin installation is needed.
 
 The [original bootstrap](WILDROOT_CODEX_BOOTSTRAP.md) remains a setup reference. [AGENTS.md](AGENTS.md), this README, and the current roadmap describe the approved daily workflow.
