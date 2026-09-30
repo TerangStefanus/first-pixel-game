@@ -43,6 +43,7 @@ Exact speed, zoom, frame timing, and viewport values live in source/Inspector ra
 - macOS install, runtime checks, and cross-device handoff: not yet verified.
 - Phase 0 verified Git, Codex, native ECC 2.2.2, Godot 4.6.3, and Aseprite 1.3.18.6 on Windows. Executable paths stay machine-local.
 - Windows critic tooling: standalone Node 24.21.0 (official archive SHA256 verified), npm 11.19.0, and Command Code 1.72.4 installed outside the repository. Local paths are ignored; system PATH was not changed.
-- Command Code reports unauthenticated. Model access and permission enforcement remain unverified. Settings express intent, not proof of isolation; `tools/command-code.ps1` provides human login and bounded review entry points.
-- Wrapper checks passed for prompt/flag handling, missing authentication/model, upstream failure, and timeout using a simulated CLI; real CLI version/status were checked separately. No live model review has run.
+- Command Code onboarding verified on 2026-09-30: authenticated status, MiniMax M3 listed, and a completed independent review of the player script/scene and InputMap. The sandboxed request could not connect to the API; the authorized normal-context retry succeeded. The review found no supported movement bug; optional cleanup suggestions were not applied. This was source review, not a playtest.
+- A live permission diagnostic recorded `tool_denied` for both `write_file` and a shell redirection targeting disposable ignored fixtures. Both files retained their original contents, and Git stayed clean. This verifies those two attempts with the current configuration, not every possible tool path.
+- Wrapper checks passed for prompt/flag handling, missing authentication/model, upstream failure, and timeout using a simulated CLI; live access and the bounded permission diagnostic were checked separately.
 - No test framework, addons, CI, or export presets exist. The broader game loop is undecided.

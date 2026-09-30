@@ -2,7 +2,7 @@
 
 Windows setup verified on 2026-09-30: Node 24.21.0, npm 11.19.0, Command Code 1.72.4. The official Node ZIP passed its published SHA256 check. Installations live outside the repository; no permanent system PATH changes were made.
 
-**Current state:** CLI version works; status reports unauthenticated. Wrapper tests passed using a simulated CLI. Live MiniMax access, a completed review, and runtime permission enforcement have not been verified.
+**Current state (2026-09-30):** authenticated; MiniMax M3 listed and a live source review completed. A bounded permission diagnostic recorded denial of direct file writing and shell redirection; both disposable files remained unchanged. The sandboxed review could not reach the API; the authorized normal-context retry succeeded. These checks cover this Windows configuration and the tested operations.
 
 ## Human onboarding (PowerShell 7)
 
@@ -40,7 +40,7 @@ The wrapper runs from the repository root, checks authentication and the exact m
 
 Default limit: 8 model turns and 180 seconds per subprocess, adjustable with `-MaxTurns` and `-TimeoutSeconds`. Authentication and model checks are separate subprocesses, so total wall time can exceed a single timeout. Final review text goes to stdout and CLI diagnostics to stderr. Nonzero results remain failures/partial results, not completed reviews.
 
-Shared `.commandcode/settings.json` supplies the permission policy. Wrapper flags and policy intent do not prove that every tool path is blocked; live verification remains pending. Disabling session persistence also does not guarantee the CLI writes no user-level logs/cache.
+Shared `.commandcode/settings.json` supplies the permission policy. Live checks denied `write_file` via the `Edit` rule and shell redirection via plan mode. This does not prove every possible tool path is blocked. Disabling session persistence also does not guarantee the CLI writes no user-level logs/cache.
 
 ## Local paths and macOS
 
@@ -48,4 +48,4 @@ Shared `.commandcode/settings.json` supplies the permission policy. Wrapper flag
 
 The PowerShell 7 wrapper may be used on a Mac where PowerShell already exists, after configuring its local paths, but has only been tested on Windows. A Mac does not need PowerShell just to use Command Code: its native `command-code` CLI supports login, status, and reviews. Verify installation/flags there and add a thin native wrapper only when needed. Do not sync machine-local paths or auth files through GitHub.
 
-Tests performed: real CLI version/status; review stops before inference when unauthenticated; simulated prompt/flag handling, missing-model rejection, upstream error propagation, and timeout termination. The simulated tests do not exercise model behavior or live permissions.
+Tests performed: real CLI version/status/model list; completed MiniMax M3 source review; two live denied write attempts with unchanged ignored fixtures and clean Git state; review stops before inference when unauthenticated; simulated prompt/flag handling, missing-model rejection, upstream error propagation, and timeout termination. The simulated tests do not exercise model behavior or live permissions. Local diagnostic artifacts remain under ignored `tools/local/permission-check/`.

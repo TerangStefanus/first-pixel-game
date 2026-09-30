@@ -2,12 +2,12 @@
 
 The owner approved the simpler workflow on 2026-09-30 (D-001 in `DECISIONS.md`). Tool provisioning does not gate learning. Pair Mode remains the default.
 
-## NOW - Finish optional critic onboarding
+## NOW - One small owner-authored gameplay iteration
 
 - Automated Windows baseline passed: import, script parsing, and 120-iteration startup. See `PROJECT_CONTEXT.md` for scope and limitations.
 - Owner reported basic WASD movement works and requested the next phase. Do not treat this as proof of other gameplay behavior or code understanding.
-- Standalone Windows Node/npm, Command Code, and the bounded review wrapper are ready. Follow `tools/command-code/README.md` for human login and first project trust.
-- After login, verify MiniMax model access and read-only behavior using harmless temporary fixtures before relying on a live review. This optional setup still does not gate ordinary learning work.
+- Optional Windows critic onboarding passed: authenticated status, MiniMax M3 access, a completed source review, and blocked direct/shell writes to disposable fixtures. See `PROJECT_CONTEXT.md` for verification limits. No further tooling is needed for the next learning session.
+- Next session: trace W through the current player script, then add one visible wall in the Godot editor with the owner creating its `StaticBody2D` and `CollisionShape2D`. Learn how the existing `move_and_slide()` reacts to collision. This is a proposed exercise; no gameplay change has been implemented.
 
 ## NEXT
 
@@ -31,4 +31,4 @@ The owner approved the simpler workflow on 2026-09-30 (D-001 in `DECISIONS.md`).
 
 ## Handoff
 
-Current focus: human Command Code login and project trust, followed by live model/permission checks. Basic WASD was confirmed by the owner. No new gameplay implementation has been delegated. GitHub publication and the Mac handoff remain separate, unverified steps.
+Current focus: the owner creates and playtests one visible collision obstacle with Codex guidance. Optional Windows critic onboarding is complete; basic WASD was confirmed by the owner. No new gameplay implementation has been delegated. GitHub publication and the Mac handoff remain separate, unverified steps.
