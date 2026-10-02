@@ -69,6 +69,8 @@ Draw in Aseprite, save original source, export, then inspect in Godot at game sc
 
 Call MiniMax for consequential uncertainty, risky changes, or unresolved diagnosis. Use a fresh session with a neutral problem, goals, constraints, and exact files/diff. Compare initial findings before sharing Codex's verdict. Keep useful decisions rather than a mandatory transcript archive.
 
-Windows Node/npm and Command Code are installed outside the project. The review wrapper is tested, but human login, usable MiniMax access, and live permission verification are still pending. Follow the [critic onboarding and review commands](tools/command-code/README.md). Reuse ECC selectively; no duplicate plugin installation is needed.
+Windows Node/npm and Command Code are installed outside the project. Login, a live MiniMax M3 review, and denial of two bounded write attempts were verified on 2026-09-30. See the [critic onboarding and review commands](tools/command-code/README.md) for scope and limitations. Reuse ECC selectively; no duplicate plugin installation is needed.
+
+The owner's [working game design](docs/WILDROOT_GAME_DESIGN.md) defines Wildroot's ecological identity. The [design review](docs/DESIGN_REVIEW.md) identifies experiments worth trying; mechanics remain provisional. Use the [module agenda and active sprint](docs/ROADMAP.md) for daily work, task status, learning goals, and the next step. Read the larger design documents on demand.
 
 The [original bootstrap](WILDROOT_CODEX_BOOTSTRAP.md) remains a setup reference. [AGENTS.md](AGENTS.md), this README, and the current roadmap describe the approved daily workflow.

@@ -5,6 +5,12 @@ Repository: https://github.com/TerangStefanus/first-pixel-game
 
 The owner learns Godot/GDScript and draws the pixel art. See `../AGENTS.md` for the agreement and `ROADMAP.md` for the next step.
 
+## Game direction
+
+The owner supplied `WILDROOT_GAME_DESIGN.md` on 2026-09-30: a compact top-down fantasy action RPG where players observe ecological relationships, deliberately change conditions, and use the consequences to obtain resources, equipment, encounters, and access. Farming is controlled ecology; combat is an intervention; different world states have different uses. Read the relevant design sections on demand.
+
+The design is a working vision, not a claim that its systems exist. `DESIGN_REVIEW.md` records Codex's assessment and a fresh independent MiniMax M3 review. Following the owner's request for learning modules and a work agenda, `ROADMAP.md` holds the initial module sequence and Sprint 01 tasks. Mechanics and balance remain provisional; no ecological prototype has been played.
+
 ## Current structure
 
 | Path | Role |
@@ -46,4 +52,4 @@ Exact speed, zoom, frame timing, and viewport values live in source/Inspector ra
 - Command Code onboarding verified on 2026-09-30: authenticated status, MiniMax M3 listed, and a completed independent review of the player script/scene and InputMap. The sandboxed request could not connect to the API; the authorized normal-context retry succeeded. The review found no supported movement bug; optional cleanup suggestions were not applied. This was source review, not a playtest.
 - A live permission diagnostic recorded `tool_denied` for both `write_file` and a shell redirection targeting disposable ignored fixtures. Both files retained their original contents, and Git stayed clean. This verifies those two attempts with the current configuration, not every possible tool path.
 - Wrapper checks passed for prompt/flag handling, missing authentication/model, upstream failure, and timeout using a simulated CLI; live access and the bounded permission diagnostic were checked separately.
-- No test framework, addons, CI, or export presets exist. The broader game loop is undecided.
+- No test framework, addons, CI, or export presets exist. The intended ecological loop is now documented; its rules, pacing, scope, and player experience remain to be tested.
