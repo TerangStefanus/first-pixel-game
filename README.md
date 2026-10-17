@@ -8,9 +8,9 @@ A small Godot 4 pixel-art game project. The current project targets Godot 4.6 an
 2. Press **F5** to run the existing main scene.
 3. To explore the character testing map, open `scenes/previews/wanderer_run_preview.tscn` and press **F6**.
 
-In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to run. Walking uses 64 px/s; running uses 104 px/s. Releasing movement keeps the last facing direction. Press **R** to return to the central clearing.
+In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to run. Walking uses 64 px/s; running uses 104 px/s. Releasing movement keeps the last facing direction. Press **R** to return to the central clearing, **Z** to switch between 1× and 2× zoom, and **H** to hide/show the HUD.
 
-The 56×36-tile testing map has grass, connected dirt paths, a loop, crossing lanes, trees and ruined stones. Trees/stones and the outside boundary have collision; the camera follows the character within the map. Tiles are saved in the preview scene and can be painted directly in Godot. [Map overview](docs/previews/wanderer-map.png).
+The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger native tree sprites, quieter ground colors and props matched to the character. A 1× camera shows more world than the earlier 3× view. The live HUD displays movement state/speed and a minimap. [Gameplay view](docs/previews/wildroot-play.png) · [Map overview](docs/previews/wanderer-map.png).
 
 ## Wanderer assets
 
@@ -23,7 +23,9 @@ The 56×36-tile testing map has grass, connected dirt paths, a loop, crossing la
 
 See the [asset guide](assets/sprites/wanderer_64/README.md) for the palette, source files, rebuild commands and animation layout. The character artwork was created at the owner's request with image generation and native Aseprite edits; generation prompts and review notes are retained alongside the sources.
 
-The terrain, prop atlas and four-frame animated flower sample use 16×16 tiles from Ninja Adventure by Pixel-Boy and AAA, released under CC0. See [asset provenance](assets/tilesets/ninja_adventure/SOURCE.md). Other reference packs are not included.
+The current environment assets are in [Wildroot woodland](assets/tilesets/wildroot/README.md). The six-color character remains the palette/style reference; its front/back runs now use native Aseprite poses with a stable head, torso and backpack. See [the art guide and research](docs/ART_GUIDE.md).
+
+The earlier Ninja Adventure sample by Pixel-Boy and AAA is retained separately under CC0 with [provenance](assets/tilesets/ninja_adventure/SOURCE.md). It is no longer used by the woodland testing scene.
 
 ## Verify
 
@@ -36,7 +38,7 @@ godot --headless --path . --script res://tools/validate_wanderer_run.gd
 godot --headless --path . --script res://tools/validate_wanderer_map.gd
 ```
 
-The checks cover animation frame sizes/counts, side-walk mirroring and proportions, movement/facing transitions, run timing the animated flower atlas, map traversal, collisions, reset and camera limits. Visual previews remain the reference for judging the artwork in motion.
+The checks cover animation frame sizes/counts, side-walk mirroring and proportions, movement/facing transitions, run timing, map traversal, collisions, reset, zoom controls, integer scaling and the live HUD. Visual previews remain the reference for judging the artwork in motion.
 
 ## Project layout
 
@@ -45,7 +47,8 @@ The checks cover animation frame sizes/counts, side-walk mirroring and proportio
 | `scenes/main.tscn`, `scripts/player.gd` | Existing playable prototype |
 | `scenes/previews/` | Separate character and tileset previews |
 | `assets/sprites/wanderer_64/` | Bases, walk/run exports, editable sources and previews |
-| `assets/tilesets/ninja_adventure/` | CC0 terrain, props, flowers and attribution |
+| `assets/tilesets/wildroot/` | Current woodland props, 32px ground and editable sources |
+| `assets/tilesets/ninja_adventure/` | Earlier CC0 sample and attribution |
 | `resources/` | Godot SpriteFrames and TileSet resources |
 | `tools/validate_wanderer_*.gd` | Focused headless validation |
 

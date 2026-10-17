@@ -1,4 +1,6 @@
-# Run redraw review
+# Run redraw review — earlier revision
+
+The current front/back run is documented in `docs/ART_GUIDE.md` at the project root and built by `front-run-poses.lua`. The notes below record the earlier generated revision.
 
 The user rejected the first running animation and identified a specific bug in the newly generated side draft: the light hand never passed the front of the torso and the dark hand never passed behind it. Merely checking frame sizes and movement transitions did not establish artistic quality.
 

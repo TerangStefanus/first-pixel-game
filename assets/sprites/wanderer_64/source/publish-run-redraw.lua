@@ -19,75 +19,8 @@ local function nearest(p)
 end
 dofile(root..'source/prepare-run-redraw.lua')
 local timing={80,55,125,80,55,125}
-local bob={0,1,-1,0,1,-1};local sole={53,53,50,53,53,50}
-local function restoreHead(im,base,head,f)
- for y=0,head+bob[f] do for x=0,63 do im:drawPixel(x,y,0) end end
- for y=0,head do for x=0,63 do local c=base:getPixel(x,y)
-  if c>0 then im:drawPixel(x,y+bob[f],c) end
- end end
-end
-local function convert(d)
- local raw=read(root..'source/run-'..d..'-redraw-concept.png',ColorMode.RGB)
- local base=read(root..'base/idle_'..d..'.png',ColorMode.INDEXED)
- local head=d=='down' and 36 or 35
- local poses={}
-for f=1,6 do
-  local x0,x1=math.floor((f-1)*raw.width/6),math.floor(f*raw.width/6)-1
-  local solid,visited={},{}
-  for y=0,raw.height-1 do for x=x0,x1 do
-    if pc.rgbaA(raw:getPixel(x,y))>=180 then solid[y*raw.width+x]=true end
-  end end
-  local best,mask,bounds=0,{},nil
-  for start in pairs(solid) do if not visited[start] then
-    local queue,head,group={start},1,{};visited[start]=true
-    local ax,ay,bx,by=x1,raw.height,x0,0
-    while head<=#queue do
-      local k=queue[head];head=head+1;group[k]=true
-      local x,y=k%raw.width,math.floor(k/raw.width)
-      ax,ay,bx,by=math.min(ax,x),math.min(ay,y),math.max(bx,x),math.max(by,y)
-      local ns={}
-      if x>x0 then ns[#ns+1]=k-1 end;if x<x1 then ns[#ns+1]=k+1 end
-      if y>0 then ns[#ns+1]=k-raw.width end;if y<raw.height-1 then ns[#ns+1]=k+raw.width end
-      for _,n in ipairs(ns) do if solid[n] and not visited[n] then visited[n]=true;queue[#queue+1]=n end end
-    end
-    if #queue>best then best,mask,bounds=#queue,group,{x=ax,y=ay,w=bx-ax+1,h=by-ay+1} end
-  end end
-  local b=assert(bounds);local hx0,hx1=x1,x0
-  for y=b.y,b.y+math.floor(b.h*0.42) do for x=b.x,b.x+b.w-1 do
-    if mask[y*raw.width+x] then hx0,hx1=math.min(hx0,x),math.max(hx1,x) end
-  end end
-  local cx=(hx0+hx1)/2;local scale=26/(hx1-hx0+1)
-  local im=Image(64,64,ColorMode.INDEXED)
-  for y=head+1+bob[f],sole[f] do for x=0,63 do
-    local isLeg=y>=46+bob[f]
-    local y0,y1,a,z
-    if isLeg then y0,y1,a,z=46+bob[f],sole[f],0.72,1.0 else y0,y1,a,z=head+1+bob[f],45+bob[f],0.50,0.72 end
-    local sy=math.floor(b.y+b.h*(a+(y-y0+0.5)/(y1-y0+1)*(z-a)))
-    local sx=math.floor(cx+(x-31.5)/(scale*(isLeg and 0.85 or 1))+0.5)
-    if sx>=x0 and sx<=x1 and sy>=0 and sy<raw.height and mask[sy*raw.width+sx] then
-      local c=nearest(raw:getPixel(sx,sy))
-      if isLeg and c==5 then c=2 end -- keep full trousers rather than generated bare ankles
-      im:drawPixel(x,y,c)
-    end
-  end end
-  -- Reuse the approved hair/face pixels, with only whole-pixel bounce.
-  for y=0,head do for x=0,63 do
-    local c=base:getPixel(x,y);if c>0 and y+bob[f]>=0 then im:drawPixel(x,y+bob[f],c) end
-  end end
-  poses[f]=im
-end
-
- local originals={}
- for f=1,6 do originals[f]=Image(poses[f]) end
- -- Opposite contacts use the opposite physical sides, keeping the approved head.
- for f=4,6 do poses[f]=Image(originals[f-3]);poses[f]:flip();restoreHead(poses[f],base,head,f) end
- -- The generated flight poses retained the same leading arm. Reverse only the
- -- first flight half so the cycle crosses cleanly into the opposite contact.
- poses[3]=Image(originals[3]);poses[3]:flip();restoreHead(poses[3],base,head,3)
- poses[6]=Image(originals[3]);restoreHead(poses[6],base,head,6)
- return poses
-end
-local poses={right={},left={},down=convert('down'),up=convert('up')}
+local front=dofile(root..'source/front-run-poses.lua')
+local poses={right={},left={},down=front.down,up=front.up}
 for f=1,6 do
  poses.right[f]=read(root..'frames/run_right_redraw_'..string.format('%02d',f)..'.png',ColorMode.INDEXED)
  poses.left[f]=Image(poses.right[f]);poses.left[f]:flip()
@@ -108,7 +41,7 @@ for row,d in ipairs(dirs) do
   n=n+1;if n>1 then master:newEmptyFrame(n) end
   master:newCel(master.layers[1],n,im,Point(0,0));master.frames[n].duration=timing[f]/1000
  end
- if d~='right' then s:saveAs(root..'source/run_'..d..'.aseprite') end
+ if d=='left' then s:saveAs(root..'source/run_'..d..'.aseprite') end
  strip:saveAs{filename=root..'animations/run_'..d..'.png',palette=palette}
  s:resize(256,256);s:saveCopyAs(root..'previews/run_'..d..'.gif')
  tags[#tags+1]={'run_'..d,n-5,n}

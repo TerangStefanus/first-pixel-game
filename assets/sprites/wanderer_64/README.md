@@ -30,13 +30,13 @@ The current trouser silhouettes are thicker to match the chunky approved base. T
 
 ## Running — redrawn revision
 
-`run_down`, `run_left`, `run_right` and `run_up` use six poses with timings 80/55/125/80/55/125 ms (520 ms per full cycle). New image-generated poses, retouched and assembled in Aseprite, replace the earlier procedural rig. The light near hand moves behind-to-front across the right-facing cycle; the dark far arm follows the opposite path with a stable identity. Head pixels reuse the approved base; torso and legs are fitted to the approved short proportions.
+`run_down`, `run_left`, `run_right` and `run_up` use six poses with timings 80/55/125/80/55/125 ms (520 ms per full cycle). The side poses are image-generated and retouched in Aseprite; the current front/back poses are native pixel drawings articulated from the approved bases. The light near hand moves behind-to-front across the right-facing cycle; the dark far arm follows the opposite path with a stable identity. Head pixels reuse the approved base; torso and legs are fitted to the approved short proportions.
 
 `source/wanderer_64_run_redraw.aseprite` has all four tagged runs. `source/run_right_redraw.aseprite` exposes the separate dark arm and light-hand layers. `previews/run_arm_swing_check.gif` shows full character, light hand and dark arm independently at reduced speed. Exact prompts and visual review notes are in `source/run-redraw-prompts.json` and `source/run-redraw-notes.md`.
 
 Rebuild through `source/build-run.lua` or `source/publish-run-redraw.lua`. The original walk/base assets remain unchanged. Legacy eight-frame run PNGs 07/08 are excluded from version control; the strips, JSON and native six-frame sources define the current animation.
 
-In Godot hold Shift with WASD/arrows to run at 104 px/s; release Shift to walk at 64 px/s. Open `scenes/previews/wanderer_run_preview.tscn` and press F6. The preview now contains a walkable grass/dirt map with loop and crossing paths, collision landmarks, animated flowers and bounded camera follow. Press R to reset to the central clearing.
+In Godot hold Shift with WASD/arrows to run at 104 px/s; release Shift to walk at 64 px/s. Open `scenes/previews/wanderer_run_preview.tscn` and press F6. The current preview uses the Wildroot woodland with matched props, 32px terrain, a 1× camera and a live HUD. R resets, Z switches zoom, and H hides the HUD.
 
 
 ## Rebuild with Aseprite
@@ -49,3 +49,10 @@ aseprite --batch --script-param root=assets/sprites/wanderer_64 --script assets/
 ```
 
 These scripts overwrite generated exports and native animation files. Save manual Aseprite edits separately before rebuilding. The retained concept PNGs are build inputs; `sides-concept-v2.png` and versioned review files are historical references. Current masters are `source/wanderer_64.aseprite` (idle/walk) and `source/wanderer_64_run.aseprite` (run). For manual edits, open a native master and export the affected animation rather than rerunning the concept conversion.
+
+
+## Native front/back run revision
+
+The current `run_down` and `run_up` replace the generated lower-body conversion with original native pixel poses from `source/front-run-poses.lua`. Their approved head and central chest/backpack pixels are retained with whole-pixel bounce; trousers, rigid boots and opposing arm swings are separately editable. Open `source/run_down_native.aseprite` or `source/run_up_native.aseprite` to inspect the layers. The existing six-frame timing and accepted side runs are retained. Older notes about generated front/back conversion describe the earlier revision.
+
+The woodland preview now uses a 1× camera, Z for optional 2× inspection, H to hide the live HUD, and R to reset. See `docs/ART_GUIDE.md` from the project root for the current scale and animation decisions.

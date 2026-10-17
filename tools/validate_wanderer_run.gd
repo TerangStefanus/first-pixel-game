@@ -11,11 +11,6 @@ func _validate() -> void:
 	await physics_frame
 	var player := preview.get_node("Wanderer64") as CharacterBody2D
 	var sprite := player.get_node("AnimatedSprite2D") as AnimatedSprite2D
-	var flowers := preview.get_node("Flowers") as TileMapLayer
-	var atlas := flowers.tile_set.get_source(0) as TileSetAtlasSource
-	assert(atlas.get_tile_animation_frames_count(Vector2i.ZERO) == 4)
-	assert(atlas.get_tile_animation_columns(Vector2i.ZERO) == 4)
-	assert(flowers.get_used_cells().size() > 0)
 	for direction in ["down", "left", "right", "up"]:
 		var run_name := StringName("run_" + direction)
 		assert(sprite.sprite_frames.get_frame_count(run_name) == 6)
@@ -39,6 +34,6 @@ func _validate() -> void:
 		for tick in range(3):
 			await physics_frame
 		assert(sprite.animation == StringName("idle_" + direction))
-	print("PASS: four redrawn6-frame runs with80/55/125ms timing; Shift speed/run/walk/idle transitions; four-column animated flowers and populated TileMapLayer")
+	print("PASS: four redrawn6-frame runs with80/55/125ms timing; Shift speed/run/walk/idle transitions; woodland preview loads")
 	preview.queue_free()
 	quit(0)
