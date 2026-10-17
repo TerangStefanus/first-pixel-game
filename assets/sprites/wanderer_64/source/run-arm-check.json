@@ -1,0 +1,52 @@
+[
+  {
+    "frame": 1,
+    "light_hand_center": [
+      20.5,
+      40.5
+    ],
+    "dark_fist_center": [
+      40,
+      39
+    ]
+  },
+  {
+    "frame": 2,
+    "light_hand_center": [
+      32.412,
+      43.118
+    ]
+  },
+  {
+    "frame": 3,
+    "light_hand_center": [
+      39.5,
+      38.0
+    ]
+  },
+  {
+    "frame": 4,
+    "light_hand_center": [
+      39.385,
+      37.615
+    ],
+    "dark_fist_center": [
+      20,
+      41
+    ]
+  },
+  {
+    "frame": 5,
+    "light_hand_center": [
+      31.5,
+      43.714
+    ]
+  },
+  {
+    "frame": 6,
+    "light_hand_center": [
+      21.5,
+      41.0
+    ]
+  }
+]

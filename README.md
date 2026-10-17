@@ -1,39 +1,60 @@
 # First Pixel Game / Wildroot
 
-A small Godot 4 pixel-art prototype built while the owner learns GDScript and draws in Aseprite. Current source implements movement, a following camera, and `idle_down` / `walk_down` animation. See [project context](docs/PROJECT_CONTEXT.md) for verification limits.
+A small Godot 4 pixel-art game project. The current project targets Godot 4.6 and includes the original movement prototype plus a separate Wanderer character preview.
 
-## Open and play
+## Run the project
 
-Use **Godot 4.6.3 standard** for the first Windows/macOS handoff. Import `project.godot` in the project manager. Press **F5** for the configured project or **F6** for the open scene. Move with WASD or arrows.
+1. Import `project.godot` in Godot 4.6.
+2. Press **F5** to run the existing main scene.
+3. To explore the character testing map, open `scenes/previews/wanderer_run_preview.tscn` and press **F6**.
 
-Godot and Aseprite stay installed per machine. This GDScript game does not need Node/npm to run. Optional critic setup must not hold up learning.
+In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to run. Walking uses 64 px/s; running uses 104 px/s. Releasing movement keeps the last facing direction. Press **R** to return to the central clearing, **Z** to switch between 1× and 2× zoom, and **H** to hide/show the HUD.
 
-## Verify on Windows
+The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger native tree sprites, quieter ground colors and props matched to the character. A 1× camera shows more world than the earlier 3× view. The live HUD displays movement state/speed and a minimap. [Gameplay view](docs/previews/wildroot-play.png) · [Map overview](docs/previews/wanderer-map.png).
 
-In PowerShell 7, from the repository root:
+## Wanderer assets
 
-```powershell
-./tools/verify-godot.ps1 -GodotPath 'C:/your/path/to/Godot_console.exe'
-```
+- Transparent 64×64 frames with six opaque colors.
+- Four standing bases and four-direction walk/run animations.
+- Eight-frame side walks at 100 ms per frame; four-frame front/back walks at 125 ms per frame.
+- Six-frame runs: front/back at 90 ms per pose; side runs retain 80/55/125 ms repeated.
+- Editable Aseprite sources, exported PNG strips, JSON metadata and GIF previews.
+- A reusable `scenes/wanderer_64.tscn` and shared `resources/sprite_frames/wanderer_64.tres`.
 
-Alternatively, set `GODOT_BIN` for the terminal or put a `GodotPath` value in ignored `tools/local/paths.json`. With either configured:
+See the [asset guide](assets/sprites/wanderer_64/README.md) for the palette, source files, rebuild commands and animation layout. The character artwork was created at the owner's request with image generation and native Aseprite edits; generation prompts and review notes are retained alongside the sources.
 
-```powershell
-./tools/verify-godot.ps1
-```
+The current environment assets are in [Wildroot woodland](assets/tilesets/wildroot/README.md). The six-color character remains the palette/style reference; its front/back runs adapt observed poses from the free CC0 MetroCity pack, keeping Wanderer’s own head, torso and backpack. [Reference, license and derivation](assets/sprites/wanderer_64/reference/metrocity/SOURCE.md). See [the art guide and research](docs/ART_GUIDE.md).
 
-The helper imports resources, parses scripts under `scripts/`, and starts the configured scene for 120 engine iterations. Each process has a timeout. Logs go to ignored `tools/local/verification/`; failures return a nonzero exit code. It does not simulate input or assess visuals, collisions, or fun. Import may update caches or create asset metadata: inspect `git status` afterward.
+The earlier Ninja Adventure sample by Pixel-Boy and AAA is retained separately under CC0 with [provenance](assets/tilesets/ninja_adventure/SOURCE.md). It is no longer used by the woodland testing scene.
 
-For macOS, these equivalent commands are provided but **not yet tested on the owner's Mac**. From the repository root, set the actual executable path:
+## Verify
+
+Run from the repository root with the Godot executable on your PATH (or replace `godot` with its full path):
 
 ```sh
-GODOT_BIN='/Applications/Godot.app/Contents/MacOS/Godot'
-"$GODOT_BIN" --headless --path "$PWD" --import
-"$GODOT_BIN" --headless --path "$PWD" --check-only --script res://scripts/player.gd
-"$GODOT_BIN" --headless --path "$PWD" --quit-after 120
+godot --headless --editor --path . --import
+godot --headless --path . --script res://tools/validate_wanderer_64.gd
+godot --headless --path . --script res://tools/validate_wanderer_run.gd
+godot --headless --path . --script res://tools/validate_wanderer_map.gd
 ```
 
-Run each only if the preceding check succeeded without errors. These manual commands do not have the Windows helper's timeout/log checks. Manually playtest on each platform.
+The checks cover animation frame sizes/counts, side-walk mirroring and proportions, movement/facing transitions, run timing, map traversal, collisions, reset, zoom controls, integer scaling and the live HUD. Visual previews remain the reference for judging the artwork in motion.
+
+## Project layout
+
+| Path | Purpose |
+| --- | --- |
+| `scenes/main.tscn`, `scripts/player.gd` | Existing playable prototype |
+| `scenes/previews/` | Separate character and tileset previews |
+| `assets/sprites/wanderer_64/` | Bases, walk/run exports, editable sources and previews |
+| `assets/tilesets/wildroot/` | Current woodland props, 32px ground and editable sources |
+| `assets/tilesets/ninja_adventure/` | Earlier CC0 sample and attribution |
+| `resources/` | Godot SpriteFrames and TileSet resources |
+| `tools/validate_wanderer_*.gd` | Focused headless validation |
+
+See [CHANGELOG.md](CHANGELOG.md) for game updates. [AGENTS.md](AGENTS.md) and [the learning roadmap](docs/ROADMAP.md) describe the approved daily workflow; [WILDROOT_CODEX_BOOTSTRAP.md](WILDROOT_CODEX_BOOTSTRAP.md) retains the original setup reference.
+
+Commit messages use Conventional Commits: `type(scope): concise description`, with a body describing the change and relevant validation when useful.
 
 ## A normal learning session
 
@@ -63,14 +84,8 @@ Update useful notes before a checkpoint commit. Record consequential choices in 
 
 Do not edit one Aseprite source on both machines before syncing. Preserve both versions of conflicting binary assets before choosing the result. GitHub carries source, exports, docs, and shared settings. Authentication, local paths, plugins, and caches stay per machine. Existing `.gitattributes` handles LF text endings.
 
-## Art and optional reviews
+## Design and optional reviews
 
-Draw in Aseprite, save original source, export, then inspect in Godot at game scale. Agree names/tags before export automation. AI may critique readability or explain tools; the owner creates final art.
+The [working game design](docs/WILDROOT_GAME_DESIGN.md), [design review](docs/DESIGN_REVIEW.md), and [decisions](docs/DECISIONS.md) preserve design goals and learning decisions. The roadmap retains planning hypotheses; it is not evidence that the new Mac changes have been playtested on Windows.
 
-Call MiniMax for consequential uncertainty, risky changes, or unresolved diagnosis. Use a fresh session with a neutral problem, goals, constraints, and exact files/diff. Compare initial findings before sharing Codex's verdict. Keep useful decisions rather than a mandatory transcript archive.
-
-Windows Node/npm and Command Code are installed outside the project. Login, a live MiniMax M3 review, and denial of two bounded write attempts were verified on 2026-09-30. See the [critic onboarding and review commands](tools/command-code/README.md) for scope and limitations. Reuse ECC selectively; no duplicate plugin installation is needed.
-
-The owner's [working game design](docs/WILDROOT_GAME_DESIGN.md) defines Wildroot's ecological identity. The [design review](docs/DESIGN_REVIEW.md) identifies experiments worth trying; mechanics remain provisional. Use the [module agenda and active sprint](docs/ROADMAP.md) for daily work, task status, learning goals, and the next step. Read the larger design documents on demand.
-
-The [original bootstrap](WILDROOT_CODEX_BOOTSTRAP.md) remains a setup reference. [AGENTS.md](AGENTS.md), this README, and the current roadmap describe the approved daily workflow.
+Command Code / MiniMax M3 remains optional. Use it for a concrete design or engineering uncertainty; see [critic setup and limits](tools/command-code/README.md). Authentication and quotas remain per account and device.

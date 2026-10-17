@@ -1,0 +1,246 @@
+{
+  "frame_size": [
+    64,
+    64
+  ],
+  "sheet_size": [
+    384,
+    256
+  ],
+  "sheet": "animations/wanderer_64_run_sheet.png",
+  "palette": [
+    "#252323",
+    "#574236",
+    "#68734b",
+    "#e6cf9a",
+    "#d79b5b",
+    "#ad5739"
+  ],
+  "transparent_index": 0,
+  "animations": {
+    "run_down": {
+      "loop": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 64,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 128,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 192,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 256,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 320,
+          "y": 0,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        }
+      ],
+      "duration_ms_per_frame": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "cycle_ms": 540
+    },
+    "run_left": {
+      "loop": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 80
+        },
+        {
+          "x": 64,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 55
+        },
+        {
+          "x": 128,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 125
+        },
+        {
+          "x": 192,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 80
+        },
+        {
+          "x": 256,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 55
+        },
+        {
+          "x": 320,
+          "y": 64,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 125
+        }
+      ],
+      "duration_ms_per_frame": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "cycle_ms": 520
+    },
+    "run_right": {
+      "loop": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 80
+        },
+        {
+          "x": 64,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 55
+        },
+        {
+          "x": 128,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 125
+        },
+        {
+          "x": 192,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 80
+        },
+        {
+          "x": 256,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 55
+        },
+        {
+          "x": 320,
+          "y": 128,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 125
+        }
+      ],
+      "duration_ms_per_frame": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "cycle_ms": 520
+    },
+    "run_up": {
+      "loop": true,
+      "frames": [
+        {
+          "x": 0,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 64,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 128,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 192,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 256,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        },
+        {
+          "x": 320,
+          "y": 192,
+          "w": 64,
+          "h": 64,
+          "duration_ms": 90
+        }
+      ],
+      "duration_ms_per_frame": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "cycle_ms": 540
+    }
+  }
+}

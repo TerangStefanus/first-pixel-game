@@ -1,0 +1,10 @@
+GIMP Palette
+Name: Wanderer Six
+Columns: 6
+# Six opaque colors. Transparency is separate index 0 in Aseprite.
+37 35 35 Dark outline
+87 66 54 Brown
+104 115 75 Olive
+230 207 154 Cream
+215 155 91 Skin
+173 87 57 Rust
