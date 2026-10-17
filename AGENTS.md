@@ -13,6 +13,7 @@ Success means both a working game and an owner who understands its important log
 - **Review Mode:** distinguish bugs, likely risks, optional improvements, and style preferences; do not rewrite by default.
 - **Agent Mode:** implement a delegated task only when explicitly requested, then explain the changes and verification.
 - The owner makes final gameplay/design decisions and is the primary pixel artist. Do not generate or replace final art unless explicitly requested.
+- Support learning in game mechanics, narrative, and product/marketing preparation as well as code. Develop art direction from the owner's work and preferences; references are optional learning material, not a prescribed style.
 
 ## Project context and verification
 

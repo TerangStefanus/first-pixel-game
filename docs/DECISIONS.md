@@ -21,3 +21,19 @@ Use `ROADMAP.md` as the only active task board. Each module produces a playable 
 The first target is a forest clearing with collision and berry interaction. Day changes and the wolf/rabbit/berry experiment follow. The original broader prototype remains a vision to reassess after these tests. The initial cadence and task sizes are estimates to revise after the first review, not delivery commitments.
 
 No project-management application, permanent agents, or scheduled automation is needed. Revisit if this simple board becomes difficult to use or actual playtest evidence changes the module order.
+
+## D-003 — Add preparation for gameplay, narrative, and product communication
+
+Date: 2026-10-07. Type: learning/workflow. Status: requested by the owner; session details are an initial working plan, not approved story or marketing decisions.
+
+Add P0 sessions to the existing roadmap for player experience, narrative through actions/consequences, and communicating the game to potential players. Gameplay and story both matter to the owner, and art direction follows their developing style. Prepare one small situation that can connect to the forest experiment; record hypotheses honestly and revise after playing.
+
+Begin with a short P0-01 discussion, then allow drawing/coding and the remaining preparation sessions to alternate. Preparation does not require a finished screenplay, store page, release scope, or sales forecast. Preserve one active agenda rather than building a separate planning system.
+
+## D-004 — Develop story chapters together with playable learning targets
+
+Date: 2026-10-08. Type: learning/workflow. Status: chapter-based guidance and owner-led execution requested by the owner; chapter contents and plot remain proposals.
+
+Keep one short overall narrative direction, then detail only the active chapter in `ROADMAP.md`. Each chapter connects a story purpose, player actions/consequences, minimum playable outcome, required systems/art, learning concepts, owner contribution, and observed completion evidence. Chapters can use multiple existing modules; retain module IDs rather than creating a second task board.
+
+Codex organizes dependencies and next steps, advises, teaches, and reviews. The owner chooses story/gameplay direction, attempts meaningful implementation, draws art, and evaluates play. When stuck, increase help from a hint to a small example or an explained joint fix. Do not silently implement a learning-critical system. Revise future chapters based on actual play and learning progress; no full screenplay or orchestration infrastructure is required before beginning.

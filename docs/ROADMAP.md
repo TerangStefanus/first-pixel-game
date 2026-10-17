@@ -1,12 +1,58 @@
 # Wildroot — agenda kerja dan belajar
 
-Diperbarui 2026-10-01. Pair Mode menjadi default. Rancangan besar ada di `WILDROOT_GAME_DESIGN.md`; alasan eksperimen ada di `DESIGN_REVIEW.md`. Dokumen ini menjadi satu tempat untuk target aktif, status tugas, dan langkah sesi berikutnya.
+Diperbarui 2026-10-08. Pair Mode menjadi default. Rancangan besar ada di `WILDROOT_GAME_DESIGN.md`; alasan eksperimen ada di `DESIGN_REVIEW.md`. Dokumen ini menjadi satu tempat untuk target aktif, status tugas, dan langkah sesi berikutnya.
 
 ## Posisi sekarang
 
 Gerakan dan animasi dasar sudah ada; pemilik melaporkan WASD bekerja. Pemahaman kode dan collision belum dinyatakan selesai. Verifikasi Godot Windows dan onboarding MiniMax selesai dengan batas pemeriksaan di `PROJECT_CONTEXT.md`. Ekologi dan modul di bawah belum diimplementasikan atau diuji pemain.
 
 Arah kerja awal: buktikan satu petak hutan sebelum memperluas isi Prototype 0.1. Aturan rinci serta angka balance tetap hipotesis yang boleh berubah.
+
+Pemilik meminta sesi persiapan untuk belajar mekanik, cerita, dan strategi mengenalkan/menjual game, dengan gameplay serta story sama-sama penting. Style visual dikembangkan dari karya dan selera pemilik; referensi dianalisis berdasarkan prinsip, bukan dijadikan gaya wajib.
+
+## Bab cerita sebagai agenda pembangunan dan belajar
+
+Permintaan pemilik, 2026-10-08: cerita berkembang per bab sesuai kebutuhan game, dengan langkah jelas, kebutuhan aset/sistem, serta target belajar. Codex menyusun urutan, menjelaskan dependensi, memberi saran dan review; pemilik menentukan cerita, mencoba implementasi utama, menggambar, serta memainkan hasil. Bantuan eksekusi bertambah saat pemilik kesulitan: petunjuk → contoh kecil → perbaikan bersama yang dijelaskan. Sistem belajar utama tidak dibangun diam-diam oleh AI.
+
+Susun kerangka cerita keseluruhan secara pendek terlebih dahulu: siapa protagonis, apa yang ia inginkan, apa yang menghalangi, bagaimana ekologi/The Root berhubungan dengan konflik, dan arah perubahan karakter atau akhir yang mungkin. Jawaban boleh sementara; jangan tulis semua dialog atau mengunci semua bab. Hanya bab aktif yang dipecah menjadi pekerjaan terperinci.
+
+Peta berikut adalah **urutan kerja usulan, bukan plot atau daftar bab final game**. Bab mengikat pengalaman cerita; modul M1–M6 tetap menjadi paket belajar/implementasi yang bisa dipakai lintas bab. Satu bab tidak harus sama dengan satu sesi atau satu modul.
+
+| Bab kerja | Target cerita dan pengalaman | Kebutuhan game / belajar | Bukti untuk maju |
+| --- | --- | --- | --- |
+| B0 — Arah dan pembuka | Kerangka pendek cerita keseluruhan dan satu masalah lokal yang membuat pemain ingin bertindak | P0-01/02; motivasi, konflik, tindakan dan konsekuensi; belum memerlukan sistem baru | Pemilik memilih alasan karakter bertindak, tujuan pembuka, dan satu akibat yang ingin diuji |
+| B1 — Satu kejadian selesai | Pemain bertemu satu kebutuhan, melakukan satu tindakan, lalu melihat akibat dan tanggapan | M1; M2 bila akibat perlu pergantian hari; interaksi, kondisi/state, dialog singkat, art batu/semak; NPC sementara boleh placeholder | Awal → tindakan → akibat → tanggapan dapat dimainkan; pemilik memahami kode utama; dua pendekatan penuh belum wajib |
+| B2 — Pilihan dengan akibat | Petunjuk cerita membantu pemain mencoba pendekatan lain terhadap masalah ekologi | M3/M4; hubungan sederhana, dua pendekatan, feedback dan pemulihan; kebutuhan detail ditentukan setelah B1 | Pemain memahami alasan pilihan dan mengamati keadaan berbeda; catat jika petunjuk membingungkan |
+| B3 — Tantangan dan intervensi | Uji satu momen menegangkan yang terhubung dengan konflik, petunjuk dan akibat | M5; satu ancaman/serangan dan cara menghadapi situasi; aturan risiko dipilih pemilik | Pemilik memainkan dan menilai ketegangan, keterbacaan, serta peluang mencoba lagi |
+| B4 — Perluasan setelah bukti | Uji apakah prinsip yang dipelajari menarik di situasi baru | Kandidat M6 atau kelanjutan konflik; pilih berdasarkan hasil bab sebelumnya | Perluasan punya alasan cerita dan gameplay; bila inti belum menarik, revisi bab sebelumnya dahulu |
+
+Untuk setiap bab aktif, isi satu kartu singkat di roadmap ini: tujuan cerita; tindakan pemain dan akibat; hasil minimum yang bisa dimainkan; kebutuhan kode/art; satu atau dua konsep belajar pada tugas aktif; bagian pemilik dan bantuan Codex; bukti selesai; pertanyaan desain yang masih terbuka. Tandai usulan, keputusan pemilik, implementasi, dan hasil playtest secara berbeda. Jangan menganggap bab selesai hanya karena semua kode berjalan.
+
+**Tugas aktif berikutnya: B0-01 / P0-01.** Pemilik menulis lima jawaban kasar: (1) siapa tokoh yang dimainkan, (2) apa yang ia inginkan, (3) masalah pertama yang ia hadapi, (4) tindakan pertama pemain, (5) perasaan yang ingin muncul. Jika belum tahu, tulis “belum tahu”; Codex menawarkan pilihan beserta konsekuensinya. Hasilnya adalah kerangka pembuka untuk ditinjau bersama, bukan naskah final. Setelah cukup jelas untuk satu tindakan, lanjut M1-01; lore, nama final, dan ending rinci tidak menahan latihan game pertama.
+
+Setiap awal sesi, Codex menyebut bab/tugas aktif, hasil sesi, konsep yang diperlukan, dan bagian yang dicoba pemilik. Setiap akhir sesi, review hasil nyata dan beri satu langkah berikutnya. Setelah satu kejadian bisa dimainkan, pemilik playtest sebelum cakupan diperluas. MiniMax dipanggil hanya untuk pertanyaan penting dengan bahan konkret; Orca, agen permanen, dan dashboard tambahan belum diperlukan.
+
+## P0 — Persiapan pengalaman pemain dan arah produk
+
+Status: siap dibahas; belum ada keputusan protagonis, konflik pembuka, target pemain, atau strategi penjualan yang dikonfirmasi. The Root dan dunia ekologi pada desain tetap menjadi bahan awal. Sesi ini menghasilkan jawaban kerja pendek dan eksperimen, bukan naskah seluruh game atau janji penjualan.
+
+| Sesi / tugas | Materi belajar dan pertanyaan | Kontribusi pemilik | Hasil kerja / bukti |
+| --- | --- | --- | --- |
+| P0-01 — Identitas, pemain, dan pengalaman pembuka | Bedakan genre, kegiatan pemain, motivasi karakter, suasana, dan alasan calon pemain tertarik. Analisis satu momen konkret dari referensi: tindakan → pilihan → akibat → perasaan. | Ceritakan pengalaman yang disukai/kurang; pilih perasaan utama dan alasan karakter bertindak. | Pitch satu kalimat, dugaan target pemain, motivasi protagonis, satu tujuan pembuka, dan satu hal yang sengaja tidak ditiru. Tidak mengklaim audience sudah tervalidasi. |
+| P0-02 — Cerita yang terjadi lewat gameplay | Bedakan lore latar, alur cerita yang ditulis, dan kejadian hasil sistem. Rancang satu kebutuhan NPC yang berhubungan dengan berry/ekologi; pikirkan tindakan pemain, konsekuensi, dan tanggapan karakter. | Tulis versi pendek situasi/percakapan; pilih konflik serta perubahan yang ingin dirasakan. | Satu situasi cerita dengan awal → pilihan/tindakan → akibat → tanggapan. Tinjau apakah interaksi tetap menarik dan cerita tetap terbaca tanpa penjelasan panjang. |
+| P0-03 — Memperkenalkan dan menjual game | Positioning, janji kepada pemain, perbedaan produk, bahan bukti gameplay, feedback, lalu pengenalan store page/demo/wishlist ketika relevan. Bedakan penemuan audiens secara organik dari penjualan yang sudah terjadi. | Pilih pengalaman yang ingin ditunjukkan dan komunitas yang relevan; jelaskan game dengan kata sendiri. | Draft deskripsi pendek, satu ide klip yang bisa dibuktikan prototipe, dan satu pertanyaan calon pemain. Tidak menetapkan tanggal/harga atau proyeksi penjualan sebelum ada dasar. |
+
+P0-01 dapat dikerjakan dalam sesi awal 30–60 menit sebagai panduan. Setelah cukup jelas untuk satu tindakan pertama, M1 bisa mulai; P0-02/03 dapat diselingi sesi coding/art dan ditinjau lagi saat ada hasil. Jangan menunggu seluruh cerita atau rencana pemasaran selesai untuk membuat prototipe.
+
+Jawaban yang disepakati masuk ke bagian relevan `WILDROOT_GAME_DESIGN.md`; keputusan penting dicatat di `DECISIONS.md`. Simpan ringkasan terbaru, bukan transkrip semua diskusi. Codex bertindak sebagai tutor/editor dan membantu riset sumber; pemilik menentukan cerita, mekanik, style, serta apa yang dipublikasikan. MiniMax diminta mengkritisi satu proposal konkret bila ada ketidakpastian, bukan dipanggil untuk setiap sesi.
+
+Contoh untuk dibahas, bukan plot yang diputuskan: seorang peramu membutuhkan berry, sementara warga lain ingin predator dikurangi. Pemain mencari cara memenuhi kebutuhan, melihat akibat pada hutan, lalu mendapat tanggapan yang mencerminkan keadaan itu. The Root dapat muncul sebagai petunjuk kecil. Uji satu tanggapan tertulis dahulu; tidak perlu sistem dialog bercabang besar.
+
+**Catatan masukan P0, 2026-10-07:** pemilik mengonfirmasi referensi [How Many Dudes?](https://store.steampowered.com/app/3934270/How_Many_Dudes_The_Roguelike_Autobattler/) dan menyukai gameplay Stoneshard yang brutal serta mekaniknya yang kompleks. Hal spesifik yang disukai dari How Many Dudes? dan arti “organic” belum diperjelas. Belum ada keputusan kadar tantangan atau playtest. Ketertarikan pribadi bukan bukti cara pemasaran referensi itu bekerja.
+
+Pertanyaan P0-01 berikutnya: seberapa menantang Wildroot ingin terasa? Desain awal menawarkan kegagalan yang dapat dipulihkan; ketertarikan pada Stoneshard belum otomatis mengubahnya menjadi game keras. Bandingkan kedalaman pilihan/persiapan dan konsekuensi yang terbaca dengan hukuman kehilangan progres. Stoneshard memakai pertarungan berbasis giliran, sementara Wildroot dirancang sebagai action RPG: prinsip keputusan dapat dipelajari tanpa menyalin sistemnya. Untuk How Many Dudes?, analisis satu kombinasi efek yang disukai pemilik, lalu coba terjemahkan prinsip interaksi itu ke ekologi; jangan menambah koleksi unit atau roguelike hanya karena referensinya demikian.
+
+Sumber belajar pemasaran untuk dibaca saat dibutuhkan: [Steam Coming Soon](https://partner.steamgames.com/doc/store/coming_soon), [Steam Playtest](https://partner.steamgames.com/doc/features/playtest), dan [wishlists](https://partner.steamgames.com/doc/marketing/wishlist). Ini penjelasan fitur platform, bukan bukti Wildroot akan berhasil menjual.
 
 ## Sprint pribadi
 
@@ -112,12 +158,13 @@ Konsep art pertama: siluet dan arah cahaya. Hasil yang dicari: pemilik mengenali
 - Perubahan direview, kendala tersisa disebutkan, dan langkah berikutnya dicatat.
 - Implementasi yang bekerja belum membuktikan desain menyenangkan. Jika membingungkan pemain, revisi petunjuk/aturan sebelum menambah fitur.
 - Untuk modul yang menguji desain, tinjau ID keresahan terkait: sebutkan bukti yang didapat atau tandai masih terbuka. Jangan menganggap masalah terjawab hanya karena fiturnya selesai dibuat.
+- Saat situasi cerita P0-02 masuk prototipe M3/M4, periksa kedua sisi: pemain memahami pilihan/akibat mekaniknya, serta mengerti alasan karakter dan tanggapannya. Buat satu kejadian cerita yang selesai, bukan banyak halaman lore sebagai pengganti pengujian.
 
 Catatan playtest cukup: situasi/tindakan → yang terlihat → dugaan → percobaan berikutnya. Jangan menulis hasil sebelum dimainkan. Keputusan penting beserta alasan masuk `DECISIONS.md`; pengaturan angka sementara tetap dekat kode.
 
 ## Handoff
 
-- **Berikutnya: M1-01.** Buka `scenes/main.tscn` dan `scripts/player.gd`; telusuri bagaimana W menghasilkan gerak, lalu susun penanda lingkungan agar gerak mudah dilihat.
+- **Berikutnya: B0-01 / P0-01 singkat.** Pemilik memberi lima jawaban kasar tentang tokoh, keinginan, masalah pembuka, tindakan pertama, dan perasaan pemain. Codex membantu menilai lingkup dan hubungan cerita–mekanik. Setelah pembuka cukup jelas, lanjut M1-01: telusuri gerakan pemain dan susun penanda lingkungan.
 - Pemilik menyusun penanda/petak di editor dan menjelaskan satu pengaruh speed. Codex memandu langkah kecil dan memeriksa hasil.
 - Pilihan awal yang sesuai minat art: kerjakan latihan batu di atas lalu pasang hasilnya sebagai penanda dunia. Gerakan pemain yang sudah ada tetap dipakai sebagai fondasi.
 - Belum ada pengamatan belajar atau playtest modul yang dicatat.

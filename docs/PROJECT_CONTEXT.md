@@ -11,6 +11,8 @@ The owner supplied `WILDROOT_GAME_DESIGN.md` on 2026-09-30: a compact top-down f
 
 The design is a working vision, not a claim that its systems exist. `DESIGN_REVIEW.md` records Codex's assessment and a fresh independent MiniMax M3 review. Following the owner's request for learning modules and a work agenda, `ROADMAP.md` holds the initial module sequence and Sprint 01 tasks. Mechanics and balance remain provisional; no ecological prototype has been played.
 
+On 2026-10-07 the owner requested preparation sessions covering game mechanics, story, and sales/marketing, with both gameplay and narrative important. Art style should develop from the owner's preferences. P0 in the roadmap prepares a small player-facing situation and product hypothesis; no protagonist, opening conflict, audience, or sales plan has been finalized.
+
 ## Current structure
 
 | Path | Role |
