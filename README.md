@@ -6,9 +6,11 @@ A small Godot 4 pixel-art game project. The current project targets Godot 4.6 an
 
 1. Import `project.godot` in Godot 4.6.
 2. Press **F5** to run the existing main scene.
-3. To inspect the new character and animated flowers, open `scenes/previews/wanderer_run_preview.tscn` and press **F6**.
+3. To explore the character testing map, open `scenes/previews/wanderer_run_preview.tscn` and press **F6**.
 
-In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to run. Walking uses 64 px/s; running uses 104 px/s. Releasing movement keeps the last facing direction.
+In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to run. Walking uses 64 px/s; running uses 104 px/s. Releasing movement keeps the last facing direction. Press **R** to return to the central clearing.
+
+The 56×36-tile testing map has grass, connected dirt paths, a loop, crossing lanes, trees and ruined stones. Trees/stones and the outside boundary have collision; the camera follows the character within the map. Tiles are saved in the preview scene and can be painted directly in Godot. [Map overview](docs/previews/wanderer-map.png).
 
 ## Wanderer assets
 
@@ -21,7 +23,7 @@ In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to
 
 See the [asset guide](assets/sprites/wanderer_64/README.md) for the palette, source files, rebuild commands and animation layout. The character artwork was created at the owner's request with image generation and native Aseprite edits; generation prompts and review notes are retained alongside the sources.
 
-The flower sample uses four animated 16×16 tiles from Ninja Adventure by Pixel-Boy and AAA, released under CC0. See [asset provenance](assets/tilesets/ninja_adventure/SOURCE.md). Other reference packs are not included.
+The terrain, prop atlas and four-frame animated flower sample use 16×16 tiles from Ninja Adventure by Pixel-Boy and AAA, released under CC0. See [asset provenance](assets/tilesets/ninja_adventure/SOURCE.md). Other reference packs are not included.
 
 ## Verify
 
@@ -31,9 +33,10 @@ Run from the repository root with the Godot executable on your PATH (or replace 
 godot --headless --editor --path . --import
 godot --headless --path . --script res://tools/validate_wanderer_64.gd
 godot --headless --path . --script res://tools/validate_wanderer_run.gd
+godot --headless --path . --script res://tools/validate_wanderer_map.gd
 ```
 
-The checks cover animation frame sizes/counts, side-walk mirroring and proportions, movement/facing transitions, run timing and the animated flower atlas. Visual previews remain the reference for judging the artwork in motion.
+The checks cover animation frame sizes/counts, side-walk mirroring and proportions, movement/facing transitions, run timing the animated flower atlas, map traversal, collisions, reset and camera limits. Visual previews remain the reference for judging the artwork in motion.
 
 ## Project layout
 
@@ -42,7 +45,7 @@ The checks cover animation frame sizes/counts, side-walk mirroring and proportio
 | `scenes/main.tscn`, `scripts/player.gd` | Existing playable prototype |
 | `scenes/previews/` | Separate character and tileset previews |
 | `assets/sprites/wanderer_64/` | Bases, walk/run exports, editable sources and previews |
-| `assets/tilesets/ninja_adventure/` | CC0 flower sample and attribution |
+| `assets/tilesets/ninja_adventure/` | CC0 terrain, props, flowers and attribution |
 | `resources/` | Godot SpriteFrames and TileSet resources |
 | `tools/validate_wanderer_*.gd` | Focused headless validation |
 

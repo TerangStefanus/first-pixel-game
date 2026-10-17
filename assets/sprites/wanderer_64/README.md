@@ -36,7 +36,7 @@ The current trouser silhouettes are thicker to match the chunky approved base. T
 
 Rebuild through `source/build-run.lua` or `source/publish-run-redraw.lua`. The original walk/base assets remain unchanged. Legacy eight-frame run PNGs 07/08 are excluded from version control; the strips, JSON and native six-frame sources define the current animation.
 
-In Godot hold Shift with WASD/arrows to run at 104 px/s; release Shift to walk at 64 px/s. Open `scenes/previews/wanderer_run_preview.tscn` and press F6. The sample CC0 flowers remain available in that preview.
+In Godot hold Shift with WASD/arrows to run at 104 px/s; release Shift to walk at 64 px/s. Open `scenes/previews/wanderer_run_preview.tscn` and press F6. The preview now contains a walkable grass/dirt map with loop and crossing paths, collision landmarks, animated flowers and bounded camera follow. Press R to reset to the central clearing.
 
 
 ## Rebuild with Aseprite
