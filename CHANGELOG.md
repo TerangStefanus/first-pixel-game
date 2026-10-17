@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-18
+
+### Fixed — reference-based vertical running
+
+- Replace the front/back geometric limb rig with six-pose silhouettes adapted from JIK-A-4's CC0 MetroCity character reference.
+- Fit alternating hand occlusion and folded/planted feet to Wanderer's short proportions; preserve its head, backpack and six-color palette.
+- Use 90ms per front/back pose in Aseprite, GIF exports, JSON and Godot; retain accepted side runs, walking, woodland, camera and UI.
+- Redraw sleeves/elbows/fists at native hero size with separate depth layers; add a rendered-palm regression check for the reported disappearing hands.
+- Include the official motion preview, inspectable pose masks and provenance; update run timing validation.
+
 ## 2026-10-17
 
 ### Woodland and character revamp

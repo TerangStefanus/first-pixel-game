@@ -30,7 +30,7 @@ The current trouser silhouettes are thicker to match the chunky approved base. T
 
 ## Running — redrawn revision
 
-`run_down`, `run_left`, `run_right` and `run_up` use six poses with timings 80/55/125/80/55/125 ms (520 ms per full cycle). The side poses are image-generated and retouched in Aseprite; the current front/back poses are native pixel drawings articulated from the approved bases. The light near hand moves behind-to-front across the right-facing cycle; the dark far arm follows the opposite path with a stable identity. Head pixels reuse the approved base; torso and legs are fitted to the approved short proportions.
+`run_down` and `run_up` use six reference-derived poses at 90 ms each (540 ms per cycle). The accepted lateral runs keep 80/55/125/80/55/125 ms (520 ms). Side poses are image-generated and retouched in Aseprite; current front/back limb silhouettes are adapted from JIK-A-4’s CC0 MetroCity preview, fitted to the approved Wanderer identity. The light near hand moves behind-to-front across the right-facing cycle; the dark far arm follows the opposite path with a stable identity. Head pixels reuse the approved base; torso and legs are fitted to the approved short proportions.
 
 `source/wanderer_64_run_redraw.aseprite` has all four tagged runs. `source/run_right_redraw.aseprite` exposes the separate dark arm and light-hand layers. `previews/run_arm_swing_check.gif` shows full character, light hand and dark arm independently at reduced speed. Exact prompts and visual review notes are in `source/run-redraw-prompts.json` and `source/run-redraw-notes.md`.
 
@@ -53,6 +53,5 @@ These scripts overwrite generated exports and native animation files. Save manua
 
 ## Native front/back run revision
 
-The current `run_down` and `run_up` replace the generated lower-body conversion with original native pixel poses from `source/front-run-poses.lua`. Their approved head and central chest/backpack pixels are retained with whole-pixel bounce; trousers, rigid boots and opposing arm swings are separately editable. Open `source/run_down_native.aseprite` or `source/run_up_native.aseprite` to inspect the layers. The existing six-frame timing and accepted side runs are retained. Older notes about generated front/back conversion describe the earlier revision.
-
+The current front/back runs replace the previous geometric limb rig with observed MetroCity poses. Open `source/run_down_reference.aseprite` or `source/run_up_reference.aseprite`: trousers/boots, rear sleeves, trunk, forward fists and approved head are separate layers. `source/front-run-arms.lua` contains hand-pixelled native-size arms; both 3×3 palms remain visible in every frame. Source GIF, pose masks, credit, license and derivation are in [reference/metrocity/SOURCE.md](reference/metrocity/SOURCE.md). No image generation was used for this revision. Head identity, six colors, standing/walking assets and accepted lateral runs are preserved.
 The woodland preview now uses a 1× camera, Z for optional 2× inspection, H to hide the live HUD, and R to reset. See `docs/ART_GUIDE.md` from the project root for the current scale and animation decisions.

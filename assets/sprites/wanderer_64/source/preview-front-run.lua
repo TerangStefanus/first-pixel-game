@@ -2,7 +2,7 @@ local root=assert(app.params.root)..'/'
 local colors={{37,35,35},{87,66,54},{104,115,75},{230,207,154},{215,155,91},{173,87,57}}
 local pc=app.pixelColor
 local s=Sprite(128,64,ColorMode.RGB)
-local timing={80,55,125,80,55,125}
+local timing={90,90,90,90,90,90}
 for f=1,6 do
  if f>1 then s:newEmptyFrame(f) end
  local im=Image(128,64,ColorMode.RGB);im:clear(pc.rgba(114,126,85,255))

@@ -256,7 +256,7 @@ animations = [{
 "speed": 8.0
 },
 {
-"frames": [{"duration": 1.0, "texture": SubResource("RunAtlas_down_0")}, {"duration": 0.6875, "texture": SubResource("RunAtlas_down_1")}, {"duration": 1.5625, "texture": SubResource("RunAtlas_down_2")}, {"duration": 1.0, "texture": SubResource("RunAtlas_down_3")}, {"duration": 0.6875, "texture": SubResource("RunAtlas_down_4")}, {"duration": 1.5625, "texture": SubResource("RunAtlas_down_5")}],
+"frames": [{"duration": 1.125, "texture": SubResource("RunAtlas_down_0")}, {"duration": 1.125, "texture": SubResource("RunAtlas_down_1")}, {"duration": 1.125, "texture": SubResource("RunAtlas_down_2")}, {"duration": 1.125, "texture": SubResource("RunAtlas_down_3")}, {"duration": 1.125, "texture": SubResource("RunAtlas_down_4")}, {"duration": 1.125, "texture": SubResource("RunAtlas_down_5")}],
 "loop": true,
 "name": &"run_down",
 "speed": 12.5
@@ -274,7 +274,7 @@ animations = [{
 "speed": 12.5
 },
 {
-"frames": [{"duration": 1.0, "texture": SubResource("RunAtlas_up_0")}, {"duration": 0.6875, "texture": SubResource("RunAtlas_up_1")}, {"duration": 1.5625, "texture": SubResource("RunAtlas_up_2")}, {"duration": 1.0, "texture": SubResource("RunAtlas_up_3")}, {"duration": 0.6875, "texture": SubResource("RunAtlas_up_4")}, {"duration": 1.5625, "texture": SubResource("RunAtlas_up_5")}],
+"frames": [{"duration": 1.125, "texture": SubResource("RunAtlas_up_0")}, {"duration": 1.125, "texture": SubResource("RunAtlas_up_1")}, {"duration": 1.125, "texture": SubResource("RunAtlas_up_2")}, {"duration": 1.125, "texture": SubResource("RunAtlas_up_3")}, {"duration": 1.125, "texture": SubResource("RunAtlas_up_4")}, {"duration": 1.125, "texture": SubResource("RunAtlas_up_5")}],
 "loop": true,
 "name": &"run_up",
 "speed": 12.5

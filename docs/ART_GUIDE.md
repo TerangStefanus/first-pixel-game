@@ -21,10 +21,11 @@ Integer scaling may leave borders when the window does not fit the design resolu
 
 ## Front/back running
 
-The current front/back runs are original native pixel poses built from the approved bases in `assets/sprites/wanderer_64/source/front-run-poses.lua`. The face/hair and central torso/backpack are reused without deformation, with whole-pixel vertical movement. Separate left/right trouser layers keep chunky legs and rigid 7×4 boots. The sleeve/hand layer follows an opposing, stepped swing; hands keep their skin color and dimensions.
+The current front/back runs adapt actual six-pose silhouettes from JIK-A-4's free CC0 [MetroCity character pack](https://jik-a-4.itch.io/metrocity-free-topdown-character-pack). The official preview, pose masks, license and exact derivation are retained in `assets/sprites/wanderer_64/reference/metrocity/SOURCE.md`. The previous geometric limb rig has been replaced for these directions.
 
-Six poses retain the 80/55/125/80/55/125 ms cycle. Contact, compression and lifted-foot poses alternate physical sides. Editable files are `source/run_down_native.aseprite` and `source/run_up_native.aseprite`; the main run master and exported strips contain the same revision. The older generated front/back concept PNGs remain historical references and are no longer build inputs for those directions.
+Alternating folded/planted feet are fitted to the approved short body. Sleeves, fists and bent elbows are explicitly painted at native hero size, following the reference pose order. Both 3×3 palms stay intact after compositing; front arms, rear arms, trunk and head have separate depth layers. Wanderer's own head/scarf/chest/backpack and six-color palette are retained. Whole-pixel head bounce follows the measured reference; boot cuffs/soles and hand outlines are finished in the hero's style. No image generation was used in this front/back revision.
 
+Front/back poses use 90ms each (540ms full cycle); accepted side runs keep 80/55/125ms repeated (520ms cycle). Editable layered files are `source/run_down_reference.aseprite` and `source/run_up_reference.aseprite`, with native aliases and the combined tagged master. Individual direction GIFs match native timing; the four-direction comparison GIF uses 90ms for every displayed pose.
 Check the animation both enlarged and at 1× gameplay scale. Automated consistency checks do not establish artistic quality: verify the stride, arm opposition, foot contact, silhouette and loop in motion.
 
 ## Rebuild
@@ -47,4 +48,4 @@ These commands regenerate assets and overwrite the preview map. Preserve manual 
 - [SLYNYRD: Top Down Character Sprites](https://www.slynyrd.com/blog/2019/10/21/pixelblog-22-top-down-character-sprites): tile-relative sprite sizing, depth, consistent bases and checking motion before detail.
 - [SLYNYRD: Intro to Animation](https://www.slynyrd.com/blog/2018/8/19/pixelblog-8-intro-to-animation): cycle and key-pose study.
 
-These references informed scale and motion principles. Their artwork was not copied or included in generation inputs.
+The SLYNYRD articles inform scale and motion principles; their artwork is not copied. MetroCity pose silhouettes are adapted under CC0 as documented above.

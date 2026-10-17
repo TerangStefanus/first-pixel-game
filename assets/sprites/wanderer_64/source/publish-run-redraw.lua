@@ -31,15 +31,16 @@ local dirs={'down','left','right','up'}
 local sheet=Image(384,256,ColorMode.INDEXED)
 local master=spr(64,64);local n=0;local tags={}
 for row,d in ipairs(dirs) do
+ local direction_timing=(d=='down' or d=='up') and front.timing or timing
  local s=spr(64,64);s.layers[1].name='Redrawn '..d..' run'
  local strip=Image(384,64,ColorMode.INDEXED)
  for f,im in ipairs(poses[d]) do
   if f>1 then s:newEmptyFrame(f) end
-  s:newCel(s.layers[1],f,im,Point(0,0));s.frames[f].duration=timing[f]/1000
+  s:newCel(s.layers[1],f,im,Point(0,0));s.frames[f].duration=direction_timing[f]/1000
   im:saveAs{filename=root..'frames/run_'..d..'_'..string.format('%02d',f)..'.png',palette=palette}
   strip:drawImage(im,Point((f-1)*64,0));sheet:drawImage(im,Point((f-1)*64,(row-1)*64))
   n=n+1;if n>1 then master:newEmptyFrame(n) end
-  master:newCel(master.layers[1],n,im,Point(0,0));master.frames[n].duration=timing[f]/1000
+  master:newCel(master.layers[1],n,im,Point(0,0));master.frames[n].duration=direction_timing[f]/1000
  end
  if d=='left' then s:saveAs(root..'source/run_'..d..'.aseprite') end
  strip:saveAs{filename=root..'animations/run_'..d..'.png',palette=palette}
@@ -56,7 +57,7 @@ local function rgb(im)
   if i>0 then local c=colors[i];out:drawPixel(x,y,pc.rgba(c[1],c[2],c[3],255)) end
  end end;return out
 end
-local bg=pc.rgba(210,204,187,255)
+local bg=pc.rgba(210,204,190,255)
 local preview=Sprite(256,64,ColorMode.RGB)
 local contact=Image(384,256,ColorMode.RGB);contact:clear(bg)
 for f=1,6 do
@@ -65,9 +66,11 @@ for f=1,6 do
  for row,d in ipairs(dirs) do
   im:drawImage(rgb(poses[d][f]),Point((row-1)*64,0));contact:drawImage(rgb(poses[d][f]),Point((f-1)*64,(row-1)*64))
  end
- preview:newCel(preview.layers[1],f,im,Point(0,0));preview.frames[f].duration=timing[f]/1000
+ preview:newCel(preview.layers[1],f,im,Point(0,0));preview.frames[f].duration=0.090
 end
 preview:resize(1024,256);preview:saveCopyAs(root..'previews/run_4directions.gif')
 preview:saveCopyAs(root..'previews/run_4directions_redraw.gif')
 contact:resize(1536,1024);contact:saveAs(root..'previews/run_contact_sheet.png')
-print('Published redrawn runs:6 frames per direction; timing80/55/125ms repeated; approved heads; short proportions; full arm cycle')
+print('Published runs: CC0-reference vertical poses at 90ms; accepted lateral timing retained; 6-color hero')
+
+dofile(root..'source/preview-front-run.lua')

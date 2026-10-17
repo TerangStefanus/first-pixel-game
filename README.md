@@ -17,13 +17,13 @@ The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger na
 - Transparent 64×64 frames with six opaque colors.
 - Four standing bases and four-direction walk/run animations.
 - Eight-frame side walks at 100 ms per frame; four-frame front/back walks at 125 ms per frame.
-- Six-frame runs at 80/55/125/80/55/125 ms, with opposing arm swings and consistent limb colors.
+- Six-frame runs: front/back at 90 ms per pose; side runs retain 80/55/125 ms repeated.
 - Editable Aseprite sources, exported PNG strips, JSON metadata and GIF previews.
 - A reusable `scenes/wanderer_64.tscn` and shared `resources/sprite_frames/wanderer_64.tres`.
 
 See the [asset guide](assets/sprites/wanderer_64/README.md) for the palette, source files, rebuild commands and animation layout. The character artwork was created at the owner's request with image generation and native Aseprite edits; generation prompts and review notes are retained alongside the sources.
 
-The current environment assets are in [Wildroot woodland](assets/tilesets/wildroot/README.md). The six-color character remains the palette/style reference; its front/back runs now use native Aseprite poses with a stable head, torso and backpack. See [the art guide and research](docs/ART_GUIDE.md).
+The current environment assets are in [Wildroot woodland](assets/tilesets/wildroot/README.md). The six-color character remains the palette/style reference; its front/back runs adapt observed poses from the free CC0 MetroCity pack, keeping Wanderer’s own head, torso and backpack. [Reference, license and derivation](assets/sprites/wanderer_64/reference/metrocity/SOURCE.md). See [the art guide and research](docs/ART_GUIDE.md).
 
 The earlier Ninja Adventure sample by Pixel-Boy and AAA is retained separately under CC0 with [provenance](assets/tilesets/ninja_adventure/SOURCE.md). It is no longer used by the woodland testing scene.
 
