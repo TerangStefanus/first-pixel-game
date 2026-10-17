@@ -12,6 +12,10 @@ In the Wanderer preview, use **WASD / arrow keys** to walk and hold **Shift** to
 
 The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger native tree sprites, quieter ground colors and props matched to the character. A 1× camera shows more world than the earlier 3× view. The live HUD displays movement state/speed and a minimap. [Gameplay view](docs/previews/wildroot-play.png) · [Map overview](docs/previews/wanderer-map.png).
 
+## World bible, novel and discussion references
+
+The user-provided [Wildroot reference index](docs/references/wildroot/README.md) includes the original world bible and Jalur A novel DOCX files, character/world concept images, and gameplay review screenshots. It also records the current feedback: the vertical run artwork remains rejected and needs further visual work on Windows, despite passing technical checks.
+
 ## Wanderer assets
 
 - Transparent 64×64 frames with six opaque colors.
