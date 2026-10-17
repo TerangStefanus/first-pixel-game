@@ -2,6 +2,12 @@
 
 ## 2026-10-18
 
+### Added — narrative and visual discussion sources
+
+- Include the original Wildroot world bible and Jalur A novel DOCX files, three user-supplied concept images, the illustration embedded in the novel, and seven gameplay review screenshots.
+- Add a reference index, source-file checksums and Windows continuation notes recording the rejected vertical run artwork.
+- Keep discussion images outside Godot asset import; no gameplay or animation changes in this update.
+
 ### Fixed — reference-based vertical running
 
 - Replace the front/back geometric limb rig with six-pose silhouettes adapted from JIK-A-4's CC0 MetroCity character reference.
