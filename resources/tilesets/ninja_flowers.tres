@@ -1,0 +1,18 @@
+[gd_resource type="TileSet" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/tilesets/ninja_adventure/flowers_animated.png" id="1"]
+
+[sub_resource type="TileSetAtlasSource" id="Flowers"]
+texture = ExtResource("1")
+texture_region_size = Vector2i(16, 16)
+0:0/animation_columns = 4
+0:0/animation_speed = 5.0
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(16, 16)
+sources/0 = SubResource("Flowers")
