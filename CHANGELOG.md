@@ -2,6 +2,13 @@
 
 ## 2026-10-18
 
+### Updated — integrated v2 design and Windows learning workflow
+
+- Integrate `codex/bootstrap-setup` through a fast-forward, retaining Mac assets and reference files.
+- Add the unmodified Bible v2 and complete A/B/C novel collection with reference-index/checksum updates.
+- Record route trade-offs, source continuity differences, current implementation gaps and one proposed owner-led interaction task.
+- Refresh project context and roadmap without implementing gameplay or changing character/map/UI art.
+
 ### Added — narrative and visual discussion sources
 
 - Include the original Wildroot world bible and Jalur A novel DOCX files, three user-supplied concept images, the illustration embedded in the novel, and seven gameplay review screenshots.

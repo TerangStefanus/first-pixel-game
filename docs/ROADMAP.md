@@ -1,14 +1,37 @@
 # Wildroot — agenda kerja dan belajar
 
-Diperbarui 2026-10-08. Pair Mode menjadi default. Rancangan besar ada di `WILDROOT_GAME_DESIGN.md`; alasan eksperimen ada di `DESIGN_REVIEW.md`. Dokumen ini menjadi satu tempat untuk target aktif, status tugas, dan langkah sesi berikutnya.
+Diperbarui 2026-10-18. Pair Mode menjadi default. Rancangan kerja terbaru ada di [Bible v2](references/wildroot/documents/Wildroot_Bible_v2.docx); GDD lama tetap di `WILDROOT_GAME_DESIGN.md`; alasan eksperimen ada di `DESIGN_REVIEW.md`. Dokumen ini menjadi satu tempat untuk target aktif, status tugas, dan langkah sesi berikutnya.
 
 ## Posisi sekarang
 
-Gerakan dan animasi dasar sudah ada; pemilik melaporkan WASD bekerja. Pemahaman kode dan collision belum dinyatakan selesai. Verifikasi Godot Windows dan onboarding MiniMax selesai dengan batas pemeriksaan di `PROJECT_CONTEXT.md`. Ekologi dan modul di bawah belum diimplementasikan atau diuji pemain.
+Main kini menggabungkan branch Windows `codex/bootstrap-setup` dengan seluruh commit Mac sampai referensi v1. Woodland preview memiliki karakter 64×64/enam warna, empat arah gerak, collision, kamera dan HUD. Pengguna menerima map/UI tetapi menolak lari atas/bawah terakhir; perbaikan art dihentikan di Mac untuk dilanjutkan di Windows. Jangan tandai character production-ready.
 
-Arah kerja awal: buktikan satu petak hutan sebelum memperluas isi Prototype 0.1. Aturan rinci serta angka balance tetap hipotesis yang boleh berubah.
+**F5** masih scene utama lama; **F6** pada `scenes/previews/wanderer_run_preview.tscn` memuat woodland. Crop/farm, interaksi mengambil resource, combat, pergantian hari, ekologi, misi/journal dan save belum diimplementasikan. Modul belajar belum otomatis selesai karena sebagian fondasi preview dibuat oleh Codex. Belum ada bukti playtest ecological loop atau pemahaman kode pemilik yang baru.
 
-Pemilik meminta sesi persiapan untuk belajar mekanik, cerita, dan strategi mengenalkan/menjual game, dengan gameplay serta story sama-sama penting. Style visual dikembangkan dari karya dan selera pemilik; referensi dianalisis berdasarkan prinsip, bukan dijadikan gaya wajib.
+Bible v2 memperjelas arah action-adventure + farming yang saling memasok progres. Novel A/B/C memberi contoh tiga kebijakan akhir, bukan tiga campaign wajib dan bukan keputusan canon penuh. [Review 18 Oktober](DESIGN_REVIEW.md#pembaruan-18-oktober-2026) menyimpan perbedaan dan pertanyaan; roadmap ini tetap satu-satunya papan tugas aktif.
+
+## Usulan sesi berikutnya setelah integrasi v2
+
+**B1-01 / M1-03 — Satu interaksi yang utuh. Status: usulan siap dibahas; belum dimulai.** Gunakan woodland sebagai tempat uji tanpa mengubah scene utama otomatis. Usulan objek pertama: sampel tanah dekat daun/slime untuk mengawali kandidat kejadian Dara–Mira; semak berry M1 lama tetap alternatif latihan bila pemilik memilihnya.
+
+- Hasil sesi yang diusulkan: dekat objek muncul petunjuk E; E mengambil satu sampel dan mengubah tampilannya; jauh tidak bisa; menekan berulang tidak menambah sampel. Belum perlu inventory atau quest framework lengkap.
+- Konsep belajar: `Area2D`, InputMap, signal, satu boolean/state dan fungsi interaksi. Sebelum mulai, telusuri input/controller yang benar dan pilih hasil serta bagian pemilik.
+- Pemilik: susun node/shape objek dan mencoba fungsi pengambilan berdasarkan petunjuk. Codex: jelaskan hubungan node-signal-state, review percobaan, bantu diagnosis dan pekerjaan berulang yang diminta.
+- Bukti selesai: pemilik mencoba dekat/jauh/berulang, objek memberi respons yang terbaca, dan dapat menjelaskan mengapa hasil tidak dobel. Tidak ada hasil yang dicatat sebelum dicoba.
+- Keputusan kecil sebelum coding: pilih tanah atau berry dan scene uji yang dipakai. Premis mentor/nasib Sela dan ending tidak perlu dikunci untuk interaksi ini.
+
+Setelah itu, urutan uji yang **direkomendasikan**, bukan sistem yang telah disetujui untuk dibangun sekaligus:
+
+| Urutan | Potongan pengalaman | Gate sebelum memperluas |
+| --- | --- | --- |
+| 1 | Interaksi resource pada woodland yang sudah ada | Dekat/jauh/sekali jelas dan dipahami pemilik |
+| 2 | Combat feel terpisah: satu serangan, satu dodge, satu target bertelegraph; subset M5 | Respons input dan risiko terasa terbaca tanpa cerita; pemilik mencoba dan menilai |
+| 3 | Farm feel: satu crop/plot dahulu, tanam–siram–tumbuh–panen; waktu manual M2 | Tanaman punya state yang konsisten dan tindakan memberi respons; kemudian perluas plot secukupnya |
+| 4 | Satu hubungan slime–residu/kompos–pertumbuhan; pengamatan/jurnal minimal M3 | Perubahan terlihat dan bisa dipakai untuk prediksi; ada jalur material/pemulihan alternatif |
+| 5 | Satukan satu kejadian Dara–Mira dengan biaya, reaksi dan reward farm; M4 | Awal → tindakan → akibat → tanggapan dimainkan, bukan hanya dialog atau daftar kontrak |
+| Nanti | Wolf/rabbit chain lebih lengkap, coop komunal, air/fish, guardian, akhir A/B/C | Masuk setelah gate relevan; angka/isi novel tetap contoh |
+
+Combat dan farming diuji singkat pada gilirannya sebelum plot/fitur diperluas. Perbaikan character art menjadi sesi milik pemilik di Windows; animasi placeholder yang tersedia dapat dipakai untuk mempelajari interaksi, tanpa menganggap cacat art sudah selesai. Jangan menyusun ulang map/UI yang sudah diterima sebagai efek samping.
 
 ## Bab cerita sebagai agenda pembangunan dan belajar
 
@@ -28,13 +51,12 @@ Peta berikut adalah **urutan kerja usulan, bukan plot atau daftar bab final game
 
 Untuk setiap bab aktif, isi satu kartu singkat di roadmap ini: tujuan cerita; tindakan pemain dan akibat; hasil minimum yang bisa dimainkan; kebutuhan kode/art; satu atau dua konsep belajar pada tugas aktif; bagian pemilik dan bantuan Codex; bukti selesai; pertanyaan desain yang masih terbuka. Tandai usulan, keputusan pemilik, implementasi, dan hasil playtest secara berbeda. Jangan menganggap bab selesai hanya karena semua kode berjalan.
 
-**Tugas aktif berikutnya: B0-01 / P0-01.** Pemilik menulis lima jawaban kasar: (1) siapa tokoh yang dimainkan, (2) apa yang ia inginkan, (3) masalah pertama yang ia hadapi, (4) tindakan pertama pemain, (5) perasaan yang ingin muncul. Jika belum tahu, tulis “belum tahu”; Codex menawarkan pilihan beserta konsekuensinya. Hasilnya adalah kerangka pembuka untuk ditinjau bersama, bukan naskah final. Setelah cukup jelas untuk satu tindakan, lanjut M1-01; lore, nama final, dan ending rinci tidak menahan latihan game pertama.
-
+**Tugas berikutnya mengacu ke kartu B1-01 di atas.** Jawaban pembuka yang sudah tersedia dalam draft terbaru: pendatang membangun hidup di lahan Sela sambil mencari mentor yang hilang; hubungan mentor adalah kandidat canon, bukan keputusan yang otomatis terkunci. B0/P0 dipakai untuk meninjau pilihan tersebut saat relevan, bukan meminta pemilik mengulang seluruh premis dari nol.
 Setiap awal sesi, Codex menyebut bab/tugas aktif, hasil sesi, konsep yang diperlukan, dan bagian yang dicoba pemilik. Setiap akhir sesi, review hasil nyata dan beri satu langkah berikutnya. Setelah satu kejadian bisa dimainkan, pemilik playtest sebelum cakupan diperluas. MiniMax dipanggil hanya untuk pertanyaan penting dengan bahan konkret; Orca, agen permanen, dan dashboard tambahan belum diperlukan.
 
 ## P0 — Persiapan pengalaman pemain dan arah produk
 
-Status: siap dibahas; belum ada keputusan protagonis, konflik pembuka, target pemain, atau strategi penjualan yang dikonfirmasi. The Root dan dunia ekologi pada desain tetap menjadi bahan awal. Sesi ini menghasilkan jawaban kerja pendek dan eksperimen, bukan naskah seluruh game atau janji penjualan.
+Status setelah v2: arah genre sudah disebut dipilih dalam sumber; premis MC–Sela dan contoh pembuka tersedia untuk dibahas. Detail canon, combat feel, audience validation dan strategi penjualan belum final. The Root dan dunia ekologi pada desain tetap menjadi bahan awal. Sesi ini menghasilkan jawaban kerja pendek dan eksperimen, bukan naskah seluruh game atau janji penjualan.
 
 | Sesi / tugas | Materi belajar dan pertanyaan | Kontribusi pemilik | Hasil kerja / bukti |
 | --- | --- | --- | --- |
@@ -121,9 +143,9 @@ Aturan sementara M1: satu semak berisi satu hasil panen; tombol interaksi bekerj
 
 Agenda awal: sesi 1 menargetkan M1-01/02; sesi 2 memulai M1-03; sesi 3 melanjutkan lalu mengevaluasi M1-04. Jika belum selesai, review tetap dilakukan dan sisanya direncanakan ulang. Kecilkan langkah untuk sesi pendek.
 
-### Mulai sekarang — langkah pertama M1-01
+### Latihan M1-01 terdahulu — opsional untuk memahami baseline lama
 
-Tidak ada blocker setup yang teridentifikasi untuk langkah ini. Sasaran satu langkah pendek: tambahkan satu penanda cokelat, jalankan game, dan lihat gerak karakter relatif terhadapnya.
+Ini latihan historis pada scene utama lama, bukan tugas aktif setelah woodland tersedia. Jika masih dibutuhkan untuk belajar, sasaran satu langkah pendek: tambahkan satu penanda cokelat, jalankan game, dan lihat gerak karakter relatif terhadapnya.
 
 - Buka `scenes/main.tscn`. Pemain saat ini mulai di (320, 180), dengan kamera mengikuti dan zoom 2. Latar polos membuat gerak relatif sulit dilihat.
 - Buat `ColorRect` sebagai anak `Main`, sejajar dengan `Player`, beri nama `RockMarker`, posisi (400, 180), ukuran (32, 32), dan warna cokelat. Ini placeholder visual yang dibuat pemilik; collision ditambahkan pada M1-02.
@@ -164,8 +186,8 @@ Catatan playtest cukup: situasi/tindakan → yang terlihat → dugaan → percob
 
 ## Handoff
 
-- **Berikutnya: B0-01 / P0-01 singkat.** Pemilik memberi lima jawaban kasar tentang tokoh, keinginan, masalah pembuka, tindakan pertama, dan perasaan pemain. Codex membantu menilai lingkup dan hubungan cerita–mekanik. Setelah pembuka cukup jelas, lanjut M1-01: telusuri gerakan pemain dan susun penanda lingkungan.
-- Pemilik menyusun penanda/petak di editor dan menjelaskan satu pengaruh speed. Codex memandu langkah kecil dan memeriksa hasil.
-- Pilihan awal yang sesuai minat art: kerjakan latihan batu di atas lalu pasang hasilnya sebagai penanda dunia. Gerakan pemain yang sudah ada tetap dipakai sebagai fondasi.
-- Belum ada pengamatan belajar atau playtest modul yang dicatat.
-- GitHub publication dan handoff Mac tetap terpisah dan belum diverifikasi; tidak menghalangi sesi belajar Windows.
+- Windows: ambil main terbaru dengan worktree bersih, buka preview F6 dan periksa bahwa source/dokumen sudah tersinkron. F5 tetap baseline lama; perubahan main scene belum dilakukan.
+- Berikutnya: sepakati kartu B1-01 di atas; pilih sampel tanah atau berry, hasil yang terlihat, dan fungsi yang dicoba pemilik. Mulai dari satu objek, bukan seluruh game/quest framework.
+- Lari vertikal tetap punya keluhan visual tangan/badan terpisah. Simpan sebagai pekerjaan art terpisah; tidak ada perbaikan art pada merge/review dokumen ini.
+- Baca Bible v2 untuk status desain; koleksi novel adalah contoh route. Prioritas masih membuktikan input/combat, farm dan satu akibat ekologi sebelum barn/fish/endings.
+- Belum ada playtest loop baru atau catatan penguasaan belajar; jangan menandai modul selesai berdasarkan dokumen ini.

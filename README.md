@@ -14,7 +14,7 @@ The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger na
 
 ## World bible, novel and discussion references
 
-The user-provided [Wildroot reference index](docs/references/wildroot/README.md) includes the original world bible and Jalur A novel DOCX files, character/world concept images, and gameplay review screenshots. It also records the current feedback: the vertical run artwork remains rejected and needs further visual work on Windows, despite passing technical checks.
+The user-provided [Wildroot reference index](docs/references/wildroot/README.md) includes Bible v2, the complete A/B/C novel collection, the earlier world bible and Jalur A novel, character/world concept images, and gameplay review screenshots. It also records the current feedback: the vertical run artwork remains rejected and needs further visual work on Windows, despite passing technical checks.
 
 ## Wanderer assets
 
@@ -72,7 +72,7 @@ Start with **observable result, learning concept, and the part I will implement 
 
 Use one prediction or explanation when useful, not an exam every commit. Ask for a concrete hint when stuck. Drawing sessions should stay mostly drawing.
 
-First session: play the baseline, trace W through input, movement, and animation, then choose one small code or scene change to implement yourself. An Inspector speed change is a warm-up. Setup has not implemented your learning task for you.
+For the next session, use the current handoff in [ROADMAP.md](docs/ROADMAP.md). Trace the relevant input through the actual controller before one small owner-authored code or scene change. An Inspector speed change is a warm-up. Setup has not implemented your learning task for you.
 
 For a bug: reproduction steps, expected result, actual result, relevant error/scene. For playtesting: one question, observations separate from hypotheses, and one next experiment. Passing headless checks does not prove gameplay feels good.
 
@@ -90,6 +90,6 @@ Do not edit one Aseprite source on both machines before syncing. Preserve both v
 
 ## Design and optional reviews
 
-The [working game design](docs/WILDROOT_GAME_DESIGN.md), [design review](docs/DESIGN_REVIEW.md), and [decisions](docs/DECISIONS.md) preserve design goals and learning decisions. The roadmap retains planning hypotheses; it is not evidence that the new Mac changes have been playtested on Windows.
+The latest Bible v2 and A/B/C narrative prototypes are indexed in [Wildroot references](docs/references/wildroot/README.md). The [earlier game design](docs/WILDROOT_GAME_DESIGN.md), [design review](docs/DESIGN_REVIEW.md), and [decisions](docs/DECISIONS.md) preserve their history and the current integration review. The roadmap retains planning hypotheses; it is not evidence that the new Mac changes have been playtested on Windows.
 
 Command Code / MiniMax M3 remains optional. Use it for a concrete design or engineering uncertainty; see [critic setup and limits](tools/command-code/README.md). Authentication and quotas remain per account and device.

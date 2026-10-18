@@ -1,3 +1,5 @@
+> Reference update — 2026-10-18: this is the earlier GDD, retained for history. The latest integrated design draft is [Bible v2](references/wildroot/documents/Wildroot_Bible_v2.docx); narrative examples are in the [A/B/C collection](references/wildroot/documents/Wildroot_Kumpulan_Novel_Jalur_A_B_C_v1.docx). Follow the source status markers and [integration review](DESIGN_REVIEW.md#pembaruan-18-oktober-2026). Livestock/fishing deferred from a mechanics prototype does not mean they were rejected from the long-term game. No new design statement here proves implementation or playtest success.
+
 # WILDROOT — GAME DESIGN & DEVELOPMENT SOURCE OF TRUTH
 
 > **Catatan rencana kerja, 2026-09-30:** Setelah review desain dan permintaan pemilik

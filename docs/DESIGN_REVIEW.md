@@ -96,3 +96,38 @@ Bagian yang tidak diadopsi:
 ## Langkah diskusi berikutnya
 
 Agenda kerja di `ROADMAP.md` memulai fondasi E1 lewat petak hutan dan interaksi berry. Pilih aturan intervensi ekologi ketika modul tersebut mendekat; tidak perlu memutuskan semua mekanik sekarang. Keputusan penting dicatat singkat di `DECISIONS.md`. Adanya agenda tidak berarti seluruh rekomendasi review sudah disetujui atau terbukti.
+
+## Pembaruan 18 Oktober 2026
+
+Status: pembacaan Bible v2 dan seluruh koleksi novel A/B/C, dibandingkan dengan source proyek dan branch `codex/bootstrap-setup`. Ini review dokumen dan inspeksi kode; bukan playtest baru atau pengesahan canon.
+
+### Pemahaman yang dibawa ke pekerjaan selanjutnya
+
+Bible v2 memilih keseimbangan **fungsi** action-adventure dan farming, bukan pembagian waktu 50/50. Farm memberi bekal, kompos dan eksperimen; adventure memberi material, akses dan bukti; ekologi mengubah peluang; warga merespons akibat. Pemain membangun rumah sambil menyelidiki Sela serta distribusi sumber daya Kota Akar. Papan kontrak hanya satu sumber kegiatan. Farm/barn/air tidak boleh menjadi pekerjaan wajib yang menghabiskan seluruh hari.
+
+State dunia persisten, memiliki sebab yang dapat ditelusuri dan jalur pemulihan. Menghabiskan slime, menunda quest, hubungan Mira rendah, pingsan, atau tidak memiliki coop tidak boleh memutus progres utama. Observasi, hipotesis dan temuan teruji perlu dibedakan. Pengetahuan menambah kemungkinan tindakan, bukan tombol untuk menghindari seluruh combat atau otomatis memperoleh ending terbaik.
+
+| Rute contoh | Kebijakan | Manfaat dan biaya yang harus terasa |
+| --- | --- | --- |
+| A — The Roots We Choose | Stewardship / penjagaan adaptif, kendali lokal lebih besar | Habitat dan pengelolaan lokal berkembang; pasokan serta koordinasi warga menuntut penyesuaian |
+| B — The Price of Plenty | Regulated Harness / penggunaan terbatas dengan pengawasan | Produksi lebih terprediksi; biaya perawatan, batas air, akuntabilitas dan risiko kerugian hilir tetap ada |
+| C — The Land That Let Go | Release / pelepasan bertahap setelah menyiapkan pengganti | Ketergantungan pusat berkurang; fasilitas/pekerjaan berubah dan pemulihan lintas musim tidak seragam |
+
+Ini tiga kemungkinan dari satu dunia, bukan urutan tiga ending dalam satu playthrough. **Genre pilihan B berbeda dari ending B.** Sela/Orin sama-sama dapat menolong dan salah; guardian tidak otomatis musuh jahat atau makhluk yang bisa ditenangkan lewat dialog. Post-game perlu mempertahankan akibat yang relevan terhadap kegiatan pemain, tetapi tidak memerlukan tiga game/tileset lengkap.
+
+### Perbedaan naskah yang belum boleh dikunci sendiri
+
+1. **Closure Sela.** A masih mempertahankan prolog v1 dan nasib Sela tidak diketahui. B/C memakai hubungan mentor, menemukan Sela hidup dan meminta pertanggungjawaban. Koleksi menyatakan perbedaan ini sengaja dipertahankan; Bible v2 menginginkan penutup utama memadai. Perlu keputusan penulis/revisi A sebelum produksi dialog final, bukan penggabungan otomatis semua adegan.
+2. **Kerugian yang dipaksakan.** B kehilangan habitat pemijahan dan C kehilangan ceruk/penggilingan lama dalam contoh playthrough. Lampiran membuka apakah persiapan dapat mengurangi akibatnya. Jangan hardcode tragedi identik bagi semua pemain setelah menjanjikan observasi dan pilihan bermakna; tentukan precondition, petunjuk dan variasi sebelum membuat quest tersebut.
+3. **Kontrak versus kegiatan mandiri.** A lebih banyak berurutan melalui kontrak. B/C memperlihatkan farm, coop, kebutuhan darurat dan eksperimen yang juga memicu tujuan. Prototipe perlu satu tindakan yang muncul dari lingkungan, sehingga identitas game tidak direduksi menjadi quest board.
+4. **Isi cerita bukan daftar fitur wajib.** Coop, mamalia, minapadi, ikan, semua biome dan tiga finale muncul di novel untuk menguji pengalaman. Sistem tersebut mengikuti gate produksi di Bible bagian 23, bukan langsung masuk sprint berikutnya.
+5. **Canon dan angka.** MC–Sela, Kota Akar, Sela hidup, kalender, jumlah ending, timing riset, biaya ekonomi dan banyak spesies masih berstatus rekomendasi/contoh/open dalam Bible. Simpan status itu walau prosa novel menyajikannya sebagai peristiwa yang terjadi.
+6. **Misteri dan folklore.** The Root tidak otomatis sadar atau sumber seluruh legenda. Bukti historis bisa saling melengkapi tanpa semuanya bohong; main crisis perlu closure, sedangkan asal metafisik dan legenda luar dapat tetap opsional.
+
+### Jarak terhadap implementasi sekarang
+
+Fondasi yang tersedia ialah gerak/jalan/lari empat arah, woodland preview, collision, kamera dan HUD status. Scene utama F5 masih prototipe lama. Belum ada sistem attack/dodge, plot/crop, resource interaction, hari/ekologi, quest/journal, inventory/crafting atau save. Art lari atas/bawah terakhir masih ditolak pengguna. Karena itu, daftar fitur dalam Bible tidak boleh ditandai telah dibangun, dan berpindah ke cabang Windows tidak otomatis membuat preview menjadi game utama.
+
+Rekomendasi: gunakan hasil visual yang ada sebagai arena uji, lalu bangun satu tindakan kecil bersama pemilik. Setelah interaksi dasar, buktikan combat dan farm secara terpisah sebelum menghubungkan satu akibat ekologi dan satu kejadian Dara–Mira. Target ini tetap usulan; tugas aktif dan kontribusi pemilik dicatat hanya di [ROADMAP.md](ROADMAP.md). Tidak ada implementasi gameplay atau perbaikan art dalam pembaruan dokumen ini.
+
+Sumber: [Bible v2](references/wildroot/documents/Wildroot_Bible_v2.docx), bagian 0, 6, 9, 12–23, 25–29; [koleksi A/B/C](references/wildroot/documents/Wildroot_Kumpulan_Novel_Jalur_A_B_C_v1.docx), panduan, seluruh rute/epilog dan lampirannya; `project.godot`, kedua controller, scene preview dan daftar source saat merge.
