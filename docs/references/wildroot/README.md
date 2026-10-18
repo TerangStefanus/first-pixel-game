@@ -10,6 +10,10 @@ Dokumen dan gambar yang disertakan pemilik proyek dalam pembahasan 17–18 Oktob
 
 Bible v2 dipakai untuk membandingkan rancangan sistem terbaru. GDD dan v1 tetap menjadi riwayat; perbedaan plot tidak otomatis diselesaikan dengan memilih satu novel sebagai canon final. **Pilihan B genre** berarti action-adventure + farming seimbang secara fungsi; itu berbeda dari **ending B**, Regulated Harness.
 
+## Usulan revisi untuk ditinjau
+
+[Paket delapan revisi](../../proposals/wildroot-revision-8/README.md) berisi dokumen Word 16 halaman, petikan revisi A/B/C, tabel kebijakan dan konsekuensi, peta petunjuk, serta prototipe keputusan offline. R1–R8 dapat di-ACC, ditolak, atau diubah secara terpisah. Hasil aturan otomatis tersedia; playtest manusia belum dilakukan. Proposal ini tidak menggantikan Bible v2 atau novel sumber.
+
 ## Dokumen sebelumnya
 
 | Dokumen | Status / kegunaan |

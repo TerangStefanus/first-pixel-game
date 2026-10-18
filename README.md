@@ -16,6 +16,8 @@ The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger na
 
 The user-provided [Wildroot reference index](docs/references/wildroot/README.md) includes Bible v2, the complete A/B/C novel collection, the earlier world bible and Jalur A novel, character/world concept images, and gameplay review screenshots. It also records the current feedback: the vertical run artwork remains rejected and needs further visual work on Windows, despite passing technical checks.
 
+The [eight-point revision proposal](docs/proposals/wildroot-revision-8/README.md) includes the reviewable Word document, revised scene excerpts, policy/choice tables, two MiniMax M3 discussion rounds, and an offline slime–compost–crop decision prototype. All proposals await owner approval. On Windows, open `docs/proposals/wildroot-revision-8/prototype/index.html` directly in a browser; no installation is needed.
+
 ## Wanderer assets
 
 - Transparent 64×64 frames with six opaque colors.

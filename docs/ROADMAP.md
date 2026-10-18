@@ -186,6 +186,8 @@ Catatan playtest cukup: situasi/tindakan → yang terlihat → dugaan → percob
 
 ## Handoff
 
+- Review lintas perangkat: [paket delapan revisi Wildroot](proposals/wildroot-revision-8/README.md) siap untuk ACC/tolak per R1–R8. Di Windows buka dokumen Word di folder itu dan `prototype/index.html` lewat browser. Prototipe keputusan terpisah ini belum mengintegrasikan farm/combat ke Godot dan tidak menyelesaikan modul belajar pemilik. Kumpulkan keputusan serta satu pengamatan percobaan sebelum memindahkan aturan ke game utama.
+
 - Windows: ambil main terbaru dengan worktree bersih, buka preview F6 dan periksa bahwa source/dokumen sudah tersinkron. F5 tetap baseline lama; perubahan main scene belum dilakukan.
 - Berikutnya: sepakati kartu B1-01 di atas; pilih sampel tanah atau berry, hasil yang terlihat, dan fungsi yang dicoba pemilik. Mulai dari satu objek, bukan seluruh game/quest framework.
 - Lari vertikal tetap punya keluhan visual tangan/badan terpisah. Simpan sebagai pekerjaan art terpisah; tidak ada perbaikan art pada merge/review dokumen ini.

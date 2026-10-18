@@ -1,0 +1,123 @@
+Saya akan langsung memberikan kritik independen terhadap draf Codex, dengan memperhatikan penolakan eksplisit Codex atas sebagian usul saya, hasil perundingan bersama, serta enam butir spesifik yang Anda minta saya periksa. Tidak ada alat yang dijalankan sesuai permintaan. Saya tidak mengulang usul yang sudah diterima Codex kecuali untuk mengevaluasinya dalam konteks paket.
+
+# Penilaian terhadap enam butir yang diminta
+
+## (a) Apakah solusi Sela cukup masuk akal tanpa death timer?
+
+Codex menghapus semua timer mati tersembunyi untuk Sela. Ini benar dan saya setujui. "Tidak ada timer kematian tersembunyi" adalah prinsip mekanik yang sehat untuk proyek leisure. Sela lemah karena luka dan isolasi, bukan karena hitungan hari — ini juga benar. Namun ada dua kelemahan dalam solusi Codex yang harus Anda waspadai sebelum ACC R1:
+
+1. **"Tujuh minggu" tetap dimuat sebagai angka keras** ("Jumlah hari tidak menentukan apakah ia hidup. Angka tujuh minggu atau hampir dua bulan menjadi perkiraan Nuri saat kedatangan"). Angka ini bisa menjadi death timer psikologis justru karena pemain akan menghitung mundur dari "tujuh minggu" tanpa disadari. Mitigasi yang lebih jujur: Nuri menyebut "lebih dari satu bulan" tanpa bilangan tetap, atau angka tujuh minggu dicatat sebagai "catatan terakhir warga" yang bisa salah. Pemain yang tahu angka pasti akan merasa ada tenggang; pemain yang tidak akan merasa tidak pasti.
+
+2. **Usul "tidak ada timer kematian tersembunyi" berbenturan dengan kalimat berikutnya**: "Ancaman lonjakan tekanan final baru dimulai ketika rombongan membuka sambungan pusat." Artinya ada timer non-kematian yang tersembunyi untuk pemain — pemicu krisis distal yang pemain tidak tahu kapan datangnya. Ini bukan death timer, tapi tetap hidden trigger yang bisa terasa sebagai kekejaman desain. Pemain yang menjelajah pelan mungkin membuka sambungan tanpa sadar ujiannya sudah berubah. Saya usulkan: pemicu final diumumkan secara eksplisit dalam jurnal setelah pemain melewati ≥2 persiapan (misalnya "Catatan: sambungan pusat hanya dapat diuji setelah dua dari tiga pengaman diperiksa"). Dengan begitu, bahaya tidak tersembunyi.
+
+Verdict: R1 ACC DENGAN CATATAN — hapus angka keras tujuh minggu dari dialog Nuri atau buat tidak pasti; ancang ancang pemicu akhir harus ditampilkan sebelum ujian.
+
+## (b) Apakah A versus C punya pembeda operasional?
+
+Tabel Codex di §R2 saya nilai lebih baik daripada lima variabel slider yang saya usulkan sebelumnya. Codex menulis dalam bahasa fasilitas ("Pusat", "Fasilitas utama", "Batas keras") bukan variabel dunia abstrak, sehingga pemain tidak melihat "koefisien -20%" yang kering. Pembeda utama:
+
+- A = "simpul lokal kuno tetap dipakai secara terpisah", regulator pusat mati, setiap desa mengelola simpulnya sendiri.
+- C = "distribusi pusat dinonaktifkan dan sambungan yang tidak aman dilepas", fasilitas pengganti dibangun dari awal.
+
+Ini jelas dan dapat divisualisasikan pemain. Namun **B di tabel masih terasa sebagai jalan tengah yang belum punya identitas**. Codex menulis B sebagai "batas transfer dan katup penghentian independen" — ini adalah B=A dengan rem ditambah. Jika Anda tanya pemain "apa bedanya menyalakan regulator dengan rem versus mematikan regulator?", jawabannya adalah "derajat", bukan keputusan moral yang berbeda. Pembeda A dan C kuat; pembeda B lemah.
+
+Saran konkret: B harus punya satu keputusan irreversibel yang A dan C hindari. Misalnya, B mengizinkan satu transference lintas biome dalam siklus tertentu yang wajib dijadwalkan manual oleh MC (bukan otomatis), sehingga identitas B adalah "menjadwalkan satu pengecualian" — bukan "regulator dengan rem". Jika Codex keberatan, B tetap jalan tengah yang sah secara mekanik, namun pemain perlu penjelasan yang lebih jelas dari "batas transfer". Saya condong ACC R2 untuk A dan C, TUNDA untuk B sampai pembeda operasionalnya ditulis ulang.
+
+## (c) Apakah Hunt/Study/Relocate punya hasil berbeda atau ada strategi dominan?
+
+Tabel Codex di §R3 lebih hati-hati daripada usul Hunt saya sebelumnya:
+
+- Hunt: reagen cepat untuk ekspedisi, tapi populasi turun.
+- Study: pengetahuan yang dapat dipakai berulang, tapi tidak ada reagen langsung.
+- Relocate: jalur aman dengan memeriksa habitat tujuan.
+
+Hasilnya berbeda secara material (reagen / pengetahuan / jalur), bukan sekadar urutan tombol yang sama. Ini benar. Saya tidak melihat strategi dominan dalam teks, karena masing-masing menjawab kebutuhan kartu yang berbeda ("butuh reagen ekspedisi", "ingin memahami kompos", "ingin mempertahankan pengurai"). Namun saya khawatir tentang tiga hal:
+
+1. **Hadiah kontrak satu kali** adalah keputusan yang tepat. Codex menerima ini. Tidak ada lagi double-dipping dari tindakan berurutan. ACC.
+
+2. **Rak uji Study "menahan dua pergantian hari"**: pemain yang ingin efisiensi akan langsung memilih Hunt. Study hanya masuk akal jika pemain membaca kebutuhan kartu dan mendapati ia butuh "pengetahuan yang dapat dipakai berulang". Pastikan kartu kebutuhan diuji pertama agar pemain tidak salah pilih.
+
+3. **"Migrasi mengembalikan populasi pada hari keempat"** adalah angka yang perlu ditinjau. Jika migrasi naik ke empat hari, pemain akan merasakan empat hari tanpa pengurai — itu bisa terasa seperti masa kosong tanpa keputusan. Saran: tampilkan indikator ("pengurai mulai kembali") di hari kedua, bukan di hari keempat. Keempat adalah angka apabila verifikasi.
+
+Verdict: R3 ACC DENGAN CATATAN — pastikan kartu kebutuhan muncul sebelum tombol pendekatan dan munculkan indikator migrasi lebih awal dari hari keempat.
+
+## (d) Apakah kontrak hanya dibayar satu kali meski tindakan berurutan?
+
+Codex menerima prinsip ini secara eksplisit: "Kontrak membayar satu kali untuk penyelesaian kebutuhan Dara. Meneluri, berburu, dan memindah boleh menjadi tindakan berurutan, tetapi tidak menggandakan hadiah kontrak. Jurnal mencatat metode yang benar benar dipakai. Hadiah penyelesaian terpisah dari material yang didapat selama tindakan." Ini ACC penuh.
+
+Namun perhatikan kalimat berikutnya: "Tidak ada kegagalan cerita karena tidak mengambil kontrak ini." Ini konsisten dengan R7 (clue tidak bergantung satu item) dan dengan R4 (tidak ada soft-lock). Selesai. Tidak ada koreksi pada butir (d).
+
+## (e) Apakah adegan baru masih banyak petuah?
+
+Di sinilah saya menilai Codex masih lemah. Codex menulis enam baris pegangan tokoh pada §R6, dengan kolom "Hindari pola berulang" yang bagus. Namun dua adegan pengganti mengandung kalimat yang masih condong petuah:
+
+**Adegan B Bab V:**
+- "Hitung yang bisa kita lihat dulu" — bukan petuah, ini instruksi kerja. Bagus.
+- "Ia melihat bekas batas air" — narasi tanpa pesan moral. Bagus.
+- Secara keseluruhan adegan ini akurat secara kerja dan tidak menggurui. ACC.
+
+**Adegan C Bab X:**
+- "Dengan laju ini, antreannya sampai dua hari." — kerja.
+- "Gudangnya tetap bocor." / "Rodanya juga tetap kecil." — dua tokoh mengakui masalah tanpa pesan moral. Bagus.
+- "Kamu membuka daftar bahan yang dibawa dari farm dan mulai menghitung bagian yang masih bisa disumbangkan." — MC bertindak, tidak berkhotbah.
+
+Adegan R5 (biaya stewardship) lebih bermasalah. Kalimat "Sela menulis di jurnalmu, 'Sebuah keputusan stewardship bukan apa yang kau dapatkan. Itu apa yang kau relakan untuk tidak diambil.'" adalah petuah. Dalam paket ini, Sela juga masih tampil sebagai mentor yang memberi kalimat kunci di akhir. Saya sebelumnya mengusulkan bahwa tokoh harus boleh salah dan menjelaskan kesalahannya di adegan lain — Codex menerima ini, tetapi dalam adegan baru Sela tetap muncul dengan suara bijaknya.
+
+Koreksi konkret: ganti kalimat jurnal Sela di R5 dengan satu komentar kerja: "Catatan: aku tidak menulis tanggal di sini. besok." Atau hapus Sela sama sekali dari adegan biaya stewardship dan ganti dengan komentar Banu saja. Yang penting biaya stewardship terasa seperti kehilangan yang nyata, bukan wejangan.
+
+Verdict: R5 ACC DENGAN CATATAN — ganti atau hapus kalimat jurnal Sela; hindari formula "keputusan bukan tentang apa yang kau dapatkan".
+
+## (f) Apakah delapan tugas berisi hasil atau hanya checklist?
+
+Berikut inventarisasi singkat:
+
+- R1 Fondasi MC–Sela → berisi hasil (sikap, waktu, kondisi Sela). ACC DENGAN CATATAN (poin a).
+- R2 Tiga kebijakan → berisi hasil (pembeda fasilitas, wewenang, manfaat). ACC DENGAN CATATAN untuk B.
+- R3 Slime → berisi hasil (tabel biaya-manfaat, aturan). ACC DENGAN CATATAN (poin c).
+- R4 Konsekuensi → berisi hasil (tabel varian kerugian, urutan perbaikan). ACC.
+- R5 Adegan stewardship → berisi hasil (satu petikan diganti). ACC DENGAN CATATAN (poin e).
+- R6 Suara tokoh → berisi hasil (pegangan dialog, dua adegan). ACC untuk §R6 penuh.
+- R7 Petunjuk → berisi hasil (delapan clue inti, jalur bukti). ACC.
+- R8 Prototipe → berisi hasil (protokol uji, kriteria, form observasi). ACC.
+
+R7 adalah yang paling berisiko menjadi checklist kosong karena hanya mendaftar clue tanpa menjelaskan bagaimana pemain menjumpainya. Codex menulis "NPC tidak selalu menunggu MC. Tara menandai pencarian luar, Ayu mencatat debit, Banu menguji pengunci. Catatan mereka membantu pemain yang melewatkan petunjuk tanpa menghapus kesempatan pemain menemukan hubungan sendiri." Ini baik — bukan checklist, melainkan daftar kondisi dunia. ACC.
+
+R8 bagus karena memisahkan prototipe keputusan (uji aturan) dari prototipe Godot (uji feel). Codex menerima kritik saya bahwa "prototipe keputusan tidak mengklaim combat feel atau farm feel Godot". ACC.
+
+# Koreksi terpenting yang dapat diterapkan sekarang
+
+Berikut lima koreksi terurut prioritas, hanya yang dapat dijalankan sekarang:
+
+1. **Hapus angka "tujuh minggu" dari dialog Nuri atau ganti dengan frasa tidak pasti** ("lebih dari sebulan", atau "catatan terakhir warga berbeda-beda"). Angka tetap menjadi death timer psikologis meski tidak mekanisme.
+
+2. **Tulis ulang identitas B dalam §R2**: tambahkan satu tindakan irreversibel yang hanya B yang lakukan (misalnya satu transference lintas biome terjadwal manual oleh MC), bukan sekadar "batas transfer".
+
+3. **Hapus atau ganti kalimat jurnal Sela di adegan stewardship R5** ("Sebuah keputusan stewardship bukan apa yang kau dapatkan...") dengan komentar kerja atau hapus Sela dari adegan biaya.
+
+4. **Tampilkan indikator migrasi slime lebih awal dari hari keempat**: munculkan "pengurai mulai kembali" di hari kedua, tanpa membatalkan batas akhir hari keempat.
+
+5. **Umumkan pemicu ujian akhir dalam jurnal sebelum ujian**: bahaya distal ("sambungan pusat hanya setelah dua dari tiga pengaman") tidak boleh hidden trigger.
+
+# Sikap saya pada penolakan Codex
+
+Saya membaca enam penolakan Codex dengan seksama. Berikut sikap per butir:
+
+1. **Pajak wajib 30–50 persen panen (R2 kontribusi farm)** — Codex TOLAK. Saya setuju. Lima variabel slider yang saya usulkan sebelumnya memang terasa seperti chores harian. Pembeda stewardship Codex lebih operasional (alat vs hasil), bukan pajak wajib. ACC hasil negosiasi.
+
+2. **Vendor recovery setelah tiga kontrak** — Codex TOLAK. Saya setuju. Softlock fallback vendor adalah jaring pengaman yang menambah ketergantungan pada ekosistem Banu tanpa menambah pilihan moral. ACC penolakan.
+
+3. **Probabilitas ikan 40/65 sebagai syarat pilihan adil** — Codex TOLAK. Codex menggantinya dengan dua probabilitas tanpa angka persentase, melainkan dengan rambu "survei cadangan air" dan "relokasi tepat". Ini sebenarnya lebih baik daripada persentase keras saya, karena menghilangkan angka main lottery. Namun saya tetap ingin dua lencana UI ("Survei hilir terpasang", "Relokasi habitat uji") ditampilkan sebelum ujian, agar transparan. ACC penolakan sebagian, dengan syarat lencana UI.
+
+4. **Gate clue berdiri tiga detik atau dua kunjungan NPC** — Codex TOLAK. Saya setuju. Tiga detik + dua NPC adalah gate sintetis. Codex menggantinya dengan prasyarat yang lebih longgar (mis. "berdiri di dekat batu berukir" diganti dengan "mengamati tanda-tanda yang relevan"). Ini lebih jujur. ACC penolakan.
+
+5. **Respawn slime harian** — Codex TOLAK. Saya setuju. Daily respawn adalah chores yang tidak mengajarkan apa-apa. Codex menggantinya dengan migrasi empat hari yang lebih bermakna (perburuan punya konsekuensi lokal yang nyata). ACC penolakan.
+
+6. **Klaim dua tester bukan bukti fun** — Codex TOLAK. Saya sepenuhnya setuju dan bahkan memperkuat: klaim valid hanya jika aturan mesin lulus otomatis dan pemilik mencoba sendiri. Dua tester tidak otomatis memvalidasi rasa. ACC penolakan.
+
+7. **Rute C tidak harus membunuh ikan agar bermoral** — Codex TOLAK klaim wajib saya. Saya setuju. Codex menyediakan tiga varian (kerugian berat, terbatas, tanpa kematian baru) sehingga C tidak otomatis tragis. Saya bahkan pikir ini adalah peningkatan dari usul saya. ACC penolakan.
+
+8. **Prototipe keputusan tidak mengklaim combat/farm feel Godot** — Codex TOLAK. Saya setuju. Pemisahan prototipe keputusan dari prototipe feel adalah hal mendasar. ACC.
+
+Satu hal yang masih berbeda pendapat dengan Codex: **rambu angka "tujuh minggu" dan ambang "hari keempat migrasi" adalah angka main, bukan fiksi**. Saya usulkan dua koreksi konkret di atas. Selain itu, paket ini utuh, berisi hasil nyata di setiap ID, dan tidak menambah chores untuk proyek delapan tugas.
+
+Kesimpulan: ACC paket dengan tiga catatan (R1, R5, indikator migrasi R3), TUNDA B dalam R2 sampai pembeda operasional ditulis ulang. Angka bukan canon sampai prototipe R8 diuji pemilik.

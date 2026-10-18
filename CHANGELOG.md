@@ -2,6 +2,12 @@
 
 ## 2026-10-18
 
+### Added — Wildroot revision proposal for owner review
+
+- Add a 16-page proposal covering eight narrative/design priorities, five revised scene excerpts, route policies, consequences, and clue mapping; all await owner approval.
+- Include a standalone offline slime–compost–crop decision prototype with source, 11 model checks, an interface fixture check, and two MiniMax M3 discussion rounds.
+- Add Windows review instructions and retain the distinction between technical verification, pending human playtests, and the unchanged main Godot implementation.
+
 ### Added — native macOS critic workflow
 
 - Add a native Command Code launcher matching the existing Windows review policy, with bounded subprocesses, exact model checks and failure/interrupt propagation.

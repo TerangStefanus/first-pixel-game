@@ -1,0 +1,2 @@
+PASS delivered HTML bundle starts, buttons update counters and evidence, full harvest works, export creates a local Blob, reset clears state, and relocation is wired.
+{"interfaceFixture":"passed","visualBrowserCheck":false,"humanPlaytest":false}

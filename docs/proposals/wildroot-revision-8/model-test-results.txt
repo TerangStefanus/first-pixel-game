@@ -1,0 +1,12 @@
+PASS invalid action is atomic even when an earlier check succeeds
+PASS all three first approaches can complete contract and base harvest without recipe
+PASS no-study path can learn compost recipe and knowledge is not route locked
+PASS contract reward is paid once across sequential methods and later days
+PASS research occupies bench and cannot be read or paid prematurely
+PASS relocation needs verified destination and one coin then residue collection is once
+PASS blocked canal or missed water delays growth without killing crop
+PASS compost is one bonus per crop and waits for correct growth conditions
+PASS population recovers with time and thirty idle days never reset existing progress
+PASS migration warning appears before recovery without resetting the population daily
+PASS effort and material bounds hold under deterministic random action sequences
+{"tests":11,"passed":11,"humanPlaytest":false}
