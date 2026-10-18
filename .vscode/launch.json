@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Wildroot: peta Wanderer (aset dan animasi)",
+      "type": "godot",
+      "request": "launch",
+      "project": "${workspaceFolder}",
+      "scene": "res://scenes/previews/wanderer_run_preview.tscn",
+      "address": "127.0.0.1",
+      "port": 6007
+    },
+    {
+      "name": "Wildroot: game utama",
+      "type": "godot",
+      "request": "launch",
+      "project": "${workspaceFolder}",
+      "scene": "main",
+      "address": "127.0.0.1",
+      "port": 6007
+    }
+  ]
+}

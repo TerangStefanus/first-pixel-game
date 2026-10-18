@@ -16,6 +16,16 @@ The testing scene uses a new Wildroot woodland set: 32px ground tiles, larger na
 
 The user-provided [Wildroot reference index](docs/references/wildroot/README.md) includes the original world bible and Jalur A novel DOCX files, character/world concept images, and gameplay review screenshots. It also records the current feedback: the vertical run artwork remains rejected and needs further visual work on Windows, despite passing technical checks.
 
+## Work from VS Code
+
+Open this repository folder in VS Code and use the recommended `geequlim.godot-tools` extension. Select the installed Godot 4 executable in the extension settings on each machine. `.vscode/settings.json` is ignored because it contains machine-local paths; shared Run configurations do not contain Windows paths.
+
+In Run and Debug, choose **Wildroot: peta Wanderer (aset dan animasi)** to inspect the current character and woodland, or **Wildroot: game utama** for the original main scene. Press **F5** to start debugging and **Shift+F5** to stop. This runs the project directly; exporting a game build is unnecessary for normal iteration.
+
+Keep the project open in Godot for the editor language server. The Windows setup uses `127.0.0.1:6008` for LSP; the extension and Godot editor must use the same port. The VS Code debug profiles use port `6007`, which is a separate service.
+
+For live iteration, launch through Godot and enable **Debug > Synchronize Script Changes** and **Synchronize Scene Changes**. External script reload and importing resources while unfocused are enabled in the local Windows editor settings. Use the Remote scene tree to inspect temporary runtime values. Live edits are limited: initialization, structural changes, or state that cannot be refreshed may require stopping and running again. Runtime-only Inspector changes are not automatically saved to the source scene. Export PNGs from Aseprite for game assets; saving an `.aseprite` source alone does not update those PNGs.
+
 ## Wanderer assets
 
 - Transparent 64×64 frames with six opaque colors.

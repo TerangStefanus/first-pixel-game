@@ -20,6 +20,7 @@ Thumbs.db
 /.commandcode/taste/
 /.commandcode/auth.json
 /tools/local/
+/.vscode/settings.json
 
 # Credentials stay outside version control
 .env
