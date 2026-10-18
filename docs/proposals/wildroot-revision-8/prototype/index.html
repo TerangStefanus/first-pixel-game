@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wildroot Percobaan Pilihan Slime</title>
+<style>
+:root{color-scheme:light;--paper:#f5f1e7;--ink:#22392d;--green:#365e43;--line:#d9ddcf;--muted:#59665a;--gold:#b68b36}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 system-ui,-apple-system,sans-serif}main{max-width:1240px;margin:auto;padding:28px}
+header{display:flex;gap:20px;align-items:center;justify-content:space-between;margin-bottom:20px}h1{font:650 28px/1.2 system-ui;margin:4px 0}h2{font-size:17px;margin:0 0 12px}h3{font-size:14px;margin:18px 0 8px}p{margin:6px 0 14px}.eyebrow{font-size:11px;letter-spacing:1.8px;text-transform:uppercase;color:var(--muted)}.muted{color:var(--muted);font-size:13px}.stats{display:flex;gap:20px;white-space:nowrap}.stats b{display:block;font-size:20px}.stats span{font-size:12px;color:var(--muted)}.goal{display:flex;align-items:center;gap:12px;margin-bottom:16px}select{flex:1;padding:10px;border:1px solid var(--line);border-radius:7px;background:white;color:var(--ink);font:inherit}.grid{display:grid;grid-template-columns:1fr 1.2fr 1fr;gap:16px}.card{background:#fffdf8;border:1px solid var(--line);border-radius:12px;padding:20px;min-width:0}.wide{grid-column:1/-1}.notice{background:#e7eddc;border-left:4px solid var(--green);padding:12px 16px;min-height:70px;margin:18px 0;white-space:pre-line}.action{display:block;width:100%;text-align:left;background:#f4f5ed;border:1px solid #c5cfbd;border-radius:8px;padding:10px 12px;color:var(--ink);cursor:pointer;margin:8px 0;font:inherit}.action strong,.action span,.action small{display:block}.action span{font-size:12px}.action small{font-size:11px;color:#697061;margin-top:4px}.action:hover:enabled{background:#e5ecd9;border-color:var(--green)}button:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px}.action:disabled{opacity:.57;cursor:default;background:#f4f2ec;border-color:#e0dfd5}.choices .action{border-left:4px solid var(--green)}.plot{height:142px;background:#d4bba0;border:8px solid #bd9e7c;border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:10px;transition:background .15s}.plot.wet{background:#a78d71}.sprout{width:12px;height:46px;background:#4c7449;position:relative;opacity:0}.sprout:before,.sprout:after{content:'';position:absolute;background:#6d9858;width:28px;height:16px;border-radius:3px;top:5px}.sprout:before{right:5px;transform:rotate(24deg)}.sprout:after{left:5px;top:20px;transform:rotate(-24deg)}.tumbuh .sprout{opacity:.6}.siap .sprout{opacity:1;transform:scale(1.25)}progress{width:100%;height:14px;accent-color:var(--green)}.tag{display:inline-block;font-size:12px;background:#eef0e6;padding:4px 8px;border-radius:5px;margin:3px}.bar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:18px 0}button.primary{background:var(--green);color:white;border:0;border-radius:7px;padding:12px 18px;cursor:pointer;font:600 14px system-ui}button.secondary{background:transparent;border:1px solid #a7b29e;border-radius:7px;padding:10px 14px;cursor:pointer;color:var(--ink);font:inherit}ul{padding-left:20px;margin:10px 0}li{margin:7px 0}#log{max-height:270px;overflow:auto;font-size:13px}.footer{font-size:12px;color:var(--muted);margin-top:20px}#resources{font-size:14px;font-weight:600}details summary{cursor:pointer;font-weight:600}details p{font-size:13px}#result{font-weight:600}label{font-size:13px;font-weight:600}@media(max-width:950px){.grid{grid-template-columns:1fr 1fr}.farmcard{grid-column:1/-1}.farmcard .farm-layout{display:grid;grid-template-columns:1fr 1fr;gap:20px}}@media(max-width:640px){main{padding:16px}header{align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.farmcard{grid-column:auto}.farmcard .farm-layout{display:block}.goal{align-items:stretch;flex-direction:column}.bar{flex-wrap:wrap}}
+</style></head><body><main>
+<header><div><div class="eyebrow">Wildroot · prototipe keputusan</div><h1>Tanah, daun, dan pilihanmu</h1><p class="muted">Bandingkan tiga pendekatan pada satu kebun. Angka masih percobaan.</p></div><div class="stats"><div><b id="day"></b><span>Waktu manual</span></div><div><b id="effort"></b><span>Tenaga</span></div><div><b id="coins"></b><span>Koin</span></div></div></header>
+<div class="goal"><label for="goal">Kebutuhan awal</label><select id="goal"><option value="expedition">Aku butuh reagen untuk persiapan ekspedisi</option><option value="compost">Aku ingin mempelajari kompos yang hemat bahan</option><option value="habitat">Aku ingin membuka kebun sambil mempertahankan pengurai</option></select></div>
+<details class="card"><summary>Cara mencoba</summary><p>Tentukan kebutuhan, amati kebun, lalu pilih tindakan. Empat tenaga tersedia setiap hari. Hari hanya maju saat kamu memilih Hari berikutnya. Semua tanaman bisa dipanen tanpa riset. Pilihan boleh digabung; kontrak hanya dibayar sekali.</p><p>Belum ada pertempuran real time dalam percobaan ini. Hunt merangkum encounter menjadi satu tindakan. Nilai apakah biaya dan akibatnya terbaca; rasa combat dan farming di map perlu diuji terpisah.</p></details>
+<div id="notice" class="notice" role="status" aria-live="polite"></div>
+<div class="grid">
+<section class="card"><h2>Kebun Dara</h2><div id="canal" class="tag"></div><div id="population" class="tag"></div><div id="litter" class="tag"></div><p class="muted" id="contract"></p><div id="observation"></div><h3>Bukti yang tercatat</h3><ul id="evidence" class="muted"></ul></section>
+<section class="card"><h2>Pilih pendekatan</h2><p class="muted">Tak ada skor baik atau buruk. Pertimbangkan kebutuhan dan biaya.</p><div id="choices" class="choices"></div><h3>Tindak lanjut</h3><div id="followup"></div></section>
+<section class="card farmcard"><h2>Satu petak percobaan</h2><div class="farm-layout"><div><div id="plot" class="plot"><div class="sprout"></div></div><strong id="plant-label"></strong><div class="muted" id="growth"></div><progress id="growth-meter" max="4" value="0" aria-label="Pertumbuhan tanaman"></progress><p id="moisture" class="muted"></p><div id="farm"></div></div><div><h3>Bahan dan rak</h3><p id="resources"></p><p id="bench" class="muted"></p><div id="work"></div></div></div></section>
+<section class="card wide"><p id="result"></p><div class="bar"><button id="next" class="primary">Hari berikutnya</button><div><button id="export" class="secondary">Ekspor catatan</button> <button id="reset" class="secondary">Ulangi percobaan</button></div></div><details open><summary>Riwayat tindakan</summary><ul id="log"></ul></details></section>
+</div><p class="footer">Pertumbuhan perlu siram dan saluran terbuka. Kompos memberi satu bonus per tanaman. Hari tanpa siram menunda pertumbuhan. Hasil dan catatan tetap di perangkatmu sampai kamu mengekspornya.</p>
+</main><script>(function (root) {
+  'use strict';
+  const COST = Object.freeze({ daily: 4, hunt: 1, study: 2, inspect_destination: 1,
+    relocate: 2, bait: 1, read: 1, clear: 1, plant: 1, water: 1, apply: 1,
+    harvest: 1, gather: 1, process: 1, learn: 1, recipe: 3, reagent: 2,
+    restore: 1, collect: 1, reward: 6, harvest_coins: 3, grow: 4, delay: 2, recovery: 4 });
+  function initial(goal = 'expedition') {
+    return { version: 1, goal, day: 1, effort: COST.daily, coins: 2, leaves: 2,
+      reagent: 0, compost: 0, knowledge: false, inspected: false, canal: false,
+      destination: false, firstChoice: '', hunt: false, huntDay: 0, study: false,
+      studyDue: 0, read: false, relocated: false, relocationDue: 0, collected: false,
+      population: 'stabil', migrationHint: false, litter: 0, rewardPaid: false,
+      plot: { stage: 'kosong', growth: 0, watered: false, boosted: false, applied: false }, log: [] };
+  }
+  function perform(input, action) {
+    const s = JSON.parse(JSON.stringify(input));
+    function need(test, message) { if (!test) throw new Error(message); }
+    function pay(effort, coins = 0) {
+      need(s.effort >= effort, 'Tenaga belum cukup. Majukan hari atau pilih kegiatan lain.');
+      need(s.coins >= coins, 'Koin belum cukup.'); s.effort -= effort; s.coins -= coins;
+    }
+    let summary = '';
+    try {
+      switch (action) {
+        case 'inspect':
+          need(!s.inspected, 'Pengamatan sudah tercatat.'); s.inspected = true;
+          summary = 'Slime memakan daun lapuk. Tanaman menguning juga di luar lintasannya. Air tertahan di saluran.'; break;
+        case 'inspect_destination':
+          need(!s.destination, 'Tempat tujuan sudah diperiksa.'); pay(COST.inspect_destination);
+          s.destination = true; summary = 'Tepian hutan lembap punya daun lapuk dan ruang untuk satu kelompok slime.'; break;
+        case 'hunt':
+          need(!s.hunt && s.population === 'stabil', 'Kelompok lokal tidak tersedia untuk perburuan ini.');
+          pay(COST.hunt); s.hunt = true; s.huntDay = s.day; s.population = 'menipis'; s.reagent += 2;
+          if (!s.firstChoice) s.firstChoice = 'Hunt';
+          summary = 'Perburuan selesai: +2 reagen, pengurai lokal menipis. Penyebab tanaman belum dipastikan.'; break;
+        case 'study':
+          need(!s.study && !s.knowledge, 'Percobaan sudah dimulai atau resep sudah dipelajari.');
+          pay(COST.study, s.population === 'menipis' ? 1 : 0); s.study = true; s.studyDue = s.day + COST.delay;
+          if (!s.firstChoice) s.firstChoice = 'Study';
+          summary = 'Sampel pembanding ditaruh dengan air setara. Rak terpakai sampai hasil dibaca pada hari ' + s.studyDue + '.';
+          if (s.population === 'menipis') summary += ' Satu koin dipakai untuk sampel residu dari luar wilayah.';
+          break;
+        case 'read':
+          need(s.study && !s.read && s.day >= s.studyDue, 'Hasil belum siap atau sudah dibaca.'); pay(COST.read);
+          s.read = true; s.knowledge = true; s.compost += 1;
+          summary = 'Pot dengan residu lebih cepat tumbuh pada air setara. Dara menggeser daun lapuk ke luar jalur kerja. Ini bukti lokal, bukan jaminan semua slime baik. +1 kompos contoh dan resep.'; break;
+        case 'relocate':
+          need(s.destination, 'Periksa tempat tujuan terlebih dahulu.');
+          need(!s.relocated && s.population === 'stabil', 'Kelompok lokal tidak tersedia untuk dipindahkan.');
+          pay(COST.relocate, COST.bait); s.relocated = true; s.relocationDue = s.day + COST.delay; s.population = 'dipindahkan';
+          if (!s.firstChoice) s.firstChoice = 'Relocate';
+          summary = 'Kelompok dipindahkan memakai umpan. Jalur kebun aman; residu tujuan dapat diperiksa hari ' + s.relocationDue + '.'; break;
+        case 'collect':
+          need(s.relocated && !s.collected && s.day >= s.relocationDue, 'Residu tujuan belum tersedia atau sudah diambil.');
+          pay(COST.collect); s.collected = true; s.compost += 1;
+          summary = 'Daun di tempat tujuan telah berkurang. +1 kompos dari residu yang dikumpulkan.'; break;
+        case 'clear':
+          need(!s.canal, 'Saluran sudah terbuka.'); pay(COST.clear); s.canal = true;
+          summary = 'Sumbatan dibuka. Air mencapai petak; perubahan tanaman masih perlu diamati.'; break;
+        case 'plant':
+          need(s.plot.stage === 'kosong', 'Percobaan ini menyediakan satu siklus tanaman.'); pay(COST.plant); s.plot.stage = 'tumbuh';
+          summary = 'Satu benih ditanam. Perlu air untuk tumbuh pada pergantian hari.'; break;
+        case 'water':
+          need(s.plot.stage === 'tumbuh' && !s.plot.watered, 'Petak belum perlu disiram.'); pay(COST.water); s.plot.watered = true;
+          summary = s.canal ? 'Petak disiram untuk hari ini.' : 'Petak disiram, tetapi drainase tersumbat masih menahan pertumbuhan.'; break;
+        case 'apply':
+          need(s.plot.stage === 'tumbuh' && !s.plot.applied, 'Kompos hanya sekali per tanaman.');
+          need(s.compost > 0, 'Belum ada kompos.'); pay(COST.apply); s.compost--; s.plot.applied = true; s.plot.boosted = true;
+          summary = 'Kompos dipasang. Satu bonus pertumbuhan menunggu air dan saluran yang terbuka.'; break;
+        case 'harvest':
+          need(s.plot.stage === 'siap', 'Tanaman belum siap panen.'); pay(COST.harvest); s.plot.stage = 'dipanen'; s.coins += COST.harvest_coins;
+          summary = 'Tanaman dipanen. +3 koin; satu siklus selesai.'; break;
+        case 'gather':
+          pay(COST.gather); s.leaves++; summary = 'Satu daun lapuk dikumpulkan untuk percobaan kompos.'; break;
+        case 'process':
+          need(!s.study || s.read, 'Rak masih dipakai percobaan tanah.');
+          if (s.knowledge) { need(s.leaves > 0, 'Perlu satu daun.'); pay(COST.process); s.leaves--; }
+          else { need(s.reagent > 0, 'Cara kasar memerlukan satu reagen.'); pay(COST.process); s.reagent--; }
+          s.compost++; summary = s.knowledge ? 'Satu daun diolah menjadi satu kompos memakai resep.' : 'Satu reagen diolah menjadi satu kompos dan habis terpakai.'; break;
+        case 'learn':
+          need(s.rewardPaid && !s.knowledge && !s.study, 'Penjelasan resep tersedia sesudah kontrak, bila belum mengikuti percobaan.');
+          pay(COST.learn, COST.recipe); s.knowledge = true;
+          summary = 'Mira menjelaskan resep dari catatan pembanding. -3 koin; resep tersedia tanpa memilih Study.'; break;
+        case 'buy':
+          pay(0, COST.reagent); s.reagent++; summary = 'Satu reagen dibeli dengan dua koin.'; break;
+        case 'restore':
+          need(s.population === 'menipis' && s.compost > 0, 'Pemulihan perlu populasi menipis dan satu kompos.');
+          pay(COST.restore); s.compost--; s.population = 'stabil'; s.litter = 0;
+          summary = 'Habitat kecil disiapkan. Pengurai dari tepian hutan kembali; satu kompos dipakai.'; break;
+        case 'next': {
+          const p = s.plot;
+          if (p.stage === 'tumbuh' && p.watered && s.canal) {
+            const amount = p.boosted ? 2 : 1;
+            p.growth = Math.min(COST.grow, p.growth + amount); p.boosted = false;
+            if (p.growth === COST.grow) p.stage = 'siap';
+            summary = 'Tanaman bertambah ' + amount + ' langkah. ';
+          } else if (p.stage === 'tumbuh') summary = 'Pertumbuhan tertunda; tanaman tetap hidup. ';
+          p.watered = false; s.day++; s.effort = COST.daily;
+          if (s.population === 'menipis') {
+            s.litter = Math.min(3, s.litter + 1);
+            if (!s.migrationHint && s.day >= s.huntDay + 2) {
+              s.migrationHint = true; summary += 'Jejak pengurai baru terlihat di tepian hutan, belum memenuhi kebun. ';
+            }
+            if (s.day >= s.huntDay + COST.recovery) { s.population = 'stabil'; summary += 'Pengurai kembali dari tepian hutan. '; }
+          }
+          summary += 'Hari baru. Tenaga kembali empat.';
+          break;
+        }
+        default: throw new Error('Aksi tidak dikenal.');
+      }
+      const finished = s.hunt || s.read || s.relocated;
+      if (s.canal && finished && !s.rewardPaid) {
+        s.rewardPaid = true; s.coins += COST.reward;
+        summary += ' Dara membayar enam koin untuk jalur aman dan saluran terbuka. Pembayaran kontrak hanya sekali.';
+      }
+      s.log.push({ day: s.day, action, summary, effort: s.effort, coins: s.coins,
+        growth: s.plot.growth, population: s.population });
+      return { ok: true, state: s, summary };
+    } catch (err) { return { ok: false, state: input, summary: err.message }; }
+  }
+  const api = { COST, initial, perform };
+  if (typeof module !== 'undefined' && module.exports) module.exports = api;
+  else root.WildrootModel = api;
+})(typeof globalThis !== 'undefined' ? globalThis : this);
+</script><script>'use strict';
+const { initial, perform, COST } = WildrootModel;
+let state = initial();
+let notice = 'Dara ingin jalur kerjanya aman dan tanaman berhenti menguning. Apa yang ingin kamu prioritaskan?';
+const labels = {
+  inspect: ['Amati kebun', 'Gratis • catat slime, tanaman, dan saluran'],
+  clear: ['Buka saluran', '1 tenaga • pulihkan aliran dan drainase'],
+  inspect_destination: ['Periksa tujuan', '1 tenaga • tepian hutan lembap'],
+  hunt: ['Hunt', '1 tenaga • +2 reagen langsung • pengurai lokal menipis'],
+  study: ['Study', '2 tenaga • rak terpakai 2 hari • baca hasil 1 tenaga'],
+  relocate: ['Relocate', '2 tenaga +1 koin • perlu tujuan diperiksa • residu setelah 2 hari'],
+  read: ['Baca hasil', '1 tenaga • +1 kompos contoh dan resep'],
+  collect: ['Ambil residu tujuan', '1 tenaga • +1 kompos sekali'],
+  plant: ['Tanam benih', '1 tenaga • satu petak percobaan'],
+  water: ['Siram petak', '1 tenaga • pertumbuhan pada pergantian hari'],
+  apply: ['Beri kompos', '1 tenaga +1 kompos • bonus 1 langkah sekali'],
+  harvest: ['Panen', '1 tenaga • +3 koin'],
+  gather: ['Ambil daun', '1 tenaga • +1 daun'],
+  process: ['Olah kompos', '1 tenaga • pakai 1 reagen atau 1 daun jika tahu resep'],
+  learn: ['Pelajari resep dari Mira', '1 tenaga +3 koin • sesudah kontrak • alternatif Study'],
+  buy: ['Beli reagen', '2 koin • +1 reagen'],
+  restore: ['Pulihkan pengurai', '1 tenaga +1 kompos • percepat kedatangan dari tepian'],
+};
+function el(tag, text, cls) { const n = document.createElement(tag); if (text) n.textContent = text; if (cls) n.className = cls; return n; }
+function actionButton(id) {
+  const b = el('button', '', 'action'); b.dataset.action = id;
+  const result = perform(state, id);
+  b.append(el('strong', labels[id][0]), el('span', labels[id][1]));
+  if (id === 'study' && state.population === 'menipis') b.append(el('span', '+1 koin untuk sampel residu luar wilayah'));
+  b.disabled = !result.ok; b.title = result.ok ? labels[id][1] : result.summary;
+  if (!result.ok) b.append(el('small', result.summary));
+  b.onclick = () => act(id); return b;
+}
+function act(id) {
+  const r = perform(state, id); notice = r.summary;
+  if (r.ok) state = r.state;
+  render();
+}
+function render() {
+  document.getElementById('day').textContent = 'Hari ' + state.day;
+  document.getElementById('effort').textContent = state.effort + ' / ' + COST.daily;
+  document.getElementById('coins').textContent = state.coins;
+  document.getElementById('notice').textContent = notice;
+  document.getElementById('resources').textContent = `${state.reagent} reagen   ·   ${state.compost} kompos   ·   ${state.leaves} daun`;
+  document.getElementById('contract').textContent = state.rewardPaid ? 'Selesai • 6 koin sudah dibayar sekali' : '6 koin • buka saluran dan selesaikan satu pendekatan';
+  document.getElementById('canal').textContent = state.canal ? 'Saluran terbuka' : 'Saluran tersumbat';
+  document.getElementById('population').textContent = 'Pengurai lokal: ' + state.population;
+  document.getElementById('litter').textContent = 'Daun tertinggal: ' + state.litter + ' / 3';
+  if (state.population === 'menipis' && state.migrationHint) document.getElementById('population').textContent += ' • ada jejak kedatangan';
+  const stage = state.plot.stage;
+  document.getElementById('plot').className = 'plot ' + stage + (state.plot.watered ? ' wet' : '');
+  document.getElementById('plant-label').textContent = 'Petak ' + stage;
+  document.getElementById('growth').textContent = state.plot.growth + ' / 4 langkah';
+  document.getElementById('growth-meter').value = state.plot.growth;
+  document.getElementById('moisture').textContent = state.plot.watered ? 'Sudah disiram hari ini' : 'Belum disiram hari ini';
+  document.getElementById('bench').textContent = state.study && !state.read ? `Rak uji terpakai • hasil siap hari ${state.studyDue}` : (state.knowledge ? 'Rak bebas • resep tersedia' : 'Rak bebas • pengolahan kasar tersedia');
+  for (const [id, actions] of Object.entries({ observation: ['inspect','clear','inspect_destination'], choices: ['hunt','study','relocate'], followup: ['read','collect','restore'], farm: ['plant','water','apply','harvest'], work: ['gather','process','learn','buy'] })) {
+    const group = document.getElementById(id); group.replaceChildren(...actions.map(actionButton));
+  }
+  const evidence = document.getElementById('evidence'); evidence.replaceChildren();
+  if (state.inspected) evidence.append(el('li', 'Slime memakan daun lapuk; tanaman rusak juga di luar lintasannya. Air tertahan sebelum petak.'));
+  if (state.canal && state.plot.growth > 0) evidence.append(el('li', 'Setelah saluran dibuka dan petak disiram, tanaman tumbuh. Itu belum membuktikan slime selalu aman.'));
+  if (state.read) evidence.append(el('li', 'Pot dengan residu tumbuh lebih cepat pada air setara. Resep dapat diuji di petak.'));
+  if (state.collected) evidence.append(el('li', 'Tempat tujuan menunjukkan penguraian daun. Satu sampel residu sudah dikumpulkan.'));
+  if (!evidence.children.length) evidence.append(el('li', 'Belum ada pengamatan. Periksa kebun sebelum menyimpulkan penyebab.'));
+  const log = document.getElementById('log'); log.replaceChildren();
+  [...state.log].reverse().forEach(row => { const item=el('li'); item.append(el('b','Hari '+row.day+' · '),document.createTextNode(row.summary)); log.append(item); });
+  document.getElementById('result').textContent = state.plot.stage === 'dipanen' ? `Siklus panen selesai pada hari ${state.day}. Pendekatan pertama: ${state.firstChoice || 'belum dipilih'}. Bandingkan log dan coba kebutuhan lain.` : 'Tujuan uji: selesaikan kebutuhan Dara dan panen satu tanaman. Kamu boleh menggabungkan tindakan.';
+}
+document.getElementById('next').onclick = () => act('next');
+document.getElementById('reset').onclick = () => { state=initial(document.getElementById('goal').value); notice='Percobaan baru dimulai. Catat alasan pilihanmu sebelum hasil muncul.'; render(); };
+document.getElementById('goal').onchange = event => {
+  state.goal=event.target.value;
+  notice='Kebutuhan uji diubah; keadaan kebun tetap. Gunakan Ulangi untuk mulai dari awal.'; render();
+};
+document.getElementById('export').onclick = () => {
+  const blob=new Blob([JSON.stringify({ kind:'wildroot-decision-test', rules:COST, state, humanObservations:'Belum dicatat; isi formulir pengamatan dalam dokumen.' },null,2)],{type:'application/json'});
+  const link=document.createElement('a'); const url=URL.createObjectURL(blob);
+  link.href=url; link.download='wildroot-percobaan-hari-'+state.day+'.json'; link.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+render();
+</script></body></html>

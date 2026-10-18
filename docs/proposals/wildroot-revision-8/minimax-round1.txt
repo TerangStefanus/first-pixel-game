@@ -1,0 +1,130 @@
+Saya akan langsung memberikan solusi independen sebagai kritikus, tanpa menjalankan alat apa pun, dengan tetap menyoroti trade-off dan tiga pertanyaan kunci untuk pemilik.
+
+# 1) Fondasi MC–Sela: kejujuran krisis + closure + waktu santai saat Sela hilang
+
+**Solusi:** Sela ditemukan hidup (rute utama), tetapi tidak pulang tepat waktu karena dua gabungan sebab: (a) pintu ruang keempat di Convergence menutup otomatis akibat lonjakan tekanan saat ia mencoba memutus sebagian pengunci darurat, dan (b) jalur komunikasi lama rusak ketika badai Highland mengubah konfigurasi akar mineral. Sela tidak terkurung selamanya; ia bisa keluar jika pemain menghancurkan pengikat guardian dengan urutan yang benar (Tarikan → Tekanan → Penyelarasan), tetapi butuh pembacaan simbol pada panel kontrol yang hanya bisa dikenali setelah dua kontrak riset tanah/air selesai. Dengan begitu, pemain yang fokus farm/combat tetap punya lintasan; Sela tidak otomatis "mati setelah 30 hari".
+
+**Waktu santai:** tidak ada timer. *"Sela hilang"* adalah status jurnal yang berubah karena (1) pemain bertanya ke NPC lebih dari 2 kali, (2) musim berganti dua kali tanpa pemain menyentuh Echo Cave, atau (3) pemain memeriksa peta Gerbang Ketiga. Tujuannya agar 30 hari ngobrol/farm tetap legal; konsekuensi adalah clue Sela pindah ke kategori rumor, tidak hilang.
+
+**Trade-off:** kombinasi dua sebab вместо satu timer harus ditampilkan di UI secara jujur; kalau ditulis sebagai "tekanan naik", pemain tanpa pengetahuan hidraulik bisa bingung. Mitigasi: gunakan dua indikator visual (suara + retakan panel) yang dijelaskan oleh Mira dan Banu.
+
+---
+
+# 2) Batas fasilitas/otoritas/manfaat/biaya/aktivitas besok hari A/B/C
+
+**Solusi:** tiga kebijakan diringkas sebagai **paket delta** pada lima variabel dunia yang sama — bukan tiga dunia berbeda:
+- *Air ke rawa* (-20% / stabil / -50%),
+- *Tenaga bengkel* (tangan penuh / 1/2 kapasitas / manual lokal),
+- *Cadangan pangan* (1 musim / 2 musim / 1 musim + wajib bagi hasil),
+- *Pemilik tombol henti darurat* (dewan desa 3 orang / pengamat+Banu / warga hilir),
+- *Kontribusi farm dalam pemulihan biaya* (wajib 30% hasil panen / kontribusi fleksibel / wajib 50% untuk 3 musim).
+
+A tidak dibuat semahal C agar A bukan sekadar status quo dengan nama baru; B disimpan sebagai jalur sah dengan dua symmetric trade: pintu air tambahan **harus** disertai alat ukur dari Banu yang dipasang oleh Tara+MC, sehingga B tidak menjadi "nyalakan saja".
+
+**Trade-off:** menulis ini sebagai lima variabel eksplisit membuat pemain yang ingin roleplay berat badan akan menemukan transparansi yang membantu; pemain kasual mungkin tidak membaca detail sebelum klik. Mitigasi: tampilkan sebagai diagram balon kecil di *preview* (sudah lazim di game serupa).
+
+---
+
+# 3) Satu keputusan slime Hunt/Study/Relocate
+
+**Solusi:** pertahankan tiga jalur dengan **biaya dan收益 yang tidak konvergen**:
+
+| Jalur | Kegiatan nyata (≥2 aktivitas farm/combat) | Hasil dalam 4–6 hari | Konsekuensi terukur |
+|---|---|---|---|
+| **Hunt** | combat 1 encounter + ambil residu 1 kali + bakar 2 tumpukan | 1× material combat, kontrak Dara lunas | Pengurai turun **12–18%** (ditampilkan di Forest Observation); windfall 5% muncul di jalur lain saat padi dipanen |
+| **Study** | ambil 3 sampel + siram pot 4 hari + 1 dialog Mira + 1 entry journal | Resep kompos residu (1 kegunaan), tidak ada koin langsung | Kontrak Dara tertunda 2 hari; hipotesis awal ditandai `?` di jurnal hingga hari ke-5 |
+| **Relocate** | kumpulkan umpan 3× + bangun pagar sementara + kunjungan pertama ke habitat tujuan | Lahan Dara aman, populasi tidak turun | Habitat tujuan (tepian Wetland) bertambah **+1** indikator air; satu jalur migrasi kelinci bergeser |
+
+Riset tidak selalu unggul — riset membuka "resep kompos" yang berguna, bukan produksi langsung yang menggantikan hadiah Dara. **Softlock fallback:** jika semua slime lokal habis, vendor lama Banu menjual 1 slime hasil breeding komunal seharga 180 koin setelah pemain menuntaskan ≥3 kontrak Forest. Tidak ada moral score; tidak ada klaim "research otomatis menang".
+
+**Trade-off:** tabel seperti ini menambah beban UI pada satu kontrak. Mitigasi: tampilkan tiga baris di *choice preview*, biaya-manfaat di ikon tooltip, dan hilangkan tabel penuh dari UI langsung.
+
+---
+
+# 4) Konsekuensi tetap vs dipengaruhi persiapan (khusus ikan)
+
+**Solusi:** ikan menulis asumsi konkret: ada dua peristiwa yang tidak dapat dihindari pada rute C — (a) *ceruk pemijahan tua runtuh* (permanen tanpa intervensi manusia), (b) *regenerasi alang-alang menutup jalur observasi lama* (permanen). Yang lain, yaitu **migrasi ikan muda ke ceruk baru** dan **kualitas air Mine Wetland setelah debit turun**, adalah **probabilistik**: masing-masing 40% default, naik menjadi 65% jika pemain memenuhi dua syarat — petak padi–ikan dengan pintu limpasan manual sudah pernah banjir **dan** pengukur dipasang di hilir sebelum debit diubah.
+
+Pemain yang menyiapkan diri melihat ikan kembali di ceruk baru lebih cepat; pemain yang tidak, melihat *catatan rawa yang diam* selama 2 musim sebelum ikan muncul kembali. Tidak ada game over jika tidak; hanya catatan jurnal yang mengaku ini lebih lambat.
+
+**Trade-off:** probabilitas dengan syarat ganda sulit dijelaskan dalam dialog. Mitigasi: tampilkan sebagai dua lencana ("Persiapan limpasan lengkap", "Pengukur hilir terpasang") di *Active World*; pemain tidak melihat rumus, hanya melihat lencana dan hasilnya.
+
+---
+
+# 5) Selaraskan A dengan B/C + satu adegan biaya stewardship
+
+**Solusi:** tiga rute menggunakan lima variabel yang sama (§2), sehingga A,B,C bukan tiga cerita melainkan tiga slider. A melarang pengatur pusat memindahkan air lintas-biome; B membolehkan maksimum 2 jalur aktif dengan monitoring; C menutup pengunci pusat tetapi tidak menyentuh *pengaman banjir lokal*. Dengan cara ini, A tidak menjadi "B yang pemikirannya salah".
+
+**Adegan biaya stewardship (140 kata):**
+
+> Musim Harvest, hari ke-6. Ayu meletakkan peta lama di atas meja, jari menunjuk dua sungai kecil yang dulu selalu banjir pada musim ini. "Kalau kita lanjutkan penjagaan adaptif, debit ke hilir harus turun. Bengkel Banu akan kehilangan satu gilingan pada jadwal tanam serentak." Di balai, Dara meminta prioritas bibit. Tara menjelaskan bahwa pagar perlindungan ternak tidak lagi dapat menggunakan kayu dari tebang regulator. Kamu mencatat setiap pengurangan di buku kosong Nuri — tidak ada yang kalah di atas kertas, semua orang kehilangan sesuatu di bawah catatan. Saat malam tiba, warga mengurangi makan bersama menjadi sepiring per keluarga. Sela menulis di jurnalmu, "Sebuah keputusan stewardship bukan apa yang kau dapatkan. Itu apa yang kau relakan untuk tidak diambil." Kamu tidak menjawab, hanya menyimpan buku itu dan memeriksa pintu lumbung yang kini harus kamu pasang sendiri.
+
+**Trade-off:** menampilkan biaya stewardship dalam bentuk "warga mengurangi makan" mungkin terasa menghakimi bagi pemain. Mitigasi: gunakan spesifik ("gilingan Banu libur 1 hari dalam 5 siklus"), bukan generalisasi moral.
+
+---
+
+# 6) Beda suara tokoh + dua adegan pendek tanpa aforisme
+
+**Solusi:** empat aturan praktis: (1) setiap tokoh punya 1 kalimat yang ia gunakan saat ragu ("bagus, sekarang kita punya pertanyaan lebih berguna" — Sela); (2) tokoh yang sama boleh **salah** dalam satu adegan dan menjelaskan kesalahannya di adegan lain tanpa dijaga agar konsisten moral; (3) lelucon boleh terpisah dari keputusan, tetapi keputusan tidak memakai lelucon; (4) kalimat aforisme hanya dipakai untuk closing monolog, bukan dialog aktif.
+
+**Adegan Mira (140 kata):**
+
+> "Kau sudah menyiram semua pot tadi pagi?" tanya Mira. "Iya, semuanya." "Yang tanah liat basah cepat menguap; yang tanah berpasir kering di tengah. Coba sentuh dengan punggung tangan." Kamu mencobanya. Pot kiri basah, pot kanan kering di permukaan. "Iya, aku akan menulis ulang. Terima kasih sudah tidak langsung percaya catatanku." Mira menghela napas. "Aku sudah empat tahun salah urutan menyiram di sore hari. Kalau kau cepat, mungkin kita bisa selesaikan sebelum sore." Kamu menulis ulang. Hasilnya baru terlihat besok. Mira tidak menjanjikan apa-apa; ia hanya menepuk bahumu dan membuka buku lain.
+
+**Adegan Orin (130 kata):**
+
+> "Kau yakin mau menutup suplai ke tambang sebelum sempat bicara dengan pekerjanya?" tanya Orin. "Belum. Aku datang untuk bertanya urutan yang tidak menghancurkan pekerjaan mereka." Orin berhenti mencoret. "Urutan tidak cukup. Kita perlu tahu berapa lama mereka mendapat bayaran sebelum alat itu kehilangan tenaga. Kalau jawabanku 'tiga bulan', dan kita tutup besok — itu bukan stewardship. Itu pengeluaran massal." Kamu terdiam. "Kau benar. Beri aku dua hari." "Dua hari bukan jangka waktu; itu jeda." Orin kembali mencoret. "Aku akan hitung sendiri dan kirim lewat Nuri."
+
+**Trade-off:** melarang aforisme pada dialog dapat terasa hampa; beberapa adegan butuh resonansi. Mitigasi: izinkan satu baris puitis pada monolog internal MC, bukan dialog tokoh.
+
+---
+
+# 7) Peta clue yang memungkinkan pemain menyimpulkan sebelum NPC
+
+**Solusi:** "peta clue" bukan overlay UI tunggal, melainkan **lapisan kedua di peta dunia** yang diaktifkan otomatis setelah ≥2 event relevan tercatat. Contoh pemicu:
+- *Lambang akar pada batu & kontrak*: muncul setelah pemain berdiri ≥3 detik di dekat batu berukir (Forest, hari ke-3+) **dan** membaca 1 kontrak lama dari Nuri.
+- *Korelasi air & kelembapan*: muncul setelah pemain mengunjungi Cave AND Wetland dalam 7 hari (urutan apa pun).
+- *Jejak migrasi Thunder Deer*: muncul setelah pemain mengamati ≥2 kawanan tanpa mengalahkan mereka.
+
+Pemain yang cuek akan tetap menemukan clue, tetapi **lebih lambat 2–4 hari**. NPC (Mira, Banu, Tara, Nuri) hanya menjelaskan clue yang pemain sudah punya ≥1 dari 2 prasyarat; mereka tidak memberikan jawaban penuh. Saatnya pemain menyimpulkan sendiri; NPC mengonfirmasi.
+
+**Trade-off:** sistem prasyarat bertambah 2–4 hari sebelum penjelasan NPC terasa seperti sengaja menggantung. Mitigasi: tampilkan *incomplete symbol* dengan teks "Pola ini terhubung dengan tempat lain yang belum kau datangi" sebagai umpan balik jujur; bukan silent "tidak ada clue".
+
+---
+
+# 8) Prototipe kecil slime–residu/kompos–tanaman + protokol uji jujur
+
+**Solusi prototipe:** 1 scene farm, 6 plot, 2 tanaman uji + 1 kontrol, 1 spesies slime yang di-respawn harian dengan pop-up "Slime #N", 1 ember residu, 1 pot kompos terpisah. **Tanpa** combat, barn, fishing, journal kompleks, rute cerita. Hanya 5 aktivitas mikro: *ambil daun*, *kumpulkan residu*, *campur ke pot*, *siram*, *catat*. Efek terlihat setelah ≥5 hari lewat.
+
+**Prototipe keputusan terpisah** (Codex): 3 tombol keputusan + 1 *preview* non-spoiler + 1 *outcome after-day-X* sederhana. Tidak menggunakan HUD game utama; tampil sebagai satu layar terpisah dengan teks statis untuk menguji **kalimat biaya/manfaat dan urutan tampilannya**, bukan gameplay sebenarnya.
+
+**Protokol uji jujur:**
+- (a) Minimal 1 tester yang **tidak tahu game ini**; lihat apakah ia dapat membedakan tiga jalur dalam ≤3 menit dari preview.
+- (b) Tester diminta menebak biaya sebelum membuka outcome; catat yang meleset.
+- (c) Cek jujur: hasil cerita dari keputusan prototipe dibandingkan dengan dialog NPC di rute A/B/C; jika tidak konsisten, tandai [INKONSISTEN] sebelum dipublikasikan.
+- (d) Pengujian dilakukan dua kali oleh orang yang berbeda; klaim valid hanya jika dua runner sepakat.
+
+**Trade-off:** prototipe keputusan terpisah tanpa konteks dunia bisa terasa seperti kuesioner. Mitigasi: tampilkan 1 gambar latar statis (desa dari atas) plus daftar biaya/manfaat saja; jika perlu, tambahkan audio 1 ambient. Bukan game penuh.
+
+---
+
+## Risiko solusi saya sendiri
+
+1. **Five-variable slider (§2) mungkin over-engineer untuk prototipe**: bisa ditulis sebagai teks di §9 Bible v2, lalu dijadikan rumus setelah balancing. Tanpa data numerik, lima variabel adalah niat, bukan mekanisme.
+2. **Peta clue berlapis (§7)** tergantung konsistensi event; kalau satu event Forest tidak pernah terpicu, pemain stuck di no-clue state. Saya belum melihat semua event trigger di v2; perlu Codex memetakan minimum trigger set.
+3. **Probabilitas ikan (§4)** tanpa UI yang menampilkan dua lencana akan terasa tidak transparan. Saya menulis lencana sebagai mitigasi, tetapi belum diuji readability-nya.
+4. **Protokol uji jujur** mengasumsikan dua runner tersedia; untuk solo learning-first, ini hanya mungkin jika pemilik mengajak 2 orang lain. Kalau hanya sendirian, hanya "uji oleh satu orang" yang valid; jangan diklaim sebagai protokol ganda.
+
+---
+
+## Tiga pertanyaan yang paling perlu keputusan pemilik
+
+1. **Soal Sela hidup:** apakah closure mengharuskan Sela bertanggung jawab secara eksplisit pada rapat desa (rute A+B+C sama), atau cukup ia mengaku pada MC pribadi (variasi per rute)? Keputusan ini menentukan panjang adegan akhir dan alokasi NPC.
+
+2. **Soal biaya A:** apakah biaya stewardship ditampilkan sebagai "pemotongan jatah makan warga" (emosional, mungkin terasa menghakimi) atau "gilingan Banu libur 1 hari per 5 siklus" (spesifik, kurang emosional)? Pemain lebih cepat memahami yang spesifik, tetapi yang emosional lebih diingat.
+
+3. **Soal determinisme ikan:** apakah runtuhnya ceruk pemijahan wajib pada rute C, atau menjadi probabilistik dengan syarat persiapan? Wajib memperkuat biaya moral rute C; probabilistik menghargai persiapan pemain tetapi mengurangi drama.
+
+---
+
+*Catatan proses:* review ini tidak menjalankan alat karena pemiliknya secara eksplisit meminta teks final tanpa eksekusi. Saya tidak menahan kritik sebelumnya; saya juga tidak menganggap rancangan Codex yang akan datang benar tanpa verifikasi. Setiap angka biaya dan biaya-manfaat di atas adalah [CONTOH] sampai playtest manusia dilakukan.

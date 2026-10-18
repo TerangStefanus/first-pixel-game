@@ -2,6 +2,25 @@
 
 ## 2026-10-18
 
+### Added — Wildroot revision proposal for owner review
+
+- Add a 16-page proposal covering eight narrative/design priorities, five revised scene excerpts, route policies, consequences, and clue mapping; all await owner approval.
+- Include a standalone offline slime–compost–crop decision prototype with source, 11 model checks, an interface fixture check, and two MiniMax M3 discussion rounds.
+- Add Windows review instructions and retain the distinction between technical verification, pending human playtests, and the unchanged main Godot implementation.
+
+### Added — native macOS critic workflow
+
+- Add a native Command Code launcher matching the existing Windows review policy, with bounded subprocesses, exact model checks and failure/interrupt propagation.
+- Add nine mocked wrapper tests and document Mac installation/authentication, a completed MiniMax M3 request, and two live denied write diagnostics.
+- Preserve shared permissions, machine-local credentials/paths, Windows tooling and gameplay/art assets.
+
+### Updated — integrated v2 design and Windows learning workflow
+
+- Integrate `codex/bootstrap-setup` through a fast-forward, retaining Mac assets and reference files.
+- Add the unmodified Bible v2 and complete A/B/C novel collection with reference-index/checksum updates.
+- Record route trade-offs, source continuity differences, current implementation gaps and one proposed owner-led interaction task.
+- Refresh project context and roadmap without implementing gameplay or changing character/map/UI art.
+
 ### Added — narrative and visual discussion sources
 
 - Include the original Wildroot world bible and Jalur A novel DOCX files, three user-supplied concept images, the illustration embedded in the novel, and seven gameplay review screenshots.

@@ -1,0 +1,35 @@
+{
+  "model": {
+    "exit_code": 0,
+    "last_line": "{\"tests\":11,\"passed\":11,\"humanPlaytest\":false}"
+  },
+  "interface_fixture": {
+    "exit_code": 0,
+    "last_line": "{\"interfaceFixture\":\"passed\",\"visualBrowserCheck\":false,\"humanPlaytest\":false}"
+  },
+  "document": {
+    "pages": 16,
+    "all_page_images_inspected": true,
+    "approval_sections": 8,
+    "tables": 7,
+    "source_docx_replaced": false
+  },
+  "browser_visual": {
+    "verified": false,
+    "note": "IAB could not connect to localhost; Firefox loaded the page title but screenshot did not show selected page. DOM fixture checks are separate from browser visual QA."
+  },
+  "human_playtest": {
+    "completed": false,
+    "observations": "Belum ada hasil dari pemilik atau tester manusia."
+  },
+  "minimax": {
+    "model": "MiniMaxAI/MiniMax-M3",
+    "completed_rounds": 2,
+    "independent_first_proposal": true,
+    "final_decider": "Stefanus Terang"
+  },
+  "source_hashes": {
+    "Wildroot_Bible_v2.docx": "3ce747adde72e7692cad2be93b50a9cb240957a552cf5a0307541dfca61d66c1",
+    "Wildroot_Kumpulan_Novel_Jalur_A_B_C_v1.docx": "135e23ced1d9e16576154c443748a0689bdef422fbcb8e24109689ca5beb57a6"
+  }
+}

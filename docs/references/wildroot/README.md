@@ -1,8 +1,20 @@
 # Referensi dan bahan diskusi Wildroot
 
-Dokumen dan gambar yang disertakan pemilik proyek dalam pembahasan 17–18 Oktober 2026. Salinan DOCX dan gambar lampiran dipertahankan tanpa perubahan isi. Folder ini diabaikan importer Godot melalui `.gdignore` agar gambar diskusi tidak ikut menjadi aset runtime.
+Dokumen dan gambar yang disertakan pemilik proyek dalam pembahasan 17–18 Oktober 2026. Pembaruan 18 Oktober menambahkan Bible v2 dan koleksi novel A/B/C. Salinan DOCX dan gambar lampiran dipertahankan tanpa perubahan isi. Folder ini diabaikan importer Godot melalui `.gdignore` agar gambar diskusi tidak ikut menjadi aset runtime.
 
-## Dokumen utama
+## Rujukan terbaru
+
+- [Bible v2](documents/Wildroot_Bible_v2.docx): rujukan desain kerja terpadu terbaru. Penanda keputusan, rekomendasi, contoh dan pertanyaan terbuka tetap berlaku; panjangnya uraian tidak membuat semuanya canon.
+- [Kumpulan novel A/B/C](documents/Wildroot_Kumpulan_Novel_Jalur_A_B_C_v1.docx): tiga kemungkinan playthrough, bukan tiga kejadian berturut-turut atau tiga campaign yang wajib dibuat. Jalur A masih membawa premis v1; B/C memakai penguatan v2.
+- [Review integrasi](../../DESIGN_REVIEW.md#pembaruan-18-oktober-2026) mencatat pemahaman, perbedaan naskah, dan risiko yang perlu dibahas. [Roadmap aktif](../../ROADMAP.md) menyimpan satu langkah berikutnya.
+
+Bible v2 dipakai untuk membandingkan rancangan sistem terbaru. GDD dan v1 tetap menjadi riwayat; perbedaan plot tidak otomatis diselesaikan dengan memilih satu novel sebagai canon final. **Pilihan B genre** berarti action-adventure + farming seimbang secara fungsi; itu berbeda dari **ending B**, Regulated Harness.
+
+## Usulan revisi untuk ditinjau
+
+[Paket delapan revisi](../../proposals/wildroot-revision-8/README.md) berisi dokumen Word 16 halaman, petikan revisi A/B/C, tabel kebijakan dan konsekuensi, peta petunjuk, serta prototipe keputusan offline. R1–R8 dapat di-ACC, ditolak, atau diubah secara terpisah. Hasil aturan otomatis tersedia; playtest manusia belum dilakukan. Proposal ini tidak menggantikan Bible v2 atau novel sumber.
+
+## Dokumen sebelumnya
 
 | Dokumen | Status / kegunaan |
 | --- | --- |
