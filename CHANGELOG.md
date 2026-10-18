@@ -2,6 +2,12 @@
 
 ## 2026-10-18
 
+### Added — editable art and Windows handoff
+
+- Preserve 28 previously local unique Aseprite binaries as labeled history alongside the 40 existing native sources; add metadata/hash inventory and original relative snapshot paths.
+- Include 48 unchanged CC0 study images from Sora, MetroCity previews and the downloaded Ninja Adventure Godot example, with provenance; link Mana Seed through its official download instead of redistributing raw files.
+- Document active layered files, combined masters, woodland sources, F5/F6 scene differences and manual PNG export paths. Keep all existing native art and runtime assets unchanged; vertical run art still awaits owner repair.
+
 ### Added — Wildroot revision proposal for owner review
 
 - Add a 16-page proposal covering eight narrative/design priorities, five revised scene excerpts, route policies, consequences, and clue mapping; all await owner approval.

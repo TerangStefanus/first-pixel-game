@@ -1,0 +1,2238 @@
+{
+  "description": "Native Aseprite files at this handoff. Active files are unchanged. Historical binaries are preserved for comparison. See docs/ASEPRITE_HANDOFF.md for authoritative editing/export paths.",
+  "files": [
+    {
+      "path": "assets/source-history/wanderer/01-Sprite-0003-original-e19d7b3e.aseprite",
+      "role": "historical",
+      "bytes": 568,
+      "sha256": "e19d7b3e8600e0bc0bf3f45dab8e4b8d52626a2d3dbaa63b6b9207682e35f80c",
+      "canvas": [
+        96,
+        96
+      ],
+      "frames": 1,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/02-Sprite-0003-wanderer-96-aee3e191.aseprite",
+      "role": "historical",
+      "bytes": 6615,
+      "sha256": "aee3e1917c61d8a96f6147a74e3bc21babdc6e58e093b85ad2a71366bb910e58",
+      "canvas": [
+        96,
+        96
+      ],
+      "frames": 1,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Layer 1",
+        "Layer 2"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/03-run_down_native-fca15b72.aseprite",
+      "role": "historical",
+      "bytes": 3655,
+      "sha256": "fca15b720a332173e59c10b300267f0b947dbb928a494c49eba24d94baf43d35",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Left trouser and rigid boot",
+        "Right trouser and rigid boot",
+        "Opposing sleeve and hand swing",
+        "Approved face hair chest and backpack"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/04-run_up-00343306.aseprite",
+      "role": "historical",
+      "bytes": 3434,
+      "sha256": "00343306ecfb3bb131771c88be877dc641f18526ba4ebb6cb57d1b87f6aa5ad0",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Left trouser and rigid boot",
+        "Right trouser and rigid boot",
+        "Opposing sleeve and hand swing",
+        "Approved face hair chest and backpack"
+      ],
+      "tags": [
+        {
+          "name": "run_up",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/05-wanderer_64_run-b27f0f41.aseprite",
+      "role": "historical",
+      "bytes": 7702,
+      "sha256": "b27f0f41813b5881ed813c4be9d564a335bb4a43bab68859b1ea9b7ad1a4e140",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/06-base_left-e5164e87.aseprite",
+      "role": "historical",
+      "bytes": 546,
+      "sha256": "e5164e878a59c0a52a50dbf52dce792d9c47062495dd7442b421fc548b33d9ff",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/07-walk_left-250243c7.aseprite",
+      "role": "historical",
+      "bytes": 1431,
+      "sha256": "250243c79a41d8d47b412e0e8c3f87f9bf26ff63257f50dd2252ff1520552003",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/08-walk_right-ec53f4b5.aseprite",
+      "role": "historical",
+      "bytes": 1433,
+      "sha256": "ec53f4b59122293c1516220511ee9c7462cca9fb3e92da405258d8debdf9fe31",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/09-wanderer_64-ebc21644.aseprite",
+      "role": "historical",
+      "bytes": 6454,
+      "sha256": "ebc2164457c6c93662d2c01b4a28c37037c304f1b8dd03e9ed68c35bf9c9bec3",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 20,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 11,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 12,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 16,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 17,
+          "to_frame": 20
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/10-wanderer_64-ad47cc60.aseprite",
+      "role": "historical",
+      "bytes": 6454,
+      "sha256": "ad47cc601678dd5ce426c75cfaa63ca28bc6e478c690a47ccebdf9505c8fcb48",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 20,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 10
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 11,
+          "to_frame": 11
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 12,
+          "to_frame": 15
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 16,
+          "to_frame": 16
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 17,
+          "to_frame": 20
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/11-run_down-d66e6200.aseprite",
+      "role": "historical",
+      "bytes": 5010,
+      "sha256": "d66e6200bc7d5c951a6b44e7f84286d5349648d4434f04105996539170821181",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/12-run_left-5e8c6fbe.aseprite",
+      "role": "historical",
+      "bytes": 4830,
+      "sha256": "5e8c6fbe994e7dcbf862c1f92058eeb7d1d1294acd6d461b73c7c4e4a98ebf9e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/13-run_right-e29adf3b.aseprite",
+      "role": "historical",
+      "bytes": 4877,
+      "sha256": "e29adf3b8614b3d09d1b43be3b77503305054effc840fc4460e58d9a9290f912",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/14-run_up-b4f88011.aseprite",
+      "role": "historical",
+      "bytes": 4749,
+      "sha256": "b4f88011203e55f56bbe34502c14fc37cd20727d6454ddfeb1d2618beffcfb0e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/15-wanderer_64_run-4b14c114.aseprite",
+      "role": "historical",
+      "bytes": 9329,
+      "sha256": "4b14c114f103c23ed72f0a81f881bb4f94ecd80c3cdebb4ca9ac274ef2d3160f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 32,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 8
+        },
+        {
+          "name": "run_left",
+          "from_frame": 9,
+          "to_frame": 16
+        },
+        {
+          "name": "run_right",
+          "from_frame": 17,
+          "to_frame": 24
+        },
+        {
+          "name": "run_up",
+          "from_frame": 25,
+          "to_frame": 32
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/16-base_left-9a86993e.aseprite",
+      "role": "historical",
+      "bytes": 539,
+      "sha256": "9a86993eedeef800ecc4f9ed4a662641364a8fc20fdfb4af0156b9502c0a4ebd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/17-walk_left-6594426f.aseprite",
+      "role": "historical",
+      "bytes": 1916,
+      "sha256": "6594426f50b20f4253d62d70a1da1200d00504034842fefb57447568325a4ad6",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/18-walk_right-98ac5ba8.aseprite",
+      "role": "historical",
+      "bytes": 1971,
+      "sha256": "98ac5ba8a097dc88532f8cf3e02efd796d31eb4773572a3e9531c86737c062e1",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/19-wanderer_64-e9bff8cd.aseprite",
+      "role": "historical",
+      "bytes": 7470,
+      "sha256": "e9bff8cd6da2e96018b2a020ee684cb990628a0c423bdd1a31e2d5aeb5deb546",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 13,
+          "to_frame": 13
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 14,
+          "to_frame": 19
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 20,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 21,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/20-walk_left-f9bd6f39.aseprite",
+      "role": "historical",
+      "bytes": 1957,
+      "sha256": "f9bd6f39a8c218fc31bb3dec5d1b713482a34a6a1c42438e40eb4105964d8dd2",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/21-walk_right-91723c3c.aseprite",
+      "role": "historical",
+      "bytes": 1989,
+      "sha256": "91723c3cd6a6c65cbb9fa704b4fe6fd1ef9f758fa4655c37f0bb975e6e5aae05",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/22-wanderer_64-889426c1.aseprite",
+      "role": "historical",
+      "bytes": 7529,
+      "sha256": "889426c1e7c66cb2a42b804e8d92ae924e3b5b2b9d0d58ed927946546e6e4d71",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 13,
+          "to_frame": 13
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 14,
+          "to_frame": 19
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 20,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 21,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/23-walk_left-7b2eedb3.aseprite",
+      "role": "historical",
+      "bytes": 3583,
+      "sha256": "7b2eedb353b1bbbaf8ecb4f1adba2ded406978af66c518d3a8d9fe34d9699b2e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/24-walk_right-e1967dde.aseprite",
+      "role": "historical",
+      "bytes": 3645,
+      "sha256": "e1967dde80dc839f6fd7abad2b0283a8c460f459a7100aa3870f187cad6793d5",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/25-wanderer_64-95d2fd94.aseprite",
+      "role": "historical",
+      "bytes": 8620,
+      "sha256": "95d2fd944aba50096f9bb5db148b2e954386b3411627128a59072f5c2cfbe997",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 28,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 14
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 15,
+          "to_frame": 15
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 16,
+          "to_frame": 23
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 24,
+          "to_frame": 24
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 25,
+          "to_frame": 28
+        }
+      ]
+    },
+    {
+      "path": "assets/source-history/wanderer/26-run_down-d10ddb40.aseprite",
+      "role": "historical",
+      "bytes": 2134,
+      "sha256": "d10ddb402b1ce8e50a079448a24559c2e7e14296b761a424abea14ea6f8b5039",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Redrawn down run"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/27-run_up-192dc17e.aseprite",
+      "role": "historical",
+      "bytes": 1995,
+      "sha256": "192dc17ed584266b2baf94d4dabab98303843136e150c47ca22fb2d5df3468e5",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Redrawn up run"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/source-history/wanderer/28-wanderer_64_run-90bddd8c.aseprite",
+      "role": "historical",
+      "bytes": 7825,
+      "sha256": "90bddd8cf75abf53fdf1ba486dc75a1320fefe83a7d2f87ad304d865e42aae49",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/player.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1941,
+      "sha256": "a5df3572010d589f15f9bbe28570e227ea2c15ba1ca174f2968d7f410197d566",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        250,
+        100,
+        100,
+        100,
+        100,
+        250
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/player_down_anim_backup.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 2041,
+      "sha256": "ea5c6c58668fe165ae8303fe8200f2b2a244fe29fc7e92c5cc15b8b0c790de29",
+      "canvas": [
+        32,
+        32
+      ],
+      "frames": 6,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        250,
+        100,
+        100,
+        100,
+        100,
+        250
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 2
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 3,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/red_wyvern_128.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 5529,
+      "sha256": "623edff93cb80a2e16ce5612f4d71e684431530a5e11bcb3fbba977f02fb240e",
+      "canvas": [
+        128,
+        128
+      ],
+      "frames": 1,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/approved-original.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 587,
+      "sha256": "5ad000b27ded0f3c16f53d012888753606efb40238fda6062affe490c5d2f709",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/base_down.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 568,
+      "sha256": "2ba710c471c80cf0c8478a0ec0219ba7175588f52b0cb0861c5cd6bd2fee7840",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/base_left.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 539,
+      "sha256": "8c6cd08cabd2b0d2db50dad9ad425a5ae9fa359f076ad4d453659037f3f824dd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/base_right.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 546,
+      "sha256": "12db5ae6732f45a870dc31d73160cac21706b90722c278107a1bd61ee4b74a13",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/base_up.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 538,
+      "sha256": "ea00e5c7ed0ca62a8fc798d2a68e80d3430703042309ca9200df487c237487d2",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_down.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 4053,
+      "sha256": "4500f229cf9328a60e5880386dc3516a2a06cd31550a5dd27ae104595d3245ea",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_down_native.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 4053,
+      "sha256": "4500f229cf9328a60e5880386dc3516a2a06cd31550a5dd27ae104595d3245ea",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_down_reference.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 4053,
+      "sha256": "4500f229cf9328a60e5880386dc3516a2a06cd31550a5dd27ae104595d3245ea",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_left.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 2141,
+      "sha256": "bf01bfb99250d4f08cc96bc4841f2a7b7bf7596dbf51293d8545c218b10b8e77",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Redrawn left run"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_right.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3135,
+      "sha256": "67938832ce0d82a33103c2b24ee7958b9d38703c5a2ae285912498788abcadc8",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Dark far arm - full swing",
+        "Character drawing",
+        "Light near hand - same identity"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_right_redraw.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3135,
+      "sha256": "67938832ce0d82a33103c2b24ee7958b9d38703c5a2ae285912498788abcadc8",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Dark far arm - full swing",
+        "Character drawing",
+        "Light near hand - same identity"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_up.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3863,
+      "sha256": "8fd841fb12f924d6b0f640425178400988254e5d3dd669aae3ee0be79bbf5ecd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_up",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_up_native.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3863,
+      "sha256": "8fd841fb12f924d6b0f640425178400988254e5d3dd669aae3ee0be79bbf5ecd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_up",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/run_up_reference.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3863,
+      "sha256": "8fd841fb12f924d6b0f640425178400988254e5d3dd669aae3ee0be79bbf5ecd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Observed trouser and boot silhouettes - CC0 reference",
+        "Observed sleeve and hand poses - hero palette",
+        "Wanderer scarf chest and backpack",
+        "Full native-size forward fist and bent sleeve",
+        "Approved hair and face - pixel preserved"
+      ],
+      "tags": [
+        {
+          "name": "run_up",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_down.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1477,
+      "sha256": "4535ad5bb77aaf8865cdac4c6d44a72f7ea48fbfbe9a82bc48e0b90a034b3582",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_left.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3566,
+      "sha256": "b1310f137700dea5754bfd6c636045bc91cb122f74c84e701b580af2cce07303",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_left_chunky.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3566,
+      "sha256": "b1310f137700dea5754bfd6c636045bc91cb122f74c84e701b580af2cce07303",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_left_gait.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3566,
+      "sha256": "b1310f137700dea5754bfd6c636045bc91cb122f74c84e701b580af2cce07303",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_right.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3653,
+      "sha256": "dbf7efa44736b50a6707a2063cd0c107df0c7dcb40d67d91b4e5fcb83f76240f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_right_chunky.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3653,
+      "sha256": "dbf7efa44736b50a6707a2063cd0c107df0c7dcb40d67d91b4e5fcb83f76240f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_right_compact.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3653,
+      "sha256": "dbf7efa44736b50a6707a2063cd0c107df0c7dcb40d67d91b4e5fcb83f76240f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_right_gait.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 3653,
+      "sha256": "dbf7efa44736b50a6707a2063cd0c107df0c7dcb40d67d91b4e5fcb83f76240f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/walk_up.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1392,
+      "sha256": "8c12a14ae2b88a8ae23063df3105b0ccf00cf768ee53ff0c9f19c66d40be216b",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/wanderer_64.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 8609,
+      "sha256": "50ffb32b34121edb2f8d625bc9f73f4e6b6d8f148f2cd4855305486abe61b1bf",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 28,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 14
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 15,
+          "to_frame": 15
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 16,
+          "to_frame": 23
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 24,
+          "to_frame": 24
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 25,
+          "to_frame": 28
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 7614,
+      "sha256": "43d69fcfd145e1c34bd2e3739d7f523ef5938fbbaddf002ffe667dc07cfa1534",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 7614,
+      "sha256": "43d69fcfd145e1c34bd2e3739d7f523ef5938fbbaddf002ffe667dc07cfa1534",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "assets/tilesets/ninja_adventure/flowers.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1785,
+      "sha256": "9f751da51467f2d08a53b2eab8ad35bfc771a5e8527fb55569a98225ac12c11a",
+      "canvas": [
+        24,
+        24
+      ],
+      "frames": 4,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/bush.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 604,
+      "sha256": "950e535d1600df412cb89cbc8d0d2566e962343b8a7509c8d3bf295e9d9cce7e",
+      "canvas": [
+        64,
+        48
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "bush - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/fern.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 526,
+      "sha256": "8c9912b08929003117970224c88915639d19296a775953315785eeb14b58cf24",
+      "canvas": [
+        64,
+        48
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "fern - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/flower.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 393,
+      "sha256": "3c9850b18898c04fb669bf8a33d9127d9ddfebb1e5e62cc9c956ed6587ec6087",
+      "canvas": [
+        16,
+        16
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Tiny cream flower"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/flower_bush.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 637,
+      "sha256": "788ae747379439e0280e4f28768f7a6776a345342de728f12adddb1eb57a465d",
+      "canvas": [
+        64,
+        48
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "flower_bush - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/ground_32.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1129,
+      "sha256": "48db836b2701fcd4862d68951cdbcc442cce7274ad0042bbfa0212fee22362f5",
+      "canvas": [
+        256,
+        96
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "32px grass and dirt edge masks"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/oak_a.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1550,
+      "sha256": "40481fa254e052508090207e34b4692cfe45fcc061d448c5cbf8719d01edc146",
+      "canvas": [
+        128,
+        144
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "oak_a - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/oak_b.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1430,
+      "sha256": "f10ee7cce0fd4f978c1242ae2d3a13cac84d94325b3c13c30a0cd807f4f4990c",
+      "canvas": [
+        128,
+        144
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "oak_b - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/pine_a.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1326,
+      "sha256": "c37ff269e65d7aa5ac4825c59d59ea617f977659e0a2325fe3e1a597ffa8615e",
+      "canvas": [
+        128,
+        144
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "pine_a - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/pine_b.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 1429,
+      "sha256": "f41d34fa96e35572d64b727a41927a4de5ff1d90a00eee630ca9805570ce6d19",
+      "canvas": [
+        128,
+        144
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "pine_b - native pixels"
+      ],
+      "tags": []
+    },
+    {
+      "path": "assets/tilesets/wildroot/source/rocks.aseprite",
+      "role": "existing source (see editing guide)",
+      "bytes": 610,
+      "sha256": "7e475fd91c276189f02d839da7cfa8da017e580f379b161eb359faca1a6cd235",
+      "canvas": [
+        64,
+        48
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "rocks - native pixels"
+      ],
+      "tags": []
+    }
+  ]
+}

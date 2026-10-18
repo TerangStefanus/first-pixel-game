@@ -186,6 +186,8 @@ Catatan playtest cukup: situasi/tindakan → yang terlihat → dugaan → percob
 
 ## Handoff
 
+- Character art on Windows: follow the [Aseprite source/reference handoff](ASEPRITE_HANDOFF.md). Start with layered `run_down_reference.aseprite` / `run_up_reference.aseprite`, compare CC0 references, export the matching PNG strips and inspect the woodland scene with F6. Combined masters and 28 archived local iterations are identified separately; no visual repair or owner approval is claimed.
+
 - Review lintas perangkat: [paket delapan revisi Wildroot](proposals/wildroot-revision-8/README.md) siap untuk ACC/tolak per R1–R8. Di Windows buka dokumen Word di folder itu dan `prototype/index.html` lewat browser. Prototipe keputusan terpisah ini belum mengintegrasikan farm/combat ke Godot dan tidak menyelesaikan modul belajar pemilik. Kumpulkan keputusan serta satu pengamatan percobaan sebelum memindahkan aturan ke game utama.
 
 - Windows: ambil main terbaru dengan worktree bersih, buka preview F6 dan periksa bahwa source/dokumen sudah tersinkron. F5 tetap baseline lama; perubahan main scene belum dilakukan.
