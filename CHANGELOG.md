@@ -2,6 +2,12 @@
 
 ## 2026-10-18
 
+### Added — native macOS critic workflow
+
+- Add a native Command Code launcher matching the existing Windows review policy, with bounded subprocesses, exact model checks and failure/interrupt propagation.
+- Add nine mocked wrapper tests and document Mac installation/authentication, a completed MiniMax M3 request, and two live denied write diagnostics.
+- Preserve shared permissions, machine-local credentials/paths, Windows tooling and gameplay/art assets.
+
 ### Updated — integrated v2 design and Windows learning workflow
 
 - Integrate `codex/bootstrap-setup` through a fast-forward, retaining Mac assets and reference files.

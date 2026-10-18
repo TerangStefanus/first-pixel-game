@@ -28,7 +28,7 @@ The original GDD, independent review and earlier learning decisions are preserve
 | `tools/validate_wanderer_*.gd` | Focused walk/run/map validation; passing does not establish visual quality |
 | `assets/sprites/` | Original Aseprite sources, PNG exports, player frames, and import metadata |
 | `tools/verify-godot.ps1` | Lightweight import, script parsing, and startup checks |
-| `tools/command-code.ps1` | Human onboarding, auth/model checks, and bounded code/design reviews |
+| `tools/command-code.ps1`, `tools/command-code.sh`, `tools/command-code.mjs` | Windows PowerShell and native Mac onboarding/discussion, auth/model checks and bounded reviews |
 | `tools/command-code/prompts/` | Neutral, independent critic instructions |
 
 ## Execution map
@@ -63,3 +63,9 @@ Exact speed, zoom, frame timing, and viewport values live in source/Inspector ra
 - A live permission diagnostic recorded `tool_denied` for both `write_file` and a shell redirection targeting disposable ignored fixtures. Both files retained their original contents, and Git stayed clean. This verifies those two attempts with the current configuration, not every possible tool path.
 - Wrapper checks passed for prompt/flag handling, missing authentication/model, upstream failure, and timeout using a simulated CLI; live access and the bounded permission diagnostic were checked separately.
 - Focused Godot validation scripts exist; no general test framework, addons, CI, or export presets are present in the inspected tree. The intended ecological loop is now documented; its rules, pacing, scope, and player experience remain to be tested.
+
+## Mac critic verification 2026-10-18
+
+Reused Node 24.12.0/npm 11.6.2 and installed Command Code 1.84.0. Browser login completed, status authenticated, and the catalog included MiniMax M3. The native wrapper completed a real bounded M3 source-reading request for `scripts/player.gd`; this is not a gameplay test or endorsement of every reviewer claim. A live permission diagnostic denied direct writing and shell redirection to two disposable ignored fixtures, both unchanged afterward. Nine mocked native-wrapper tests passed, including nonzero failure propagation, timeout and interrupt cleanup.
+
+Use `./tools/command-code.sh interactive` to discuss in plan mode, or `review --kind code|design` with a focused question. Any project trust prompt remains a human step. Account credentials and Node/CLI/Godot/Aseprite paths remain machine-local; the Windows wrapper and shared permission settings are preserved. No gameplay/art or active learning-task status changed during this setup. See `tools/command-code/README.md` for limits and commands.
