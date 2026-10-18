@@ -4,19 +4,19 @@ Paket keputusan untuk Stefanus Terang
 
 18 Oktober 2026
 
-Paket ini mengajukan isi pengganti dan tambahan untuk delapan prioritas review. Semua perubahan cerita di sini berstatus USULAN MENUNGGU KEPUTUSAN PEMILIK. ACC dapat diberikan per ID; satu penolakan tidak membatalkan seluruh paket. Bible v2 dan novel A B C tetap menjadi sumber yang dipertahankan.
+Paket ini mengajukan isi pengganti dan tambahan untuk delapan prioritas review. Status persetujuan dicatat per bagian; bagian yang belum dibahas tetap merupakan usulan. ACC dapat diberikan per ID atau subbagian; satu penolakan tidak membatalkan seluruh paket. Bible v2 dan novel A B C tetap menjadi sumber yang dipertahankan.
 
-Rekomendasi utamanya adalah memakai satu fondasi cerita MC dan Sela, membedakan tiga kebijakan melalui fasilitas serta kehidupan sehari hari, dan menguji pilihan slime sebelum memperluas sistem. Angka dalam prototipe merupakan parameter percobaan. Keberhasilan program menjalankan aturan tidak membuktikan kegiatan tersebut menyenangkan.
+Rekomendasi utamanya adalah memakai satu fondasi cerita MC dan Elara, membedakan tiga kebijakan melalui fasilitas serta kehidupan sehari hari, dan menguji pilihan slime sebelum memperluas sistem. Angka dalam prototipe merupakan parameter percobaan. Keberhasilan program menjalankan aturan tidak membuktikan kegiatan tersebut menyenangkan.
 
 ## Daftar keputusan pemilik
 
 | ID | Isi yang diajukan | Status awal |
 | --- | --- | --- |
-| R1 | Sela hidup dalam area yang terisolasi namun layak dihuni dan menjadi resolusi bersama | Menunggu |
+| R1 | Fondasi hubungan tokoh utama dengan Elara, penamaan tokoh, dan penyelesaian pencariannya | Nama pengganti dan hubungan murid–mentor disetujui; rincian lain belum ditinjau satu per satu |
 | R2 | A mempertahankan kendali lokal terpisah B menjalankan pusat terbatas C melepas distribusi pusat | Menunggu |
 | R3 | Hunt Study Relocate punya hasil berbeda dan boleh dilanjutkan dengan tindakan pemulihan | Menunggu |
 | R4 | Kerugian ekologis dipengaruhi persiapan dan batas yang telah dapat diamati | Menunggu |
-| R5 | Revisi pembuka pertemuan Sela dan biaya stewardship pada novel A | Menunggu |
+| R5 | Revisi pembuka pertemuan Elara dan biaya stewardship pada novel A | Menunggu |
 | R6 | Dua adegan pengganti dan pedoman suara tokoh | Menunggu |
 | R7 | Delapan petunjuk inti dengan jalur bukti alternatif | Menunggu |
 | R8 | Prototipe keputusan terpisah beserta protokol uji | Menunggu |
@@ -25,43 +25,73 @@ Isian keputusan per ID: ACC / ACC DENGAN CATATAN / TOLAK / TUNDA. Catatan dapat 
 
 ## R1 Fondasi cerita bersama
 
+### Arah penamaan tokoh
+
+Pemilik menyetujui hubungan murid–mentor antara tokoh utama dan mentornya serta daftar nama pengganti di bawah dalam pembahasan 18 Oktober 2026. Nasib sang mentor dan rincian penyelamatannya belum dibahas satu per satu; persetujuan penamaan tidak dipakai untuk mengesahkan rincian tersebut.
+
+Pemilik meminta nama tokoh yang tidak terlalu mengesankan satu kawasan budaya. Daftar berikut merupakan nama pengganti yang telah disetujui untuk pengembangan selanjutnya. Tidak ada nama yang sepenuhnya netral bagi semua budaya; gaya yang dipilih di sini cenderung fantasi berbahasa Inggris. Nama-nama ini belum diuji kepada pemain dari berbagai bahasa.
+
+| Nama dalam sumber | Nama kerja pengganti | Peran saat ini |
+| --- | --- | --- |
+| Sela | Elara | Naturalis dan mentor tokoh utama |
+| Orin | Corvin | Surveyor konsorsium; rekan proyek sang mentor |
+| Dara | Mabel | Petani senior |
+| Banu | Bram | Pandai besi |
+| Tara | Rowan | Penjaga hutan dan jalur perjalanan |
+| Mira | Iris | Peramu obat dan peneliti |
+| Nuri | Nora | Arsiparis dan pengurus kontrak |
+| Kiran | Finn | Pedagang dan pelaut |
+| Ayu | Wren | Pengelola air dan perahu |
+| Rumi | Tess | Tenaga klinik |
+| Laras | Arden | Penjaga batas tanah komunal |
+
+Proposal ini memakai nama kerja pengganti secara konsisten agar pemilik dapat menilai bunyinya dalam cerita. Bible, novel sumber, transkrip MiniMax, dan prototipe tetap memakai nama sebelumnya. Tabel ini menjadi penghubung saat membandingkan dokumen. Perubahan nama tidak mengubah peran, asal budaya, hubungan, atau tindakan tokoh. Nama dan asal tradisi nyata yang menjadi bahan folklor juga tetap dipertahankan.
+
 ### Hubungan dan tujuan protagonis
 
-MC pernah menunjukkan perbedaan kondisi tanah dan air ketika orang lain menyalahkan serangga. Sela memeriksanya dan memperbaiki kesimpulan awal. Hubungan berlanjut melalui surat serta percobaan sederhana. MC datang karena ingin membangun kehidupan di lahan yang Sela alihkan secara sah sekaligus menemui mentornya. Di dermaga MC baru mengetahui Sela belum pulang. Hadiah lahan tidak mensyaratkan MC menyelesaikan krisis dan tidak membuktikan Sela telah meninggal.
+**Status: usulan, belum disetujui.** Bagian ini menjelaskan hubungan tokoh utama dengan Elara serta alasannya datang ke pulau. Hubungan murid–mentor dan pemberian lahan sudah diusulkan dalam Bible v2. R1 memperjelas latarnya dan mengusulkan agar ketiga jalur cerita memakai latar yang sama. Naskah jalur A masih memakai pembuka versi sebelumnya.
 
-Alasan pemberian yang diajukan: Sela semakin sering melakukan ekspedisi dan tidak sanggup menjaga kebun rumahnya. MC telah lama menyampaikan keinginan mempunyai tempat untuk menanam sendiri. Sela memilih mengalihkan lahan kepada orang yang ia kenal dan percaya akan merawatnya. Ia mengundang MC untuk berbagi temuan, tetapi tidak merancang kehilangan dirinya sebagai ujian atau membebankan pencarian sebagai syarat kepemilikan. Nuri dapat mengonfirmasi bahwa pengalihan telah diurus sebelum ekspedisi terakhir.
+Tokoh utama pernah melihat perbedaan kondisi tanah dan air ketika orang lain menyalahkan serangga. Elara memeriksa temuan itu, lalu memperbaiki kesimpulan awal. Sejak saat itu, mereka terus berkirim surat dan membahas percobaan sederhana. Elara menjadi mentor yang dipercaya tokoh utama.
 
-Perubahan emosional yang diajukan: awalnya MC ingin menemukan orang yang ia percaya; kemudian ia perlu memutuskan apakah tetap mempercayai orang itu setelah mengetahui kesalahannya. Pada akhir cerita MC mampu memakai pengetahuan Sela sambil menolak keputusan Sela. Motif ini menjadi fondasi bersama A B C, dengan cara menyelesaikan krisis yang berbeda.
+Tokoh utama sudah lama ingin memiliki tempat untuk menanam sendiri. Sementara itu, Elara semakin sering pergi berekspedisi hingga tidak sanggup merawat kebunnya. Ia pun memberikan rumah dan lahan itu kepada tokoh utama, seseorang yang sudah dikenalnya dan ia percaya akan merawatnya. Elara juga mengundangnya datang untuk melihat temuan yang ingin ia bagikan.
+
+Ketika tiba di dermaga, tokoh utama baru mengetahui bahwa Elara belum pulang dari ekspedisinya. Rencana awalnya adalah membangun kehidupan di kebun dan menemui sang mentor. Kabar hilangnya Elara memberinya alasan pribadi untuk ikut mencari.
+
+Rumah dan lahan itu merupakan pemberian yang sudah diurus secara sah sebelum ekspedisi terakhir Elara. Nora dapat mengonfirmasinya. Tokoh utama tetap menjadi pemiliknya meskipun belum menemukan Elara atau menyelesaikan krisis pulau. Pemberian tersebut juga tidak berarti Elara telah meninggal. Elara tidak sengaja menghilang untuk menguji muridnya.
+
+Hubungan mereka kemudian menghadapi persoalan yang lebih berat. Tokoh utama mengetahui bahwa Elara ikut melakukan kesalahan yang menyebabkan krisis. Ia harus memutuskan seberapa jauh ia masih dapat mempercayai mentornya. Ia boleh menghargai ilmu yang diajarkan Elara sambil menolak keputusan yang pernah diambilnya.
+
+Usulan ini berlaku untuk jalur A, B, dan C. Ketiganya berangkat dari hubungan pribadi yang sama, lalu menawarkan cara berbeda untuk menyelesaikan krisis pulau.
 
 ### Kebenaran yang dipegang penulis
 
-Sela dan Orin mengaktifkan kembali satu bagian regulator untuk membantu pasokan air dan pangan. Manfaat awalnya nyata. Jaringan berusaha mempertahankan target distribusi lama dengan sensor yang rusak dan saluran yang berubah. Ketika satu cabang kekurangan pasokan, pengaturan pusat menarik dari cabang lain sehingga beban bergeser. Penyebab krisis lokal dapat diuji melalui pengukuran; kesadaran The Root tetap belum dipastikan.
+Elara dan Corvin mengaktifkan kembali satu bagian regulator untuk membantu pasokan air dan pangan. Manfaat awalnya nyata. Jaringan berusaha mempertahankan target distribusi lama dengan sensor yang rusak dan saluran yang berubah. Ketika satu cabang kekurangan pasokan, pengaturan pusat menarik dari cabang lain sehingga beban bergeser. Penyebab krisis lokal dapat diuji melalui pengukuran; kesadaran The Root tetap belum dipastikan.
 
-Sela menerima data awal tentang penurunan aliran selatan, tetapi menunda membagikannya karena takut salah serta takut menghentikan pasokan yang baru menolong warga. Orin bertanggung jawab mempertahankan operasi ketika manfaat di pusat lebih mudah ia lihat daripada kerugian di hilir. Kesalahan Sela adalah tindakan menyembunyikan informasi, bukan sekadar kurang beruntung. Orin tetap mempunyai keberhasilan yang patut diakui. Keduanya wajib mengungkap keputusan dan membantu perbaikannya.
+Elara menerima data awal tentang penurunan aliran selatan, tetapi menunda membagikannya karena takut salah serta takut menghentikan pasokan yang baru menolong warga. Corvin bertanggung jawab mempertahankan operasi ketika manfaat di pusat lebih mudah ia lihat daripada kerugian di hilir. Kesalahan Elara adalah tindakan menyembunyikan informasi, bukan sekadar kurang beruntung. Corvin tetap mempunyai keberhasilan yang patut diakui. Keduanya wajib mengungkap keputusan dan membantu perbaikannya.
 
-### Keadaan Sela dan waktu santai pemain
+### Keadaan Elara dan waktu santai pemain
 
-Usulan utama mengubah ruang jebakan menjadi beberapa ruang pemeliharaan yang masih terhubung dengan tempat tumbuh jamur fiksi yang aman, penampung air tersaring, dan tempat istirahat. Sela bergerak, mencari pangan, dan menjaga dirinya. Ransum lama membantu masa awal, bukan satu satunya sumber hidup selama seluruh permainan. Jalur keluar utama terendam dan pembukaan paksa akan membanjiri kanal hunian bawah; ia belum mampu menstabilkan dua pengunci sekaligus. Alat komunikasi rusak. Penyelamatan membutuhkan pengalihan tekanan dari luar dan pengunci Banu, bukan kekuatan khusus MC.
+Usulan utama mengubah ruang jebakan menjadi beberapa ruang pemeliharaan yang masih terhubung dengan tempat tumbuh jamur fiksi yang aman, penampung air tersaring, dan tempat istirahat. Elara bergerak, mencari pangan, dan menjaga dirinya. Ransum lama membantu masa awal, bukan satu satunya sumber hidup selama seluruh permainan. Jalur keluar utama terendam dan pembukaan paksa akan membanjiri kanal hunian bawah; ia belum mampu menstabilkan dua pengunci sekaligus. Alat komunikasi rusak. Penyelamatan membutuhkan pengalihan tekanan dari luar dan pengunci Bram, bukan kekuatan khusus MC.
 
-Setelah Sela tidak pulang, Tara dan warga telah menyisir jalur luar; salinan rute pencarian dapat dibaca sejak awal. Mereka terhalang pintu yang sama dan tidak tahu posisi Sela di ruang dalam. Orin menyediakan peta parsial tetapi membutuhkan bukti baru untuk jalur aman. MC membantu melalui kerja lintas warga dan hasil pengamatan, bukan karena semua orang diam menunggu penyelamat.
+Setelah Elara tidak pulang, Rowan dan warga telah menyisir jalur luar; salinan rute pencarian dapat dibaca sejak awal. Mereka terhalang pintu yang sama dan tidak tahu posisi Elara di ruang dalam. Corvin menyediakan peta parsial tetapi membutuhkan bukti baru untuk jalur aman. MC membantu melalui kerja lintas warga dan hasil pengamatan, bukan karena semua orang diam menunggu penyelamat.
 
-Hari biasa terus bergerak, tetapi ancaman lonjakan tekanan final baru dimulai ketika rombongan membuka sambungan pusat. Pemicu itu harus diterangkan sebelum tindakan dan diawali pemeriksaan keselamatan serta pilihan kembali. Pemain tidak dapat memicu tahap berbahaya lalu tidur puluhan hari tanpa penjelasan; meninggalkan tahap itu menjalankan prosedur stabilisasi yang mengembalikan keadaan aman dengan progres pekerjaan tersimpan. Tidak ada timer kematian tersembunyi untuk Sela.
+Hari biasa terus bergerak, tetapi ancaman lonjakan tekanan final baru dimulai ketika rombongan membuka sambungan pusat. Pemicu itu harus diterangkan sebelum tindakan dan diawali pemeriksaan keselamatan serta pilihan kembali. Pemain tidak dapat memicu tahap berbahaya lalu tidur puluhan hari tanpa penjelasan; meninggalkan tahap itu menjalankan prosedur stabilisasi yang mengembalikan keadaan aman dengan progres pekerjaan tersimpan. Tidak ada timer kematian tersembunyi untuk Elara.
 
-Kondisi Sela saat ditemui lemah karena luka dan beban hidup terisolasi, bukan karena ia akan mati beberapa menit kemudian. Jumlah hari tidak menentukan apakah ia hidup. Angka tujuh minggu atau hampir dua bulan menjadi perkiraan Nuri saat kedatangan; jurnal mencatat waktu tambahan secara konsisten.
+Kondisi Elara saat ditemui lemah karena luka dan beban hidup terisolasi, bukan karena ia akan mati beberapa menit kemudian. Jumlah hari tidak menentukan apakah ia hidup. Angka tujuh minggu atau hampir dua bulan menjadi perkiraan Nora saat kedatangan; jurnal mencatat waktu tambahan secara konsisten.
 
-Informasi tenggat harus tersedia bagi pemain. Kartu pencarian Sela menyebut tidak ada tenggat kegagalan otomatis. Sebaliknya, kartu pembukaan pusat menyebut bahwa ini memulai pekerjaan berisiko dengan pemeriksaan keselamatan dan pilihan batal. Tanggal hilangnya Sela tetap dicatat untuk kontinuitas, tanpa menyamarkan batas waktu yang sebenarnya tidak ada.
+Informasi tenggat harus tersedia bagi pemain. Kartu pencarian Elara menyebut tidak ada tenggat kegagalan otomatis. Sebaliknya, kartu pembukaan pusat menyebut bahwa ini memulai pekerjaan berisiko dengan pemeriksaan keselamatan dan pilihan batal. Tanggal hilangnya Elara tetap dicatat untuk kontinuitas, tanpa menyamarkan batas waktu yang sebenarnya tidak ada.
 
 Trade off: usulan ini mengurangi urgensi survival dan mengubah detail ruang di B C. Imbalannya adalah kebebasan berkebun tetap masuk akal. Alternatif yang lebih menegangkan adalah batas waktu penyelamatan yang diumumkan, tetapi itu tidak kami rekomendasikan untuk janji leisure saat ini.
 
 ### Penutup minimum dan hal yang tetap terbuka
 
-Sebelum credits, pemain mengetahui Sela hidup, alasan ia tidak pulang, tindakan Sela dan Orin yang menyebabkan krisis, serta cara kebijakan pilihan menghentikan eskalasi. Sela memberikan laporan kepada warga dan tidak otomatis memperoleh kembali kepercayaan atau jabatan. Pengampunan personal MC dapat berbeda tanpa mengunci kebijakan jaringan.
+Sebelum credits, pemain mengetahui Elara hidup, alasan ia tidak pulang, tindakan Elara dan Corvin yang menyebabkan krisis, serta cara kebijakan pilihan menghentikan eskalasi. Elara memberikan laporan kepada warga dan tidak otomatis memperoleh kembali kepercayaan atau jabatan. Pengampunan personal MC dapat berbeda tanpa mengunci kebijakan jaringan.
 
 Asal paling tua The Root, kesadarannya, dan hubungan legenda luar pulau tetap dapat terbuka. Pertanyaan itu tidak menghalangi pemahaman penyebab krisis saat ini. Pemain boleh memilih menerima mentor kembali secara perlahan atau menjaga jarak; keduanya tetap dapat menamatkan cerita.
 
 ## R2 Batas tiga kebijakan
 
-Semua kebijakan melewati penemuan krisis dan pertemuan Sela yang sama. Pilihan guardian awal, hubungan Mira, atau keputusan slime tidak menjadi skor tersembunyi yang mengunci ending. Keadaan sebelumnya mengubah biaya persiapan dan respons warga. Bila syarat keselamatan belum cukup, pekerjaan persiapan alternatif tersedia.
+Semua kebijakan melewati penemuan krisis dan pertemuan Elara yang sama. Pilihan guardian awal, hubungan Iris, atau keputusan slime tidak menjadi skor tersembunyi yang mengunci ending. Keadaan sebelumnya mengubah biaya persiapan dan respons warga. Bila syarat keselamatan belum cukup, pekerjaan persiapan alternatif tersedia.
 
 | Aspek | A Penjagaan adaptif | B Pemanfaatan terukur | C Pelepasan bertahap |
 | --- | --- | --- | --- |
@@ -85,9 +115,9 @@ Warga menangani operasi rutin. Pemain menangani keputusan serta gangguan yang re
 
 ### Situasi yang diketahui pemain
 
-Dara ingin jalur kerja di samping kebun aman dan tanaman berhenti menguning. Pemain dapat melihat slime memakan daun lapuk, tanah basah di dekat saluran tersumbat, dan tanaman rusak di luar lintasan slime. Bukti awal belum menyatakan slime selalu bermanfaat atau selalu bersalah.
+Mabel ingin jalur kerja di samping kebun aman dan tanaman berhenti menguning. Pemain dapat melihat slime memakan daun lapuk, tanah basah di dekat saluran tersumbat, dan tanaman rusak di luar lintasan slime. Bukti awal belum menyatakan slime selalu bermanfaat atau selalu bersalah.
 
-Kontrak membayar satu kali untuk penyelesaian kebutuhan Dara. Meneliti, berburu, dan memindah boleh menjadi tindakan berurutan, tetapi tidak menggandakan hadiah kontrak. Jurnal mencatat metode yang benar benar dipakai. Hadiah penyelesaian terpisah dari material yang didapat selama tindakan.
+Kontrak membayar satu kali untuk penyelesaian kebutuhan Mabel. Meneliti, berburu, dan memindah boleh menjadi tindakan berurutan, tetapi tidak menggandakan hadiah kontrak. Jurnal mencatat metode yang benar benar dipakai. Hadiah penyelesaian terpisah dari material yang didapat selama tindakan.
 
 | Pilihan | Keuntungan yang memang berbeda | Biaya dan keterbatasan | Langkah lanjutan |
 | --- | --- | --- | --- |
@@ -95,19 +125,19 @@ Kontrak membayar satu kali untuk penyelesaian kebutuhan Dara. Meneliti, berburu,
 | Study | Menghasilkan bukti yang dapat dipakai berulang dan cara membuat kompos lebih hemat bahan | Rak uji terpakai selama percobaan dan hasil tidak langsung memberi reagen ekspedisi | Pakai pengetahuan lalu tentukan apakah perlu memindah atau membatasi slime |
 | Relocate | Jalur kerja dibuka sambil mempertahankan kelompok pengurai di tempat tujuan yang cocok | Perlu pemeriksaan habitat umpan dan membawa wadah | Cek tempat tujuan dan ambil residu setelah ada aktivitas penguraian |
 
-Tidak ada bonus hubungan otomatis karena memilih Study. Dara menilai apakah masalah kebunnya terbantu; Mira menilai cara bukti disampaikan; Tara dapat menyetujui perlindungan cepat ketika ada serangan. Perburuan defensif tidak memicu hukuman ekologis instan. Dampak kelangkaan berulang dibatasi dan terlihat lebih dahulu.
+Tidak ada bonus hubungan otomatis karena memilih Study. Mabel menilai apakah masalah kebunnya terbantu; Iris menilai cara bukti disampaikan; Rowan dapat menyetujui perlindungan cepat ketika ada serangan. Perburuan defensif tidak memicu hukuman ekologis instan. Dampak kelangkaan berulang dibatasi dan terlihat lebih dahulu.
 
 ### Aturan percobaan yang dipakai prototipe
 
 Satu hari berisi empat satuan tenaga. Pemain mulai dengan dua koin, dua daun, satu petak kosong, dan saluran tersumbat. Memeriksa lingkungan gratis agar biaya informasi dasar tidak mendorong tebakan buta. Hunt memakai satu tenaga dan memberi dua reagen. Study memakai dua tenaga, menahan rak uji dua pergantian hari, lalu perlu satu tenaga untuk membaca hasil; hasil memberi satu kompos contoh dan pengetahuan resep. Relocate memakai dua tenaga dan satu koin untuk umpan setelah tujuan diperiksa; pemeriksaan tujuan memakai satu tenaga. Residu di tujuan dapat diambil sekali setelah dua pergantian hari dan memberi satu kompos.
 
-Resep teliti mengolah satu daun menjadi satu kompos dengan satu tenaga. Pengolahan kasar tersedia sejak awal: satu reagen menjadi satu kompos dengan satu tenaga. Resep juga dapat dipelajari lewat penjelasan Mira seharga tiga koin dan satu tenaga setelah kontrak selesai, sehingga Study bukan satu satunya jalan pengetahuan. Reagen dapat dibeli dua koin per unit. Ini model biaya fiksi untuk perbandingan, bukan harga final.
+Resep teliti mengolah satu daun menjadi satu kompos dengan satu tenaga. Pengolahan kasar tersedia sejak awal: satu reagen menjadi satu kompos dengan satu tenaga. Resep juga dapat dipelajari lewat penjelasan Iris seharga tiga koin dan satu tenaga setelah kontrak selesai, sehingga Study bukan satu satunya jalan pengetahuan. Reagen dapat dibeli dua koin per unit. Ini model biaya fiksi untuk perbandingan, bukan harga final.
 
-Pemain yang telah berburu tetap dapat memulai Study dengan tambahan satu koin untuk residu pembanding dari luar wilayah. Sampel tanah lokal masih dapat diambil. Pemain yang sudah mempelajari resep melalui Mira tidak perlu mengulang Study yang sama dalam model kecil ini. Setiap tindakan utama dan pengambilan residu hanya tersedia sekali pada satu percobaan agar material tidak dapat digandakan.
+Pemain yang telah berburu tetap dapat memulai Study dengan tambahan satu koin untuk residu pembanding dari luar wilayah. Sampel tanah lokal masih dapat diambil. Pemain yang sudah mempelajari resep melalui Iris tidak perlu mengulang Study yang sama dalam model kecil ini. Setiap tindakan utama dan pengambilan residu hanya tersedia sekali pada satu percobaan agar material tidak dapat digandakan.
 
 Membersihkan saluran memakai satu tenaga. Hadiah enam koin dibayar satu kali setelah saluran terbuka dan pendekatan utama selesai. Study selesai setelah hasil dibaca; Hunt setelah tindakan; Relocate setelah pemindahan. Pemain yang hanya membersihkan saluran tetap boleh berkebun dan melanjutkan kegiatan lain. Tidak ada kegagalan cerita karena tidak mengambil kontrak ini.
 
-Pada penyelesaian Study, Dara menggeser tumpukan daun lapuk ke luar jalur kerjanya mengikuti hasil pengamatan; kelompok slime tidak dibiarkan tetap menghalangi jalur hanya karena resep sudah ditemukan. Pemindahan daun ini termasuk tindak lanjut saat membaca hasil, bukan seluruh sistem relokasi spesies. Dalam game nyata, posisi tumpukan dan tanggapan slime perlu terlihat.
+Pada penyelesaian Study, Mabel menggeser tumpukan daun lapuk ke luar jalur kerjanya mengikuti hasil pengamatan; kelompok slime tidak dibiarkan tetap menghalangi jalur hanya karena resep sudah ditemukan. Pemindahan daun ini termasuk tindak lanjut saat membaca hasil, bukan seluruh sistem relokasi spesies. Dalam game nyata, posisi tumpukan dan tanggapan slime perlu terlihat.
 
 ### Pertumbuhan dan pemulihan
 
@@ -123,7 +153,7 @@ Tiga kartu tujuan dalam prototipe memberi konteks berbeda: butuh reagen untuk pe
 
 ### Kejadian yang ditulis dan keadaan yang dihitung
 
-Keterlibatan lama Sela dan Orin serta kerusakan masa lampau adalah fakta cerita usulan yang tidak dapat dicegah pemain. Penurunan air yang sedang terjadi adalah situasi awal yang dapat diukur. Jumlah ikan yang terselamatkan, lama gangguan produksi, dan kebutuhan pemulihan setelah intervensi ditentukan tindakan serta keadaan, bukan kewajiban membuat semua playthrough mengalami kematian ikan yang sama.
+Keterlibatan lama Elara dan Corvin serta kerusakan masa lampau adalah fakta cerita usulan yang tidak dapat dicegah pemain. Penurunan air yang sedang terjadi adalah situasi awal yang dapat diukur. Jumlah ikan yang terselamatkan, lama gangguan produksi, dan kebutuhan pemulihan setelah intervensi ditentukan tindakan serta keadaan, bukan kewajiban membuat semua playthrough mengalami kematian ikan yang sama.
 
 | Keadaan awal dan tindakan | Akibat yang diajukan | Pemulihan dan batas |
 | --- | --- | --- |
@@ -146,89 +176,89 @@ Untuk rancangan kejadian ikan, gunakan kondisi deterministik yang dapat ditelusu
 
 Pemicu varian kerugian berat adalah debit melewati batas ceruk yang dapat diamati dan transfer tetap diteruskan sesudah peringatan terakhir, sementara cadangan serta evakuasi yang sesuai belum tersedia. Pemain dapat menurunkan transfer sebelum titik itu. H membantu mengetahui batas lebih awal, bukan izin agar game mengabaikan pengamatan langsung pemain.
 
-Contoh teks tiga varian untuk mengganti satu paragraf hasil: Tanpa mitigasi, Ayu menunjukkan wadah yang kosong dan meminta transfer dihentikan sebelum ceruk berikutnya surut. Dengan evakuasi, wadah berisi sebagian ikan hidup sementara catatan menandai ceruk yang harus ditinggalkan. Dengan cadangan air yang cukup, Ayu mengembalikan wadah kosong ke perahu karena tidak ada pemindahan darurat; di bengkel, papan giliran berkurang agar cadangan itu tetap tersedia. Ketiganya mempunyai harga yang dapat dijelaskan, tanpa memerlukan kesimpulan moral yang sama.
+Contoh teks tiga varian untuk mengganti satu paragraf hasil: Tanpa mitigasi, Wren menunjukkan wadah yang kosong dan meminta transfer dihentikan sebelum ceruk berikutnya surut. Dengan evakuasi, wadah berisi sebagian ikan hidup sementara catatan menandai ceruk yang harus ditinggalkan. Dengan cadangan air yang cukup, Wren mengembalikan wadah kosong ke perahu karena tidak ada pemindahan darurat; di bengkel, papan giliran berkurang agar cadangan itu tetap tersedia. Ketiganya mempunyai harga yang dapat dijelaskan, tanpa memerlukan kesimpulan moral yang sama.
 
 ## R5 Teks pengganti untuk jalur A
 
 Tiga petikan berikut mengusulkan penyelarasan adegan yang sudah ada. Penempatan final dapat berubah setelah R1 dan R2 disetujui. Naskah lama tetap disimpan sebagai riwayat.
 
-### Pembuka yang mengikat MC dengan Sela
+### Pembuka yang mengikat MC dengan Elara
 
-Kamu menahan surat itu agar tidak terlipat ketika kapal menghantam gelombang kecil. Ada bekas tanah di sudut kertas. Sela pernah meminta maaf karena menulis di meja percobaan; kamu menyimpan surat itu justru karena bekasnya.
+Kamu menahan surat itu agar tidak terlipat ketika kapal menghantam gelombang kecil. Ada bekas tanah di sudut kertas. Elara pernah meminta maaf karena menulis di meja percobaan; kamu menyimpan surat itu justru karena bekasnya.
 
 Rumah dan lahan sudah atas namamu. Datanglah kalau kau masih ingin mencoba kebun sendiri.
 
 Di dermaga, perempuan yang membawa buku arsip membaca namamu dua kali sebelum menyerahkan kunci.
 
-“Aku Nuri. Surat pemindahannya sudah lengkap.”
+“Aku Nora. Surat pemindahannya sudah lengkap.”
 
-“Sela di rumah?”
+“Elara di rumah?”
 
-Nuri menutup bukunya. “Belum pulang. Tujuh minggu.”
+Nora menutup bukunya. “Belum pulang. Tujuh minggu.”
 
 Di sisi gudang pelabuhan tertempel peta pencarian. Tiga jalur hutan diberi tanda tanggal. Pada ujung garis terakhir, seseorang menggambar pintu air.
 
-“Tara memimpin pencarian kedua,” kata Nuri. “Besok dia kembali dari jalur utara.”
+“Rowan memimpin pencarian kedua,” kata Nora. “Besok dia kembali dari jalur utara.”
 
-Kamu mendekati peta. Sela dahulu selalu meminta kamu memberi tanggal pada catatan, bahkan untuk satu benih yang belum tumbuh. Pada peta ini, tanggal terakhir berhenti enam hari lalu.
+Kamu mendekati peta. Elara dahulu selalu meminta kamu memberi tanggal pada catatan, bahkan untuk satu benih yang belum tumbuh. Pada peta ini, tanggal terakhir berhenti enam hari lalu.
 
-Nuri menyodorkan kunci lebih dekat.
+Nora menyodorkan kunci lebih dekat.
 
 “Kau tetap perlu tempat tidur malam ini.”
 
 Kamu menerimanya. Pertanyaan tentang kebun yang hendak kamu buat tiba tiba terasa terlalu ringan, tetapi tanah di bawah kukumu dan tas yang harus dibawa tetap ada.
 
-### Pertemuan Sela sebelum pemilihan kebijakan
+### Pertemuan Elara sebelum pemilihan kebijakan
 
-Pengunci buatan Banu menahan roda ketika Ayu memberi tanda dari seberang kanal. Tara menarik rantai kedua. Pintu tidak terbuka seluruhnya, hanya cukup untuk seseorang merangkak.
+Pengunci buatan Bram menahan roda ketika Wren memberi tanda dari seberang kanal. Rowan menarik rantai kedua. Pintu tidak terbuka seluruhnya, hanya cukup untuk seseorang merangkak.
 
-Sela berada di ruangan sebelah, membungkus lengan dengan kain yang sudah terlalu sering dicuci. Di dekatnya ada wadah air, rak jamur, dan dua sepatu yang diganjal agar kering.
+Elara berada di ruangan sebelah, membungkus lengan dengan kain yang sudah terlalu sering dicuci. Di dekatnya ada wadah air, rak jamur, dan dua sepatu yang diganjal agar kering.
 
 Kamu mengeluarkan bungkusan makanan. “Masih bisa makan umbi?”
 
-Ia tertawa sekali, lalu mengangguk. Kalian menunggu sampai ia selesai mengunyah sebelum Orin meletakkan salinan pengukuran selatan di lantai.
+Ia tertawa sekali, lalu mengangguk. Kalian menunggu sampai ia selesai mengunyah sebelum Corvin meletakkan salinan pengukuran selatan di lantai.
 
 “Tanggalnya sebelum kau pergi,” katanya.
 
-Sela berhenti membuka bungkusan kedua.
+Elara berhenti membuka bungkusan kedua.
 
 “Aku menunggu pembanding.”
 
-Orin menunjuk catatan di bawahnya. “Ini pembandingnya.”
+Corvin menunjuk catatan di bawahnya. “Ini pembandingnya.”
 
-Tidak ada yang membantu Sela menjawab. Dari luar, Ayu memanggil bahwa pengunci masih bertahan, tetapi mereka perlu bergantian memegangnya.
+Tidak ada yang membantu Elara menjawab. Dari luar, Wren memanggil bahwa pengunci masih bertahan, tetapi mereka perlu bergantian memegangnya.
 
-“Aku takut harus menutup sesuatu yang baru memberi mereka air,” kata Sela.
+“Aku takut harus menutup sesuatu yang baru memberi mereka air,” kata Elara.
 
 “Kau mengajarkanku mencatat yang tidak cocok,” katamu. “Kenapa bagian itu tidak pernah kaukirimi?”
 
 Ia merapikan kertas yang sebenarnya sudah lurus. “Karena aku ingin bisa membetulkannya dulu.”
 
-Kamu meninggalkan makanan di sampingnya, lalu keluar membantu Tara. Percakapan itu belum selesai. Untuk pertama kali, kamu tidak merasa harus menunggunya memberi jawaban agar dapat mengerjakan sesuatu.
+Kamu meninggalkan makanan di sampingnya, lalu keluar membantu Rowan. Percakapan itu belum selesai. Untuk pertama kali, kamu tidak merasa harus menunggunya memberi jawaban agar dapat mengerjakan sesuatu.
 
 ### Biaya stewardship sesudah krisis
 
-Banu menghapus dua pesanan dari papan, lalu menulis ulang tanggalnya. Tangannya meninggalkan garis arang di kayu.
+Bram menghapus dua pesanan dari papan, lalu menulis ulang tanggalnya. Tangannya meninggalkan garis arang di kayu.
 
-“Aku bisa buat pengunci kebunmu hari ini,” katanya. “Atau menggiling bahan pakan Rumi. Air cadangan cukup untuk salah satu.”
+“Aku bisa buat pengunci kebunmu hari ini,” katanya. “Atau menggiling bahan pakan Tess. Air cadangan cukup untuk salah satu.”
 
-Kamu melihat peti hasil panen di depan bengkel. Dua peti milik Dara belum mempunyai penutup. Jika hujan datang, ia harus memindahkannya lagi ke rumah tetangga.
+Kamu melihat peti hasil panen di depan bengkel. Dua peti milik Mabel belum mempunyai penutup. Jika hujan datang, ia harus memindahkannya lagi ke rumah tetangga.
 
 “Bukankah kita sudah memisahkan simpulnya?”
 
-“Sudah. Rusaknya satu tidak menarik air dari rawa lagi.” Banu mengetuk papan jadwal. “Itu tidak membuat aliran di sini bertambah.”
+“Sudah. Rusaknya satu tidak menarik air dari rawa lagi.” Bram mengetuk papan jadwal. “Itu tidak membuat aliran di sini bertambah.”
 
-Rumi tiba membawa karung yang sudutnya ditambal. Ia mendengar pilihan tadi, lalu meletakkannya tanpa meminta didahulukan.
+Tess tiba membawa karung yang sudutnya ditambal. Ia mendengar pilihan tadi, lalu meletakkannya tanpa meminta didahulukan.
 
-Kamu menawarkan cadangan air dari farm. Ayu memeriksa penampungmu dan menggeleng. Cukup untuk bibitmu sendiri sampai hujan berikutnya. Menggunakannya tetap mungkin, tetapi besok kamu harus membawa air dari sumur komunal.
+Kamu menawarkan cadangan air dari farm. Wren memeriksa penampungmu dan menggeleng. Cukup untuk bibitmu sendiri sampai hujan berikutnya. Menggunakannya tetap mungkin, tetapi besok kamu harus membawa air dari sumur komunal.
 
-Rumi membuka karung. “Separuh dulu juga bisa. Sisanya kubawa besok.”
+Tess membuka karung. “Separuh dulu juga bisa. Sisanya kubawa besok.”
 
-Banu mencoret jadwal sekali lagi. Kali ini kamu menunggu sampai ia selesai sebelum menyebut pengunci kebunmu.
+Bram mencoret jadwal sekali lagi. Kali ini kamu menunggu sampai ia selesai sebelum menyebut pengunci kebunmu.
 
 Dalam versi game, adegan berakhir pada pilihan: sumbang cadangan farm, tunda pesanan sendiri, atau bantu angkut pakan dari sumber lain. Tidak ada pilihan yang menambah pasokan dari ketiadaan. Angka dan animasi baru tidak diperlukan untuk menulis konsekuensi awalnya.
 
-Tabel lampiran B harus mengganti deskripsi Sela pada A menjadi “Target revisi bersama R1 dan R5 ditemukan hidup menghadapi pertanyaan MC dan warga”. Sesudah usulan disetujui dan naskah A benar benar direvisi, label target boleh dihapus. Catatan versi lama tetap tersimpan.
+Tabel lampiran B harus mengganti deskripsi Elara pada A menjadi “Target revisi bersama R1 dan R5 ditemukan hidup menghadapi pertanyaan MC dan warga”. Sesudah usulan disetujui dan naskah A benar benar direvisi, label target boleh dihapus. Catatan versi lama tetap tersimpan.
 
 ## R6 Suara tokoh dan dua adegan pengganti
 
@@ -236,32 +266,32 @@ Tabel lampiran B harus mengganti deskripsi Sela pada A menjadi “Target revisi 
 
 | Tokoh | Yang ia dahulukan saat bicara | Tindakan atau kebiasaan | Hindari pola berulang |
 | --- | --- | --- | --- |
-| Dara | Waktu panen kerja yang terbengkalai dan barang konkret | Tetap bekerja ketika orang menjelaskan | Menjadi petani bodoh agar peneliti selalu menang |
-| Mira | Satu pertanyaan yang dapat diuji | Mengubah label atau meminta pembanding | Menutup setiap dialog dengan nasihat ilmiah |
-| Orin | Kapasitas pasokan dan keluarga yang bergantung padanya | Membawa peta menghitung ulang membantu perbaikan | Selalu kalah debat lalu mengakui MC benar |
-| Ayu | Tempat tertentu dan perubahan yang ia lihat | Menunjuk bekas air atau membawa benda dari lokasi | Menjadi suara alam yang tahu semua akibat |
-| Sela | Kebiasaan praktis mentor lalu kesulitan menjawab kesalahan pribadi | Merapikan catatan menunda tatapan memberi bantuan kecil | Selalu mempunyai petuah penutup paling bijak |
+| Mabel | Waktu panen kerja yang terbengkalai dan barang konkret | Tetap bekerja ketika orang menjelaskan | Menjadi petani bodoh agar peneliti selalu menang |
+| Iris | Satu pertanyaan yang dapat diuji | Mengubah label atau meminta pembanding | Menutup setiap dialog dengan nasihat ilmiah |
+| Corvin | Kapasitas pasokan dan keluarga yang bergantung padanya | Membawa peta menghitung ulang membantu perbaikan | Selalu kalah debat lalu mengakui MC benar |
+| Wren | Tempat tertentu dan perubahan yang ia lihat | Menunjuk bekas air atau membawa benda dari lokasi | Menjadi suara alam yang tahu semua akibat |
+| Elara | Kebiasaan praktis mentor lalu kesulitan menjawab kesalahan pribadi | Merapikan catatan menunda tatapan memberi bantuan kecil | Selalu mempunyai petuah penutup paling bijak |
 | MC | Pertanyaan dan keputusan yang dipilih pemain | Menawarkan atau menahan bantuan | Membacakan kesimpulan moral setiap selesai quest |
 
-Pilihan dialog dapat berbeda nada tanpa mengubah fakta: menekan Sela, meminta penjelasan perlahan, atau menunda percakapan. Kepercayaan tidak dihitung sebagai persetujuan ideologi.
+Pilihan dialog dapat berbeda nada tanpa mengubah fakta: menekan Elara, meminta penjelasan perlahan, atau menunda percakapan. Kepercayaan tidak dihitung sebagai persetujuan ideologi.
 
 ### Pengganti B Bab V ketika kerusakan ditemukan
 
-Ayu berjongkok di ceruk itu. Ia mengambil ikan dengan kedua tangan dan menaruhnya di wadah kosong. Kamu membuka botol air yang masih dibawa dari petak uji.
+Wren berjongkok di ceruk itu. Ia mengambil ikan dengan kedua tangan dan menaruhnya di wadah kosong. Kamu membuka botol air yang masih dibawa dari petak uji.
 
 “Jangan di sini,” katanya. “Yang di wadah kedua masih bergerak.”
 
-Kamu menuangkan air ke wadah yang ditunjuk. Satu ekor mengibaskan tubuh, lalu diam di bawah bayangan telapak Ayu.
+Kamu menuangkan air ke wadah yang ditunjuk. Satu ekor mengibaskan tubuh, lalu diam di bawah bayangan telapak Wren.
 
-Orin datang bersama dua pekerja. Ia melihat bekas batas air, kemudian meminta salah seorang kembali menutup transfer tambahan ke bengkel.
+Corvin datang bersama dua pekerja. Ia melihat bekas batas air, kemudian meminta salah seorang kembali menutup transfer tambahan ke bengkel.
 
 “Sampai kapan?” tanya pekerja itu.
 
-Orin memandang Ayu. Ia tidak menjawab untuknya.
+Corvin memandang Wren. Ia tidak menjawab untuknya.
 
-“Sampai kita periksa ceruk sebelah,” kata Ayu.
+“Sampai kita periksa ceruk sebelah,” kata Wren.
 
-Di peti alat, Mira mencari label baru. Tanganmu masih basah ketika ia menyodorkan kertas. Kamu menulis lokasi dan tanggal, kemudian berhenti pada kolom jumlah.
+Di peti alat, Iris mencari label baru. Tanganmu masih basah ketika ia menyodorkan kertas. Kamu menulis lokasi dan tanggal, kemudian berhenti pada kolom jumlah.
 
 “Hitung yang bisa kita lihat dulu,” katanya.
 
@@ -271,23 +301,23 @@ Adegan ini adalah varian kerugian yang memang terjadi. Bila mitigasi berhasil, w
 
 ### Pengganti C Bab X setelah penggiling pusat berhenti
 
-Roda kecil itu tersendat pada putaran ketiga. Banu meminta kamu menahan karung, lalu mengetuk pasak dengan gagang palu.
+Roda kecil itu tersendat pada putaran ketiga. Bram meminta kamu menahan karung, lalu mengetuk pasak dengan gagang palu.
 
-Orin tidak membantu mengangkatnya. Ia sedang membaca daftar pesanan di pintu.
+Corvin tidak membantu mengangkatnya. Ia sedang membaca daftar pesanan di pintu.
 
 “Dengan laju ini, antreannya sampai dua hari.”
 
-“Aku bisa menghitung juga,” kata Banu.
+“Aku bisa menghitung juga,” kata Bram.
 
-Orin melipat daftar itu, mengambil ujung karung dari tanganmu, lalu mengangkatnya ke corong. Tepung jatuh sedikit demi sedikit.
+Corvin melipat daftar itu, mengambil ujung karung dari tanganmu, lalu mengangkatnya ke corong. Tepung jatuh sedikit demi sedikit.
 
-Di depan bengkel, seorang pekerja memasukkan perkakas ke keranjang. Ia berangkat ke desa tetangga sore itu. Banu memberikan pahat yang sudah diasah tanpa membicarakan jaringan atau akar.
+Di depan bengkel, seorang pekerja memasukkan perkakas ke keranjang. Ia berangkat ke desa tetangga sore itu. Bram memberikan pahat yang sudah diasah tanpa membicarakan jaringan atau akar.
 
 Setelah orang itu pergi, kamu bertanya apakah gudang baru sebaiknya menunggu agar bahan bisa dipakai memperbesar roda.
 
-“Gudangnya tetap bocor,” kata Orin.
+“Gudangnya tetap bocor,” kata Corvin.
 
-“Rodanya juga tetap kecil,” jawab Banu.
+“Rodanya juga tetap kecil,” jawab Bram.
 
 Keduanya melihatmu. Untuk sekali ini, tidak ada arsip yang dapat menambahkan kayu ke persediaan. Kamu membuka daftar bahan yang dibawa dari farm dan mulai menghitung bagian yang masih bisa disumbangkan.
 
@@ -299,20 +329,20 @@ Petunjuk inti tidak bergantung pada satu item yang bisa hilang atau friendship t
 
 | ID dan lokasi | Fakta yang dapat diamati | Dugaan yang boleh muncul | Cara menguji atau jalur alternatif |
 | --- | --- | --- | --- |
-| C01 Kebun Dara | Slime mendekati daun lapuk dan tanaman rusak juga ada di luar lintasannya | Slime mungkin bukan penyebab tunggal | Pindahkan satu tumpukan daun dan amati atau ambil pembanding tanah |
-| C02 Kanal kebun | Air tertahan sebelum tanaman yang menguning | Aliran dapat menjelaskan sebagian kerusakan | Buka sumbatan dan lihat hari berikutnya walau tanpa riset Mira |
+| C01 Kebun Mabel | Slime mendekati daun lapuk dan tanaman rusak juga ada di luar lintasannya | Slime mungkin bukan penyebab tunggal | Pindahkan satu tumpukan daun dan amati atau ambil pembanding tanah |
+| C02 Kanal kebun | Air tertahan sebelum tanaman yang menguning | Aliran dapat menjelaskan sebagian kerusakan | Buka sumbatan dan lihat hari berikutnya walau tanpa riset Iris |
 | C03 Petak kompos | Residu mengubah pertumbuhan ketika air dibandingkan setara | Pengurai memberi manfaat dalam kondisi tertentu | Pot pembanding atau petak komunitas dengan catatan tanggal |
 | C04 Guardian hutan | Ia berhenti mengejar di batas saluran dan akar bergerak saat debit berubah | Ia mempertahankan fungsi atau wilayah tertentu | Amati dari tempat aman atau selamat dari encounter lalu kembali menguji tuas |
-| C05 Dua alat ukur | Setelah transfer pusat naik penanda hilir turun dengan jeda | Ada perpindahan beban lintas wilayah | Uji transfer terbatas dengan katup keselamatan atau baca pengukuran Ayu |
+| C05 Dua alat ukur | Setelah transfer pusat naik penanda hilir turun dengan jeda | Ada perpindahan beban lintas wilayah | Uji transfer terbatas dengan katup keselamatan atau baca pengukuran Wren |
 | C06 Arsip Kota Akar | Laporan panen pusat dan catatan pekerja hilir memakai tanggal yang sama | Keberhasilan produksi tidak menggambarkan semua pihak | Cocokkan peta rumah dengan saluran dan bukti yang ditemukan di lokasi |
-| C07 Salinan laporan Sela | Ada pengukuran selatan yang lebih lama daripada laporan publik | Sela mengetahui tanda masalah lebih awal | Tanyakan pada Sela setelah ditemukan atau cocokkan buku kirim Nuri sebelum pertemuan |
-| C08 Peta pemeliharaan | Dua pengunci harus distabilkan dari sisi berbeda | Penyelamatan perlu koordinasi bukan kunci keturunan | Uji satu pengunci dari luar lalu minta bantuan Banu dan warga |
+| C07 Salinan laporan Elara | Ada pengukuran selatan yang lebih lama daripada laporan publik | Elara mengetahui tanda masalah lebih awal | Tanyakan pada Elara setelah ditemukan atau cocokkan buku kirim Nora sebelum pertemuan |
+| C08 Peta pemeliharaan | Dua pengunci harus distabilkan dari sisi berbeda | Penyelamatan perlu koordinasi bukan kunci keturunan | Uji satu pengunci dari luar lalu minta bantuan Bram dan warga |
 
-Contoh deduksi yang dimainkan: sesudah C01 dan C02, pemain boleh membuka saluran sebelum berbicara dengan Mira. Besoknya tanaman yang memperoleh air menunjukkan perubahan, sementara slime masih ada. Mira menanyakan apa yang diubah pemain; dialog mengakui penemuan itu alih alih memberikan ulang jawaban seolah berasal darinya.
+Contoh deduksi yang dimainkan: sesudah C01 dan C02, pemain boleh membuka saluran sebelum berbicara dengan Iris. Besoknya tanaman yang memperoleh air menunjukkan perubahan, sementara slime masih ada. Iris menanyakan apa yang diubah pemain; dialog mengakui penemuan itu alih alih memberikan ulang jawaban seolah berasal darinya.
 
 C05 memberi alasan menguji pengaturan dengan batas keselamatan. Ia tidak menuntut pemain mengorbankan ikan untuk memperoleh bukti. C07 membuktikan penundaan laporan, tetapi tidak otomatis membuktikan niat jahat; motif diuji melalui kesaksian. Kesadaran The Root tidak pernah menjadi syarat memecahkan C08.
 
-NPC tidak selalu menunggu MC. Tara menandai pencarian luar, Ayu mencatat debit, Banu menguji pengunci. Catatan mereka membantu pemain yang melewatkan petunjuk tanpa menghapus kesempatan pemain menemukan hubungan sendiri.
+NPC tidak selalu menunggu MC. Rowan menandai pencarian luar, Wren mencatat debit, Bram menguji pengunci. Catatan mereka membantu pemain yang melewatkan petunjuk tanpa menghapus kesempatan pemain menemukan hubungan sendiri.
 
 ## R8 Prototipe dan pengujian
 
@@ -355,7 +385,7 @@ Jika semua pemain memilih Study hanya karena takut dinilai jahat, revisi penyamp
 
 ## Penerapan setelah keputusan pemilik
 
-R1 menjadi tambahan pada bagian MC Sela dan aturan waktu Bible. R2 mengganti batas kebijakan pada bagian ending. R3 R4 memperbarui kasus slime dan aturan konsekuensi. R5 mengganti petikan A serta label tabel B. R6 dipakai sebagai pegangan dialog dan contoh adegan B C. R7 melengkapi alur misteri. R8 tetap eksperimen sampai pemilik menyetujui aturan atau bagian yang ingin dipindahkan ke Godot.
+R1 menjadi tambahan pada bagian MC Elara dan aturan waktu Bible. R2 mengganti batas kebijakan pada bagian ending. R3 R4 memperbarui kasus slime dan aturan konsekuensi. R5 mengganti petikan A serta label tabel B. R6 dipakai sebagai pegangan dialog dan contoh adegan B C. R7 melengkapi alur misteri. R8 tetap eksperimen sampai pemilik menyetujui aturan atau bagian yang ingin dipindahkan ke Godot.
 
 Urutan penerapan yang diajukan adalah R1 dan R2, kemudian R3 R4 bersama hasil R8, lalu R5 R6 R7. Keputusan yang ditolak tetap dicatat singkat beserta alasannya. Persetujuan terhadap paket tidak otomatis menambah seluruh cabang akhir atau sistem perairan ke prototipe game utama.
 
@@ -365,7 +395,7 @@ MiniMax M3 memberi rancangan independen delapan poin sebelum menerima draf Codex
 
 Usulan MiniMax tentang pajak wajib hasil panen, peluang acak ikan, pemulihan slime yang menunggu tiga kontrak, gate petunjuk berdasarkan detik berdiri, dan respawn harian tidak dipakai. MiniMax menerima sebagian besar penolakan itu pada putaran kedua. Ia tetap meminta akibat permanen khusus untuk membedakan B; Codex mempertahankan transfer bersama dan kewajiban pengawasan sebagai identitas yang cukup untuk diajukan kepada pemilik. Beban permanen tambahan belum mempunyai alasan desain yang kuat.
 
-Satu kritik MiniMax mengutip petuah Sela dari adegan usulannya sendiri seolah berada dalam adegan Codex. Kutipan itu tidak ada pada petikan R5 yang diserahkan, sehingga koreksi tersebut tidak diterapkan. MiniMax juga menyebut kondisi ikan sebagai probabilitas tanpa angka; rancangan R4 justru memakai kondisi yang dapat ditelusuri tanpa undian tersembunyi. Penilaian model telah diperiksa, bukan diperlakukan sebagai persetujuan pemilik.
+Satu kritik MiniMax mengutip petuah Elara dari adegan usulannya sendiri seolah berada dalam adegan Codex. Kutipan itu tidak ada pada petikan R5 yang diserahkan, sehingga koreksi tersebut tidak diterapkan. MiniMax juga menyebut kondisi ikan sebagai probabilitas tanpa angka; rancangan R4 justru memakai kondisi yang dapat ditelusuri tanpa undian tersembunyi. Penilaian model telah diperiksa, bukan diperlakukan sebagai persetujuan pemilik.
 
 Sebelas uji aturan model prototipe lulus, termasuk penyelesaian tiga pendekatan, panen tanpa riset, resep alternatif, pembayaran sekali, batas bahan dan tenaga, bonus kompos sekali, pemulihan populasi, serta penundaan 30 hari. Ada juga 4500 langkah aksi yang dihasilkan secara deterministik untuk memeriksa batas state dan penolakan aksi tidak sah. Ini hasil uji teknis; kolom pengamatan pemilik belum diisi.
 
@@ -373,6 +403,6 @@ Sebelas uji aturan model prototipe lulus, termasuk penyelesaian tiga pendekatan,
 
 Wildroot Bible v2 tanggal 18 Oktober 2026 terutama bagian 0 6 8 9 11 16 18 19 23 25 dan 26.
 
-Wildroot Kumpulan Novel Jalur A B C v1 terutama panduan kesinambungan akhir A pertemuan Sela di B C proyek air serta lampiran perbandingan dan anti softlock.
+Wildroot Kumpulan Novel Jalur A B C v1 terutama panduan kesinambungan akhir A pertemuan Elara di B C proyek air serta lampiran perbandingan dan anti softlock.
 
 Petikan revisi dalam paket ini adalah tulisan usulan baru. Nilai mekanik dan kemungkinan cerita yang dipilih tetap menunggu keputusan Stefanus Terang.

@@ -1,5 +1,7 @@
 # Paket usulan revisi Wildroot
 
+Pembaruan pembahasan di Windows: `proposal.md` memuat penyuntingan bahasa pada awal R1 dan usulan nama kerja baru beserta tabel nama sebelumnya. Nama pengganti belum final. DOCX dalam paket ini masih memakai versi sebelum pembaruan tersebut; Bible dan novel sumber belum diubah. Untuk pembahasan penamaan terbaru, baca `proposal.md`.
+
 Baca Wildroot_Usulan_Revisi_8_Poin_v1.docx dahulu. Dokumen 16 halaman berisi hasil delapan pekerjaan, petikan pengganti, serta ruang ACC atau catatan per ID. proposal.md memuat isi yang sama dalam teks yang mudah diedit. Semua usulan menunggu keputusan Stefanus Terang.
 
 ## Mencoba prototipe
