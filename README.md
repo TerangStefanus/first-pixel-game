@@ -20,6 +20,8 @@ The [eight-point revision proposal](docs/proposals/wildroot-revision-8/README.md
 
 ## Wanderer assets
 
+For editing on Windows, start with the [Aseprite source and reference handoff](docs/ASEPRITE_HANDOFF.md): active layered direction files, combined masters, runtime PNG export paths, woodland sources, CC0 study references and historical native versions. The inventory now contains 68 native files; 28 are archived local iterations, not newer approved masters.
+
 - Transparent 64×64 frames with six opaque colors.
 - Four standing bases and four-direction walk/run animations.
 - Eight-frame side walks at 100 ms per frame; four-frame front/back walks at 125 ms per frame.

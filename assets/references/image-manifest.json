@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "path": "sora/Idle.png",
+      "sha256": "cff4fc2ae80757c6950674aa870dc570f3e454d6784106a2a4cdf0a900761ba9",
+      "bytes": 2074
+    },
+    {
+      "path": "sora/IdleDown.png",
+      "sha256": "8a286526ec9709a9b11da9da4d6b87927d4f01d01108e024fde762d919075758",
+      "bytes": 1137
+    },
+    {
+      "path": "sora/IdleDownWalking.png",
+      "sha256": "55cb17c7bf3ffe8c5a3c2ad3edea7d794f04be0cf134be443b42680e968043da",
+      "bytes": 1597
+    },
+    {
+      "path": "sora/IdleLeft.png",
+      "sha256": "ba6c8e24228e92010c20f0de4f9deb67c34b5e06fbe4281dae6054760c9b2c3b",
+      "bytes": 1714
+    },
+    {
+      "path": "sora/IdleUp.png",
+      "sha256": "b000cfa3091ec0cf057f845077ab3cf72167bdce63eb41b32a9073563b574472",
+      "bytes": 1021
+    },
+    {
+      "path": "sora/IdleUpWalking.png",
+      "sha256": "1c590f868dec23f853ac21f26c574b40f69dbc1ccfa5dd160aa1713b6dddc07a",
+      "bytes": 1380
+    },
+    {
+      "path": "sora/Walking_Left.png",
+      "sha256": "b1b5ef98469b97630eef5f354bae71209dcd069e0794249daff2fd1683799ec1",
+      "bytes": 2073
+    },
+    {
+      "path": "sora/Walking_Right.png",
+      "sha256": "93a0a225e8fbf803a0f7e237d3e63b61c7b31518e1948b5f3de49b71ce2cf78b",
+      "bytes": 1723
+    },
+    {
+      "path": "sora/attack01.png",
+      "sha256": "4ac43420dedc077487fdf260ed6d6fc33fe2df84a9af5fe1ee3a2d18665f7db4",
+      "bytes": 2844
+    },
+    {
+      "path": "sora/attack01Down.png",
+      "sha256": "1da47623881f1b2bd887387764ebc458cb6d0b06215a158207f4e5c04fba3c83",
+      "bytes": 2047
+    },
+    {
+      "path": "sora/attack01Up.png",
+      "sha256": "0ded97424b24142017a4200be36b514c8d2dfe056d49e160c7bf199cec1f28d8",
+      "bytes": 2095
+    },
+    {
+      "path": "sora/attack_left.png",
+      "sha256": "e30ff425d5879fb47d834c7950b1e76778399bac9d68c9a33312d3bd59a7a6df",
+      "bytes": 2381
+    },
+    {
+      "path": "sora/ranged01.png",
+      "sha256": "f99877c7b53647923e81c405f4e28562fa463676f99a9649098f43417a33e9a6",
+      "bytes": 2241
+    },
+    {
+      "path": "metrocity/metrocity-run.gif",
+      "sha256": "ec039d68b157dff2a63fe6e26f88c97af6a41f02c0f0b51f4f9a1f3bf7032f35",
+      "bytes": 181844
+    },
+    {
+      "path": "metrocity/metrocity-directions.gif",
+      "sha256": "c5ed6ea16e713e48a7dbd99b771c67643c93b53b3c95122a380efc01013dc40f",
+      "bytes": 45434
+    },
+    {
+      "path": "metrocity/metrocity-base.png",
+      "sha256": "7df9688ce00f5efe6a17e2aeb1047500195420f998c99e1e3ee4e6e677e63ed6",
+      "bytes": 938
+    },
+    {
+      "path": "metrocity/metrocity-preview.png",
+      "sha256": "a0bf879fcda14b44fa9799bf5cc6548d94dbed2d15a296ae6e39c6ef771f26be",
+      "bytes": 6873
+    },
+    {
+      "path": "ninja-adventure/character/Shadow.png",
+      "sha256": "b0ba84bf6132d1f2b361fb87a62a8362f9e04639f7a649431c6b297ceec46ec2",
+      "bytes": 123
+    },
+    {
+      "path": "ninja-adventure/character/ninja_blue/sprite.png",
+      "sha256": "f2dd61a264c251b81e63da7a28ab0fdccd261b807e5fa7d1832a468e14a21078",
+      "bytes": 6139
+    },
+    {
+      "path": "ninja-adventure/character/pig/pig.png",
+      "sha256": "778a33eab2674e1fcf60c915ae327710af08ebaa586050ef9e30bb00307c21d8",
+      "bytes": 353
+    },
+    {
+      "path": "ninja-adventure/character/samurai_blue/sprite.png",
+      "sha256": "7307266f5a51c5a7446350bf5a5866930fccbebd67429f11dca213086f89e062",
+      "bytes": 5536
+    },
+    {
+      "path": "ninja-adventure/character/samurai_green/samurai_green.png",
+      "sha256": "552e1af74a8d565408519ced8c5bb309d291a9d3002e4e37c881d2181f413e96",
+      "bytes": 4784
+    },
+    {
+      "path": "ninja-adventure/destroyable/crate.png",
+      "sha256": "ff1465852d5ee375341a2a68a97cd086103fe3856142a247cb39f4050366fcda",
+      "bytes": 228
+    },
+    {
+      "path": "ninja-adventure/destroyable/grass.png",
+      "sha256": "3177a5814a6086f615eb8e1f1a4fe095dd23c6d7357e9daccef11ca02c4e5b71",
+      "bytes": 261
+    },
+    {
+      "path": "ninja-adventure/destroyable/pot.png",
+      "sha256": "9e23e3809522c9e2c447fa1f413bdbee67a0e3407e4144cb25298bb88ea5c762",
+      "bytes": 275
+    },
+    {
+      "path": "ninja-adventure/map/tileset_animated.png",
+      "sha256": "54e1e433fe9471db3660b14de3fa6ec6860a1be4ddbe835b3c6cad9f73045aca",
+      "bytes": 691
+    },
+    {
+      "path": "ninja-adventure/map/tileset_floor.png",
+      "sha256": "e111065065edf806e7e893330086e68efc8755175d92f14d087b42d40a331e16",
+      "bytes": 29615
+    },
+    {
+      "path": "ninja-adventure/map/tileset_interior_floor.png",
+      "sha256": "e281598e2d90f43b31fd557b94c2d2abb00d307758a053b7df301575bf535e3a",
+      "bytes": 13012
+    },
+    {
+      "path": "ninja-adventure/map/tileset_village_abandoned.png",
+      "sha256": "6787c6e22a4d44ceee4f158309b2519707bdb70c59aca00b3d49006cadcca06e",
+      "bytes": 31779
+    },
+    {
+      "path": "ninja-adventure/map/tileset_wall_simple.png",
+      "sha256": "ad5eb80ab4d5e65dbcda9dc012f9981323b277717349cdab012fc65ce06e43b2",
+      "bytes": 5149
+    },
+    {
+      "path": "ninja-adventure/particle/particle_grass.png",
+      "sha256": "faefa3b8ad70d45f483a8285a4e17408c515a04cf9df796cb92ebd4aec4599c3",
+      "bytes": 476
+    },
+    {
+      "path": "ninja-adventure/particle/particle_leaf_pink.png",
+      "sha256": "183bff25f633d8964fd433646a86c165539881c81c08c11c4a5c5a258fc1e871",
+      "bytes": 293
+    },
+    {
+      "path": "ninja-adventure/particle/particle_pot.png",
+      "sha256": "2c09023b3b986ad7094c6620880360467179b8e2aee1206e762c3cfe300a6a5d",
+      "bytes": 552
+    },
+    {
+      "path": "ninja-adventure/particle/particle_rock.png",
+      "sha256": "a44bdf43ba95d73a257acdb80a438cda05097a35f1800d3183263953f1bd255b",
+      "bytes": 567
+    },
+    {
+      "path": "ninja-adventure/particle/particle_wood.png",
+      "sha256": "5a1ab0c044afba74f1998e55adb5ddcc476d02e7e61021fc5394382673c628d7",
+      "bytes": 540
+    },
+    {
+      "path": "ninja-adventure/ui/heart.png",
+      "sha256": "f1163b91560c5097ac1de4f26470abaa9e3461f3bc4a8685fd7daae2d8cabb61",
+      "bytes": 3125
+    },
+    {
+      "path": "ninja-adventure/ui/heart_2.png",
+      "sha256": "171a6e599458702c9bc28d8a873dd1174023011604d51bf7329f5fc6f840a50d",
+      "bytes": 290
+    },
+    {
+      "path": "ninja-adventure/ui/heart_3.png",
+      "sha256": "b645782126a8897327aba6f6076776cccc60039a99a55d26dc904cdbe46629c4",
+      "bytes": 399
+    },
+    {
+      "path": "ninja-adventure/weapon/axe/in_hand.png",
+      "sha256": "f17ae12622f3fd0a150e7d281d42bb5902bac87b5983e88affdcb63235b9ede0",
+      "bytes": 2815
+    },
+    {
+      "path": "ninja-adventure/weapon/axe/sprite.png",
+      "sha256": "122b3452d5d948acb34bb04d803fe1081cf1dd93bbf756fefe63ab84982bf39d",
+      "bytes": 252
+    },
+    {
+      "path": "ninja-adventure/weapon/big_sword/in_hand.png",
+      "sha256": "78febb995750fcf1066332b3b552a009ed2ed474a7dab1c20476b0283583a061",
+      "bytes": 197
+    },
+    {
+      "path": "ninja-adventure/weapon/big_sword/sprite.png",
+      "sha256": "3d2263f8cf38f70b0eb775a37aa3af4316b2dea76f849ccb5fe8f19fe060fba2",
+      "bytes": 222
+    },
+    {
+      "path": "ninja-adventure/weapon/bone/in_hand.png",
+      "sha256": "d13603214eb2a38e36a82c0166d6ae572b4635fecb4e6c64d70926439aa43be4",
+      "bytes": 153
+    },
+    {
+      "path": "ninja-adventure/weapon/bone/sprite.png",
+      "sha256": "f62d8b43346df886b8bf3bfdfcb40155c7bcd4573e49246ae3658d63ffe0deed",
+      "bytes": 147
+    },
+    {
+      "path": "ninja-adventure/weapon/book/in_hand.png",
+      "sha256": "5be0bf833cd9e43a0a8bdf802ea4c165681f874931cc036f9dc8fb508869647e",
+      "bytes": 238
+    },
+    {
+      "path": "ninja-adventure/weapon/book/sprite.png",
+      "sha256": "002f4bb82b508af0ef3a492f4305fb52b5ef8aba293f8dfadf2ed3dbe3c42e8a",
+      "bytes": 162
+    },
+    {
+      "path": "ninja-adventure/weapon/club/in_hand.png",
+      "sha256": "68f473ae5042f722b9c2b47140e660a495e38852a2340d9620161d6a60212b77",
+      "bytes": 193
+    },
+    {
+      "path": "ninja-adventure/weapon/club/sprite.png",
+      "sha256": "06c6f31f26c47c621975b032f8a9c846150278a1745f75952c702819a3500da8",
+      "bytes": 212
+    }
+  ]
+}

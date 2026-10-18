@@ -1,5 +1,7 @@
 # Wanderer 64
 
+**Editing handoff:** use the [source/reference guide](../../../docs/ASEPRITE_HANDOFF.md) to select layered files and export the PNGs Godot actually reads. The latest front/back run artwork remains rejected by the owner because arms/body appear detached. It is preserved for manual repair on Windows; technical checks below do not establish visual approval. Old build scripts can overwrite manual native edits.
+
 Four-direction character pack: 64×64 transparent frames, six opaque colors, eight-frame lateral walks at 100 ms/frame and four-frame down/up walks at 125 ms/frame. Directions are from the player's perspective: down = front, up = back, left/right = profiles.
 
 - `base/`: four standing direction PNGs and `approved-original.png`, the original approved sprite.

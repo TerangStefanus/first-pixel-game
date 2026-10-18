@@ -1,0 +1,1239 @@
+{
+  "description": "Unique native binaries recovered from prior local output snapshots. Paths are relative to the old output root; hashes do not imply visual differences.",
+  "files": [
+    {
+      "path": "01-Sprite-0003-original-e19d7b3e.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "aseprite/Sprite-0003-original.aseprite"
+      ],
+      "bytes": 568,
+      "sha256": "e19d7b3e8600e0bc0bf3f45dab8e4b8d52626a2d3dbaa63b6b9207682e35f80c",
+      "canvas": [
+        96,
+        96
+      ],
+      "frames": 1,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": []
+    },
+    {
+      "path": "02-Sprite-0003-wanderer-96-aee3e191.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "aseprite/Sprite-0003-wanderer-96.aseprite"
+      ],
+      "bytes": 6615,
+      "sha256": "aee3e1917c61d8a96f6147a74e3bc21babdc6e58e093b85ad2a71366bb910e58",
+      "canvas": [
+        96,
+        96
+      ],
+      "frames": 1,
+      "color_depth": 32,
+      "frame_durations_ms": [
+        100
+      ],
+      "layers": [
+        "Layer 1",
+        "Layer 2"
+      ],
+      "tags": []
+    },
+    {
+      "path": "03-run_down_native-fca15b72.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/run_down_native.aseprite",
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/run_down.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/run_down_native.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/run_down.aseprite"
+      ],
+      "bytes": 3655,
+      "sha256": "fca15b720a332173e59c10b300267f0b947dbb928a494c49eba24d94baf43d35",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Left trouser and rigid boot",
+        "Right trouser and rigid boot",
+        "Opposing sleeve and hand swing",
+        "Approved face hair chest and backpack"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "04-run_up-00343306.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/run_up.aseprite",
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/run_up_native.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/run_up.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/run_up_native.aseprite"
+      ],
+      "bytes": 3434,
+      "sha256": "00343306ecfb3bb131771c88be877dc641f18526ba4ebb6cb57d1b87f6aa5ad0",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Left trouser and rigid boot",
+        "Right trouser and rigid boot",
+        "Opposing sleeve and hand swing",
+        "Approved face hair chest and backpack"
+      ],
+      "tags": [
+        {
+          "name": "run_up",
+          "from_frame": 1,
+          "to_frame": 6
+        }
+      ]
+    },
+    {
+      "path": "05-wanderer_64_run-b27f0f41.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "character_motion_study/before-install/assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "wildroot_revamp/project/assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite"
+      ],
+      "bytes": 7702,
+      "sha256": "b27f0f41813b5881ed813c4be9d564a335bb4a43bab68859b1ea9b7ad1a4e140",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "06-base_left-e5164e87.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer64-validation/assets/sprites/wanderer_64/source/base_left.aseprite",
+        "wanderer_64_package/assets/sprites/wanderer_64/source/base_left.aseprite",
+        "wanderer_side_fix/before/wanderer_64/source/base_left.aseprite"
+      ],
+      "bytes": 546,
+      "sha256": "e5164e878a59c0a52a50dbf52dce792d9c47062495dd7442b421fc548b33d9ff",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "07-walk_left-250243c7.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer64-validation/assets/sprites/wanderer_64/source/walk_left.aseprite",
+        "wanderer_64_package/assets/sprites/wanderer_64/source/walk_left.aseprite",
+        "wanderer_side_fix/before/wanderer_64/source/walk_left.aseprite"
+      ],
+      "bytes": 1431,
+      "sha256": "250243c79a41d8d47b412e0e8c3f87f9bf26ff63257f50dd2252ff1520552003",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "08-walk_right-ec53f4b5.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer64-validation/assets/sprites/wanderer_64/source/walk_right.aseprite",
+        "wanderer_64_package/assets/sprites/wanderer_64/source/walk_right.aseprite",
+        "wanderer_side_fix/before/wanderer_64/source/walk_right.aseprite"
+      ],
+      "bytes": 1433,
+      "sha256": "ec53f4b59122293c1516220511ee9c7462cca9fb3e92da405258d8debdf9fe31",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 4,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "09-wanderer_64-ebc21644.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer64-validation/assets/sprites/wanderer_64/source/wanderer_64.aseprite"
+      ],
+      "bytes": 6454,
+      "sha256": "ebc2164457c6c93662d2c01b4a28c37037c304f1b8dd03e9ed68c35bf9c9bec3",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 20,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 11,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 12,
+          "to_frame": 20
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 16,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 17,
+          "to_frame": 20
+        }
+      ]
+    },
+    {
+      "path": "10-wanderer_64-ad47cc60.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_64_package/assets/sprites/wanderer_64/source/wanderer_64.aseprite",
+        "wanderer_side_fix/before/wanderer_64/source/wanderer_64.aseprite"
+      ],
+      "bytes": 6454,
+      "sha256": "ad47cc601678dd5ce426c75cfaa63ca28bc6e478c690a47ccebdf9505c8fcb48",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 20,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 10
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 11,
+          "to_frame": 11
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 12,
+          "to_frame": 15
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 16,
+          "to_frame": 16
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 17,
+          "to_frame": 20
+        }
+      ]
+    },
+    {
+      "path": "11-run_down-d66e6200.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_run/project/assets/sprites/wanderer_64/source/run_down.aseprite",
+        "wanderer_run_redraw/before-install/assets/sprites/wanderer_64/source/run_down.aseprite"
+      ],
+      "bytes": 5010,
+      "sha256": "d66e6200bc7d5c951a6b44e7f84286d5349648d4434f04105996539170821181",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "12-run_left-5e8c6fbe.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_run/project/assets/sprites/wanderer_64/source/run_left.aseprite",
+        "wanderer_run_redraw/before-install/assets/sprites/wanderer_64/source/run_left.aseprite"
+      ],
+      "bytes": 4830,
+      "sha256": "5e8c6fbe994e7dcbf862c1f92058eeb7d1d1294acd6d461b73c7c4e4a98ebf9e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "13-run_right-e29adf3b.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_run/project/assets/sprites/wanderer_64/source/run_right.aseprite",
+        "wanderer_run_redraw/before-install/assets/sprites/wanderer_64/source/run_right.aseprite"
+      ],
+      "bytes": 4877,
+      "sha256": "e29adf3b8614b3d09d1b43be3b77503305054effc840fc4460e58d9a9290f912",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "14-run_up-b4f88011.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_run/project/assets/sprites/wanderer_64/source/run_up.aseprite",
+        "wanderer_run_redraw/before-install/assets/sprites/wanderer_64/source/run_up.aseprite"
+      ],
+      "bytes": 4749,
+      "sha256": "b4f88011203e55f56bbe34502c14fc37cd20727d6454ddfeb1d2618beffcfb0e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Leg far / left",
+        "Leg near / right",
+        "Arm far / left",
+        "Head jacket backpack",
+        "Arm near / right"
+      ],
+      "tags": []
+    },
+    {
+      "path": "15-wanderer_64_run-4b14c114.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_run/project/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "wanderer_run_redraw/before-install/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite"
+      ],
+      "bytes": 9329,
+      "sha256": "4b14c114f103c23ed72f0a81f881bb4f94ecd80c3cdebb4ca9ac274ef2d3160f",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 32,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 8
+        },
+        {
+          "name": "run_left",
+          "from_frame": 9,
+          "to_frame": 16
+        },
+        {
+          "name": "run_right",
+          "from_frame": 17,
+          "to_frame": 24
+        },
+        {
+          "name": "run_up",
+          "from_frame": 25,
+          "to_frame": 32
+        }
+      ]
+    },
+    {
+      "path": "16-base_left-9a86993e.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-leg-alternation/source/base_left.aseprite",
+        "wanderer_side_fix/before-proportion-fix/source/base_left.aseprite"
+      ],
+      "bytes": 539,
+      "sha256": "9a86993eedeef800ecc4f9ed4a662641364a8fc20fdfb4af0156b9502c0a4ebd",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 1,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "17-walk_left-6594426f.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-leg-alternation/source/walk_left.aseprite"
+      ],
+      "bytes": 1916,
+      "sha256": "6594426f50b20f4253d62d70a1da1200d00504034842fefb57447568325a4ad6",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "18-walk_right-98ac5ba8.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-leg-alternation/source/walk_right.aseprite",
+        "wanderer_side_fix/before-leg-alternation/source/walk_right_compact.aseprite"
+      ],
+      "bytes": 1971,
+      "sha256": "98ac5ba8a097dc88532f8cf3e02efd796d31eb4773572a3e9531c86737c062e1",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "19-wanderer_64-e9bff8cd.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-leg-alternation/source/wanderer_64.aseprite"
+      ],
+      "bytes": 7470,
+      "sha256": "e9bff8cd6da2e96018b2a020ee684cb990628a0c423bdd1a31e2d5aeb5deb546",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 13,
+          "to_frame": 13
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 14,
+          "to_frame": 19
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 20,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 21,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "20-walk_left-f9bd6f39.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-proportion-fix/source/walk_left.aseprite"
+      ],
+      "bytes": 1957,
+      "sha256": "f9bd6f39a8c218fc31bb3dec5d1b713482a34a6a1c42438e40eb4105964d8dd2",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "21-walk_right-91723c3c.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-proportion-fix/source/walk_right.aseprite"
+      ],
+      "bytes": 1989,
+      "sha256": "91723c3cd6a6c65cbb9fa704b4fe6fd1ef9f758fa4655c37f0bb975e6e5aae05",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        135,
+        135,
+        135,
+        135,
+        135,
+        135
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": []
+    },
+    {
+      "path": "22-wanderer_64-889426c1.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-proportion-fix/source/wanderer_64.aseprite"
+      ],
+      "bytes": 7529,
+      "sha256": "889426c1e7c66cb2a42b804e8d92ae924e3b5b2b9d0d58ed927946546e6e4d71",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        135,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 13,
+          "to_frame": 13
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 14,
+          "to_frame": 19
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 20,
+          "to_frame": 20
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 21,
+          "to_frame": 24
+        }
+      ]
+    },
+    {
+      "path": "23-walk_left-7b2eedb3.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-thickness-fix/source/walk_left.aseprite",
+        "wanderer_side_fix/before-thickness-fix/source/walk_left_gait.aseprite"
+      ],
+      "bytes": 3583,
+      "sha256": "7b2eedb353b1bbbaf8ecb4f1adba2ded406978af66c518d3a8d9fe34d9699b2e",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "24-walk_right-e1967dde.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-thickness-fix/source/walk_right.aseprite",
+        "wanderer_side_fix/before-thickness-fix/source/walk_right_gait.aseprite",
+        "wanderer_side_fix/before-thickness-fix/source/walk_right_compact.aseprite"
+      ],
+      "bytes": 3645,
+      "sha256": "e1967dde80dc839f6fd7abad2b0283a8c460f459a7100aa3870f187cad6793d5",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 8,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "layers": [
+        "Dark leg - fixed identity",
+        "Brown leg - fixed identity",
+        "Approved upper body"
+      ],
+      "tags": []
+    },
+    {
+      "path": "25-wanderer_64-95d2fd94.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_side_fix/before-thickness-fix/source/wanderer_64.aseprite"
+      ],
+      "bytes": 8620,
+      "sha256": "95d2fd944aba50096f9bb5db148b2e954386b3411627128a59072f5c2cfbe997",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 28,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "layers": [
+        "Wanderer - 6 colors"
+      ],
+      "tags": [
+        {
+          "name": "idle_down",
+          "from_frame": 1,
+          "to_frame": 1
+        },
+        {
+          "name": "walk_down",
+          "from_frame": 2,
+          "to_frame": 5
+        },
+        {
+          "name": "idle_left",
+          "from_frame": 6,
+          "to_frame": 6
+        },
+        {
+          "name": "walk_left",
+          "from_frame": 7,
+          "to_frame": 14
+        },
+        {
+          "name": "idle_right",
+          "from_frame": 15,
+          "to_frame": 15
+        },
+        {
+          "name": "walk_right",
+          "from_frame": 16,
+          "to_frame": 23
+        },
+        {
+          "name": "idle_up",
+          "from_frame": 24,
+          "to_frame": 24
+        },
+        {
+          "name": "walk_up",
+          "from_frame": 25,
+          "to_frame": 28
+        }
+      ]
+    },
+    {
+      "path": "26-run_down-d10ddb40.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_test_map/project/assets/sprites/wanderer_64/source/run_down.aseprite",
+        "wanderer_run_redraw/project/assets/sprites/wanderer_64/source/run_down.aseprite",
+        "wildroot_revamp/before-install/assets/sprites/wanderer_64/source/run_down.aseprite"
+      ],
+      "bytes": 2134,
+      "sha256": "d10ddb402b1ce8e50a079448a24559c2e7e14296b761a424abea14ea6f8b5039",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Redrawn down run"
+      ],
+      "tags": []
+    },
+    {
+      "path": "27-run_up-192dc17e.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_test_map/project/assets/sprites/wanderer_64/source/run_up.aseprite",
+        "wanderer_run_redraw/project/assets/sprites/wanderer_64/source/run_up.aseprite",
+        "wildroot_revamp/before-install/assets/sprites/wanderer_64/source/run_up.aseprite"
+      ],
+      "bytes": 1995,
+      "sha256": "192dc17ed584266b2baf94d4dabab98303843136e150c47ca22fb2d5df3468e5",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 6,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Redrawn up run"
+      ],
+      "tags": []
+    },
+    {
+      "path": "28-wanderer_64_run-90bddd8c.aseprite",
+      "status": "historical, not an active master",
+      "original_output_paths": [
+        "wanderer_test_map/project/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "wanderer_test_map/project/assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite",
+        "wanderer_run_redraw/project/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "wanderer_run_redraw/project/assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite",
+        "wildroot_revamp/before-install/assets/sprites/wanderer_64/source/wanderer_64_run.aseprite",
+        "wildroot_revamp/before-install/assets/sprites/wanderer_64/source/wanderer_64_run_redraw.aseprite"
+      ],
+      "bytes": 7825,
+      "sha256": "90bddd8cf75abf53fdf1ba486dc75a1320fefe83a7d2f87ad304d865e42aae49",
+      "canvas": [
+        64,
+        64
+      ],
+      "frames": 24,
+      "color_depth": 8,
+      "frame_durations_ms": [
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125,
+        80,
+        55,
+        125
+      ],
+      "layers": [
+        "Layer 1"
+      ],
+      "tags": [
+        {
+          "name": "run_down",
+          "from_frame": 1,
+          "to_frame": 6
+        },
+        {
+          "name": "run_left",
+          "from_frame": 7,
+          "to_frame": 12
+        },
+        {
+          "name": "run_right",
+          "from_frame": 13,
+          "to_frame": 18
+        },
+        {
+          "name": "run_up",
+          "from_frame": 19,
+          "to_frame": 24
+        }
+      ]
+    }
+  ]
+}
